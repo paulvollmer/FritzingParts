@@ -1,0 +1,23 @@
+{
+  "name": "FritzingPartsApi",
+  "version": "0.0.0",
+  "description": "fritzing parts api",
+  "keywords": [
+    "fritzing",
+    "parts",
+    "api"
+  ],
+  "author": "Paul Vollmer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WrongEntertainment/FritzingPartsApi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WrongEntertainment/FritzingPartsApi/issues"
+  },
+  "homepage": "https://WrongEntertainment.github.com//FritzingPartsApi",
+  "dependencies": {
+    "xml2js": "*"
+  }
+}
