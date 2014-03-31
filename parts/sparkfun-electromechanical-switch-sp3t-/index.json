@@ -1,0 +1,346 @@
+{
+  "fritzingVersion": "0.7.2b",
+  "moduleId": "SparkFun-Electromechanical-SWITCH-SP3T-",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "www.fritzing.org"
+  ],
+  "title": [
+    "SWITCH-SP3T"
+  ],
+  "date": [
+    "2013-02-13"
+  ],
+  "tags": [
+    {
+      "tag": [
+        "SWITCH-SP3T",
+        "SWITCH-SP3T-SMD"
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": [
+        {
+          "_": "switch-sp3t-smd",
+          "$": {
+            "name": "package"
+          }
+        },
+        {
+          "_": "sparkfun Switch",
+          "$": {
+            "name": "family"
+          }
+        },
+        {
+          "_": "1",
+          "$": {
+            "name": "poles"
+          }
+        },
+        {
+          "_": "3",
+          "$": {
+            "name": "throws"
+          }
+        }
+      ]
+    }
+  ],
+  "description": [
+    ""
+  ],
+  "views": {
+    "icon": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "icon/SWITCH-SP3T-SMD.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "icon"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "breadboard": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "breadboard/sparkfun-electromechanical_switch-sp3t-smd_breadboard.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "breadboard"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pcb": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "pcb/sparkfun-electromechanical_switch-sp3t-smd_pcb.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "copper1"
+                }
+              },
+              {
+                "$": {
+                  "layerId": "silkscreen"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schematic": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "schematic/sparkfun-electromechanical_switch-sp3t_schematic.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "schematic"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "connectors": [
+    {
+      "connector": [
+        {
+          "$": {
+            "id": "connector0",
+            "name": "1",
+            "type": "male"
+          },
+          "description": [
+            "1"
+          ],
+          "views": [
+            {
+              "breadboardView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "breadboard",
+                        "svgId": "connector0pin"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "schematicView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "schematic",
+                        "svgId": "connector0pin",
+                        "terminalId": "connector0terminal"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "pcbView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "copper1",
+                        "svgId": "connector0pad"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$": {
+            "id": "connector2",
+            "name": "2",
+            "type": "male"
+          },
+          "description": [
+            "2"
+          ],
+          "views": [
+            {
+              "breadboardView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "breadboard",
+                        "svgId": "connector2pin"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "schematicView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "schematic",
+                        "svgId": "connector2pin",
+                        "terminalId": "connector2terminal"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "pcbView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "copper1",
+                        "svgId": "connector2pad"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$": {
+            "id": "connector4",
+            "name": "3",
+            "type": "male"
+          },
+          "description": [
+            "3"
+          ],
+          "views": [
+            {
+              "breadboardView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "breadboard",
+                        "svgId": "connector4pin"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "schematicView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "schematic",
+                        "svgId": "connector4pin",
+                        "terminalId": "connector4terminal"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "pcbView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "copper1",
+                        "svgId": "connector4pad"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$": {
+            "id": "connector7",
+            "name": "4",
+            "type": "male"
+          },
+          "description": [
+            "4"
+          ],
+          "views": [
+            {
+              "breadboardView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "breadboard",
+                        "svgId": "connector7pin"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "schematicView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "schematic",
+                        "svgId": "connector7pin",
+                        "terminalId": "connector7terminal"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "pcbView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "copper1",
+                        "svgId": "connector7pad"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

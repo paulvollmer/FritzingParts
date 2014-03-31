@@ -1,0 +1,138 @@
+{
+  "fritzingVersion": "0.7.2b",
+  "moduleId": "SparkFun-Electromechanical-TRACKBALL-MECH",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "www.fritzing.org"
+  ],
+  "title": [
+    "TRACKBALL"
+  ],
+  "date": [
+    "2013-02-13"
+  ],
+  "tags": [
+    {
+      "tag": [
+        "TRACKBALL",
+        "MECH"
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": [
+        {
+          "_": "trackball",
+          "$": {
+            "name": "package"
+          }
+        },
+        {
+          "_": "sparkfun Trackball",
+          "$": {
+            "name": "family"
+          }
+        },
+        {
+          "_": "mech",
+          "$": {
+            "name": "variant"
+          }
+        }
+      ]
+    }
+  ],
+  "description": [
+    "Mechanical footprint for trackball"
+  ],
+  "views": {
+    "icon": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "breadboard/Trackballer-v12_breadboard.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "icon"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "breadboard": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "breadboard/Trackballer-v12_breadboard.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "breadboard"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pcb": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "pcb/sparkfun-electromechanical_trackball_pcb.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "copper1"
+                }
+              },
+              {
+                "$": {
+                  "layerId": "silkscreen"
+                }
+              },
+              {
+                "$": {
+                  "layerId": "copper0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schematic": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "schematic/sparkfun-electromechanical_trackball_schematic.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "schematic"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "connectors": [
+    "\n"
+  ]
+}

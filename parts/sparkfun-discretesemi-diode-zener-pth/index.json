@@ -1,0 +1,255 @@
+{
+  "fritzingVersion": "0.7.2b",
+  "moduleId": "SparkFun-DiscreteSemi-DIODE-ZENER-PTH",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "www.fritzing.org"
+  ],
+  "title": [
+    "DIODE-ZENER"
+  ],
+  "date": [
+    "2013-02-13"
+  ],
+  "tags": [
+    {
+      "tag": [
+        "PTH",
+        "DIODE-ZENER"
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": [
+        {
+          "_": "diode-zener",
+          "$": {
+            "name": "package"
+          }
+        },
+        {
+          "_": "sparkfun Zener Diode",
+          "$": {
+            "name": "family"
+          }
+        },
+        {
+          "_": "pth",
+          "$": {
+            "name": "variant"
+          }
+        }
+      ]
+    }
+  ],
+  "description": [
+    "Zener Diode\nProduction Part - 8199\n3.4V Zener Voltage"
+  ],
+  "views": {
+    "icon": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "breadboard/diode.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "icon"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "breadboard": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "breadboard/diode.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "breadboard"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pcb": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "pcb/sparkfun-discretesemi_diode-zener_pcb.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "copper1"
+                }
+              },
+              {
+                "$": {
+                  "layerId": "silkscreen"
+                }
+              },
+              {
+                "$": {
+                  "layerId": "copper0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schematic": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "schematic/sparkfun-discretesemi_diode-zener_schematic.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "schematic"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "connectors": [
+    {
+      "connector": [
+        {
+          "$": {
+            "id": "connector1",
+            "name": "A",
+            "type": "male"
+          },
+          "description": [
+            "A"
+          ],
+          "views": [
+            {
+              "breadboardView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "breadboard",
+                        "svgId": "connector1pin"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "schematicView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "schematic",
+                        "svgId": "connector1pin",
+                        "terminalId": "connector1terminal"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "pcbView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "copper0",
+                        "svgId": "connector1pad"
+                      }
+                    },
+                    {
+                      "$": {
+                        "layer": "copper1",
+                        "svgId": "connector1pad"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$": {
+            "id": "connector0",
+            "name": "C",
+            "type": "male"
+          },
+          "description": [
+            "C"
+          ],
+          "views": [
+            {
+              "breadboardView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "breadboard",
+                        "svgId": "connector0pin"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "schematicView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "schematic",
+                        "svgId": "connector0pin",
+                        "terminalId": "connector0terminal"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "pcbView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "copper0",
+                        "svgId": "connector0pad"
+                      }
+                    },
+                    {
+                      "$": {
+                        "layer": "copper1",
+                        "svgId": "connector0pad"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

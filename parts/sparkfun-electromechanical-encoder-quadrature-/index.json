@@ -1,0 +1,306 @@
+{
+  "fritzingVersion": "0.7.2b",
+  "moduleId": "SparkFun-Electromechanical-ENCODER-QUADRATURE-",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "www.fritzing.org"
+  ],
+  "title": [
+    "ENCODER-QUADRATURE"
+  ],
+  "date": [
+    "2013-02-13"
+  ],
+  "tags": [
+    {
+      "tag": [
+        "ENCODER-16MM-QUAD",
+        "ENCODER-QUADRATURE"
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": [
+        {
+          "_": "encoder-16mm-quad",
+          "$": {
+            "name": "package"
+          }
+        },
+        {
+          "_": "sparkfun Rotary Encoder",
+          "$": {
+            "name": "family"
+          }
+        }
+      ]
+    }
+  ],
+  "description": [
+    "quadrature encoder from Top-Up, part#EC16PHBF-B-20F-24-24C-16Y"
+  ],
+  "views": {
+    "icon": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "breadboard/potentiometer.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "icon"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "breadboard": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "breadboard/potentiometer.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "breadboard"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pcb": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "pcb/sparkfun-electromechanical_encoder-16mm-quad_pcb.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "copper1"
+                }
+              },
+              {
+                "$": {
+                  "layerId": "silkscreen"
+                }
+              },
+              {
+                "$": {
+                  "layerId": "copper0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schematic": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "schematic/sparkfun-electromechanical_encoder-quadrature_schematic.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "schematic"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "connectors": [
+    {
+      "connector": [
+        {
+          "$": {
+            "id": "connector2",
+            "name": "A",
+            "type": "male"
+          },
+          "description": [
+            "A"
+          ],
+          "views": [
+            {
+              "breadboardView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "breadboard",
+                        "svgId": "connector2pin"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "schematicView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "schematic",
+                        "svgId": "connector2pin",
+                        "terminalId": "connector2terminal"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "pcbView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "copper0",
+                        "svgId": "connector2pad"
+                      }
+                    },
+                    {
+                      "$": {
+                        "layer": "copper1",
+                        "svgId": "connector2pad"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$": {
+            "id": "connector3",
+            "name": "B",
+            "type": "male"
+          },
+          "description": [
+            "B"
+          ],
+          "views": [
+            {
+              "breadboardView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "breadboard",
+                        "svgId": "connector1pin"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "schematicView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "schematic",
+                        "svgId": "connector3pin",
+                        "terminalId": "connector3terminal"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "pcbView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "copper0",
+                        "svgId": "connector3pad"
+                      }
+                    },
+                    {
+                      "$": {
+                        "layer": "copper1",
+                        "svgId": "connector3pad"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$": {
+            "id": "connector4",
+            "name": "C",
+            "type": "male"
+          },
+          "description": [
+            "C"
+          ],
+          "views": [
+            {
+              "breadboardView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "breadboard",
+                        "svgId": "connector0pin"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "schematicView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "schematic",
+                        "svgId": "connector4pin",
+                        "terminalId": "connector4terminal"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "pcbView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "copper0",
+                        "svgId": "connector4pad"
+                      }
+                    },
+                    {
+                      "$": {
+                        "layer": "copper1",
+                        "svgId": "connector4pad"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

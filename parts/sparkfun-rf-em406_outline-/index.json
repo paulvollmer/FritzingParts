@@ -1,0 +1,121 @@
+{
+  "fritzingVersion": "0.7.2b",
+  "moduleId": "SparkFun-RF-EM406_OUTLINE-",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "www.fritzing.org"
+  ],
+  "title": [
+    "EM406_OUTLINE"
+  ],
+  "date": [
+    "2013-02-13"
+  ],
+  "tags": [
+    {
+      "tag": [
+        "EM406_OUTLINE"
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": [
+        {
+          "_": "em406_outline",
+          "$": {
+            "name": "package"
+          }
+        },
+        {
+          "_": "sparkfun GPS",
+          "$": {
+            "name": "family"
+          }
+        }
+      ]
+    }
+  ],
+  "description": [
+    "Package outline for EM406 GPS module"
+  ],
+  "views": {
+    "icon": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "icon/EM406_OUTLINE.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "icon"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "breadboard": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "breadboard/sparkfun-rf_em406_outline_breadboard.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "breadboard"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pcb": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "pcb/sparkfun-rf_em406_outline_pcb.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "silkscreen"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schematic": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "schematic/sparkfun-rf_em406_outline_schematic.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "schematic"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "connectors": [
+    "\n"
+  ]
+}

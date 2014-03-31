@@ -1,0 +1,139 @@
+{
+  "fritzingVersion": "0.7.2b",
+  "moduleId": "SparkFun-RF-MN5010HS-SMD",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "www.fritzing.org"
+  ],
+  "title": [
+    "MN5010HS"
+  ],
+  "date": [
+    "2013-02-13"
+  ],
+  "tags": [
+    {
+      "tag": [
+        "MN5010HS",
+        "SMD"
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": [
+        {
+          "_": "mn5010hs",
+          "$": {
+            "name": "package"
+          }
+        },
+        {
+          "_": "sparkfun GPS Reveiver",
+          "$": {
+            "name": "family"
+          }
+        },
+        {
+          "_": "MN5010HS",
+          "$": {
+            "name": "chip"
+          }
+        },
+        {
+          "_": "smd",
+          "$": {
+            "name": "variant"
+          }
+        }
+      ]
+    }
+  ],
+  "description": [
+    "MN5010HS GPS Receiver Module. Packagse GR-10 and MN5010HS are NOT tested with this device."
+  ],
+  "views": {
+    "icon": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "icon/MN5010HS.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "icon"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "breadboard": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "breadboard/sparkfun-rf_mn5010hs_breadboard.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "breadboard"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pcb": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "pcb/sparkfun-rf_mn5010hs_pcb.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "copper1"
+                }
+              },
+              {
+                "$": {
+                  "layerId": "silkscreen"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schematic": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "schematic/sparkfun-rf_mn5010hs_schematic.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "schematic"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "connectors": [
+    "\n"
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "fritzingVersion": "0.1.1201",
+  "moduleId": "ResistorModuleID",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "Brendan Howell"
+  ],
+  "title": [
+    "220 Ω Resistor"
+  ],
+  "date": [
+    "2009-09-08"
+  ],
+  "tags": [
+    {
+      "tag": [
+        "Resistor",
+        "basic resistor",
+        "fritzing core"
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": [
+        {
+          "_": "220",
+          "$": {
+            "name": "Resistance",
+            "showInLabel": "yes"
+          }
+        },
+        {
+          "_": "Resistor",
+          "$": {
+            "name": "family"
+          }
+        },
+        {
+          "$": {
+            "name": "power",
+            "showInLabel": "yes"
+          }
+        },
+        {
+          "_": "400 mil",
+          "$": {
+            "name": "Pin Spacing"
+          }
+        },
+        {
+          "_": "THT",
+          "$": {
+            "name": "package"
+          }
+        },
+        {
+          "_": "4",
+          "$": {
+            "name": "bands"
+          }
+        },
+        {
+          "_": "±5%",
+          "$": {
+            "name": "tolerance"
+          }
+        }
+      ]
+    }
+  ],
+  "description": [
+    "A generic resistor (0.25W)"
+  ],
+  "views": {
+    "icon": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "icon/resistor_icon_220.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "icon"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "breadboard": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "breadboard/resistor_220.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "breadboard"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pcb": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "pcb/axial_lay_2_400mil_pcb.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "copper0"
+                }
+              },
+              {
+                "$": {
+                  "layerId": "copper1"
+                }
+              },
+              {
+                "$": {
+                  "layerId": "keepout"
+                }
+              },
+              {
+                "$": {
+                  "layerId": "soldermask"
+                }
+              },
+              {
+                "$": {
+                  "layerId": "silkscreen"
+                }
+              },
+              {
+                "$": {
+                  "layerId": "outline"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schematic": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "schematic/resistor.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "schematic"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "connectors": [
+    {
+      "connector": [
+        {
+          "$": {
+            "type": "male",
+            "id": "connector0",
+            "name": "Pin 0"
+          },
+          "description": [
+            "Pin0"
+          ],
+          "views": [
+            {
+              "breadboardView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "svgId": "connector0pin",
+                        "layer": "breadboard",
+                        "legId": "connector0leg"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "schematicView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "svgId": "connector0pin",
+                        "layer": "schematic",
+                        "terminalId": "connector0terminal"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "pcbView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "svgId": "connector0pin",
+                        "layer": "copper0"
+                      }
+                    },
+                    {
+                      "$": {
+                        "svgId": "connector0pin",
+                        "layer": "copper1"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$": {
+            "type": "male",
+            "id": "connector1",
+            "name": "Pin 1"
+          },
+          "description": [
+            "Pin 1"
+          ],
+          "views": [
+            {
+              "breadboardView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "svgId": "connector1pin",
+                        "layer": "breadboard",
+                        "legId": "connector1leg"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "schematicView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "svgId": "connector1pin",
+                        "layer": "schematic",
+                        "terminalId": "connector1terminal"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "pcbView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "svgId": "connector1pin",
+                        "layer": "copper0"
+                      }
+                    },
+                    {
+                      "$": {
+                        "svgId": "connector1pin",
+                        "layer": "copper1"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

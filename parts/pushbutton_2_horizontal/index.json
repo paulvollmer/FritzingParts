@@ -1,0 +1,265 @@
+{
+  "fritzingVersion": "0.1.1201",
+  "moduleId": "20A9BBEE34_ST-2leadbutton-horizon",
+  "version": [
+    "4"
+  ],
+  "title": [
+    "Pushbutton"
+  ],
+  "date": [
+    "2008-09-16"
+  ],
+  "tags": [
+    {
+      "tag": [
+        "Pushbutton",
+        "button",
+        "fritzing core"
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": [
+        {
+          "_": "Normally Open",
+          "$": {
+            "name": "Default State"
+          }
+        },
+        {
+          "_": "Switch - 2 pin",
+          "$": {
+            "name": "family"
+          }
+        },
+        {
+          "_": "SPST",
+          "$": {
+            "name": "Switching Circuit"
+          }
+        },
+        {
+          "_": "THT",
+          "$": {
+            "name": "package"
+          }
+        }
+      ]
+    }
+  ],
+  "description": [
+    "A generic pushbutton."
+  ],
+  "views": {
+    "icon": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "icon/basic_pbutton_2leg_horizon.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "icon"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "breadboard": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "breadboard/basic_pbutton_2leg_horizon.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "breadboard"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pcb": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "pcb/pushbutton_2_300mil_thick.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "copper0"
+                }
+              },
+              {
+                "$": {
+                  "layerId": "silkscreen"
+                }
+              },
+              {
+                "$": {
+                  "layerId": "copper1"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schematic": [
+      {
+        "$": {
+          "fliphorizontal": "true",
+          "flipvertical": "true"
+        },
+        "layers": [
+          {
+            "$": {
+              "image": "schematic/pushbutton.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "schematic"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "connectors": [
+    {
+      "connector": [
+        {
+          "$": {
+            "id": "connector0",
+            "name": "leg0",
+            "type": "male"
+          },
+          "description": [
+            "leg"
+          ],
+          "views": [
+            {
+              "breadboardView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "breadboard",
+                        "svgId": "connector0pin",
+                        "terminalId": "connector0terminal"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "schematicView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "schematic",
+                        "svgId": "connector0pin",
+                        "terminalId": "connector0terminal"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "pcbView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "copper0",
+                        "svgId": "connector0pin"
+                      }
+                    },
+                    {
+                      "$": {
+                        "layer": "copper1",
+                        "svgId": "connector0pin"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$": {
+            "id": "connector1",
+            "name": "leg1",
+            "type": "male"
+          },
+          "description": [
+            "leg"
+          ],
+          "views": [
+            {
+              "breadboardView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "breadboard",
+                        "svgId": "connector1pin",
+                        "terminalId": "connector1terminal"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "schematicView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "schematic",
+                        "svgId": "connector1pin",
+                        "terminalId": "connector1terminal"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "pcbView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "copper0",
+                        "svgId": "connector1pin"
+                      }
+                    },
+                    {
+                      "$": {
+                        "layer": "copper1",
+                        "svgId": "connector1pin"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "fritzingVersion": "0.2.2.b.03.04.2550",
+  "moduleId": "screw_terminal_2_100mil",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "Lionel Michel"
+  ],
+  "title": [
+    "Screw terminal - 2 pins"
+  ],
+  "date": [
+    "2009-10-23"
+  ],
+  "tags": [
+    "fritzing core"
+  ],
+  "properties": [
+    {
+      "property": [
+        {
+          "_": "Screw Terminal",
+          "$": {
+            "name": "family"
+          }
+        },
+        {
+          "_": "2",
+          "$": {
+            "name": "Pins"
+          }
+        },
+        {
+          "_": "0.1in (2.54mm)",
+          "$": {
+            "name": "Pin Spacing"
+          }
+        },
+        {
+          "$": {
+            "name": "hole size"
+          }
+        },
+        {
+          "_": "THT",
+          "$": {
+            "name": "package"
+          }
+        }
+      ]
+    }
+  ],
+  "description": [
+    "Screw terminal with 2 pins"
+  ],
+  "views": {
+    "icon": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "icon/screw_terminal.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "icon"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "breadboard": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "breadboard/screw_terminal_2_100mil_bread.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "breadboard"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pcb": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "pcb/screw_terminal_2_100mil_pcb.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "copper0"
+                }
+              },
+              {
+                "$": {
+                  "layerId": "silkscreen"
+                }
+              },
+              {
+                "$": {
+                  "layerId": "copper1"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schematic": [
+      {
+        "$": {
+          "fliphorizontal": "true"
+        },
+        "layers": [
+          {
+            "$": {
+              "image": "schematic/screw_terminal_2_100mil_schem.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "schematic"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "connectors": [
+    {
+      "connector": [
+        {
+          "$": {
+            "id": "connector0",
+            "name": "pin1",
+            "type": "male"
+          },
+          "description": [
+            "Pin 1"
+          ],
+          "views": [
+            {
+              "breadboardView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "breadboard",
+                        "svgId": "connector0pin"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "schematicView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "schematic",
+                        "svgId": "connector0pin",
+                        "terminalId": "connector0terminal"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "pcbView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "copper0",
+                        "svgId": "connector0pin"
+                      }
+                    },
+                    {
+                      "$": {
+                        "layer": "copper1",
+                        "svgId": "connector0pin"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$": {
+            "id": "connector1",
+            "name": "pin2",
+            "type": "male"
+          },
+          "description": [
+            "Pin 2"
+          ],
+          "views": [
+            {
+              "breadboardView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "breadboard",
+                        "svgId": "connector1pin"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "schematicView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "schematic",
+                        "svgId": "connector1pin",
+                        "terminalId": "connector1terminal"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "pcbView": [
+                {
+                  "p": [
+                    {
+                      "$": {
+                        "layer": "copper0",
+                        "svgId": "connector1pin"
+                      }
+                    },
+                    {
+                      "$": {
+                        "layer": "copper1",
+                        "svgId": "connector1pin"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

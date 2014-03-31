@@ -1,0 +1,121 @@
+{
+  "fritzingVersion": "0.7.2b",
+  "moduleId": "SparkFun-RF-EM408_OUTLINE-",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "www.fritzing.org"
+  ],
+  "title": [
+    "EM408_OUTLINE"
+  ],
+  "date": [
+    "2013-02-13"
+  ],
+  "tags": [
+    {
+      "tag": [
+        "EM408_OUTLINE"
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": [
+        {
+          "_": "em408_outline",
+          "$": {
+            "name": "package"
+          }
+        },
+        {
+          "_": "sparkfun GPS",
+          "$": {
+            "name": "family"
+          }
+        }
+      ]
+    }
+  ],
+  "description": [
+    "This device is only the outline of the EM408 GPS receiver.  The device is intended to give the\ndesigner an idea of what how the receiver will fit on the board.  THIS DEVICE DOES NOT PROVIDE ANY ELECTRICAL CONNECTION TO THE BOARD!  Include the EM408_CON device in order to connect the EM408 to your design."
+  ],
+  "views": {
+    "icon": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "icon/EM408_OUTLINE.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "icon"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "breadboard": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "breadboard/sparkfun-rf_em408_outline_breadboard.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "breadboard"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pcb": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "pcb/sparkfun-rf_em408_outline_pcb.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "silkscreen"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schematic": [
+      {
+        "layers": [
+          {
+            "$": {
+              "image": "schematic/sparkfun-rf_em408_outline_schematic.svg"
+            },
+            "layer": [
+              {
+                "$": {
+                  "layerId": "schematic"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "connectors": [
+    "\n"
+  ]
+}
