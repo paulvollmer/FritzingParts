@@ -1,0 +1,1188 @@
+{
+  "module": {
+    "$": {
+      "fritzingVersion": "0.3.11",
+      "moduleId": "c8994c24e2a6d9182a55c653b6bbefed"
+    },
+    "version": [
+      "4"
+    ],
+    "author": [
+      "lionelmichel"
+    ],
+    "title": [
+      "16-segment display"
+    ],
+    "label": [
+      "DI"
+    ],
+    "date": [
+      "2009-11-12"
+    ],
+    "tags": [
+      ""
+    ],
+    "properties": [
+      {
+        "property": [
+          {
+            "_": "Character Display",
+            "$": {
+              "name": "family"
+            }
+          },
+          {
+            "_": "THT",
+            "$": {
+              "name": "package"
+            }
+          }
+        ]
+      }
+    ],
+    "property": [
+      {
+        "_": "16 Segment",
+        "$": {
+          "name": "type"
+        }
+      }
+    ],
+    "views": [
+      {
+        "iconView": [
+          {
+            "layers": [
+              {
+                "$": {
+                  "image": "icon/16-segment display.svg"
+                },
+                "layer": [
+                  {
+                    "$": {
+                      "layerId": "icon"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "schematicView": [
+          {
+            "layers": [
+              {
+                "$": {
+                  "image": "schematic/16-segment display.svg"
+                },
+                "layer": [
+                  {
+                    "$": {
+                      "layerId": "schematic"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pcbView": [
+          {
+            "layers": [
+              {
+                "$": {
+                  "image": "pcb/dip_18_600mil_pcb.svg"
+                },
+                "layer": [
+                  {
+                    "$": {
+                      "layerId": "copper0"
+                    }
+                  },
+                  {
+                    "$": {
+                      "layerId": "silkscreen"
+                    }
+                  },
+                  {
+                    "$": {
+                      "layerId": "copper1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "breadboardView": [
+          {
+            "layers": [
+              {
+                "$": {
+                  "image": "breadboard/16-segment display.svg"
+                },
+                "layer": [
+                  {
+                    "$": {
+                      "layerId": "breadboard"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "connectors": [
+      {
+        "connector": [
+          {
+            "$": {
+              "id": "connector15",
+              "name": "anodeM",
+              "type": "male"
+            },
+            "description": [
+              "Anode Segment M"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector15pin",
+                          "terminalId": "connector15terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector15pin",
+                          "terminalId": "connector15terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector15pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector15pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector7",
+              "name": "anodeR",
+              "type": "male"
+            },
+            "description": [
+              "Anode Segment R"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector7pin",
+                          "terminalId": "connector7terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector7pin",
+                          "terminalId": "connector7terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector7pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector7pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector16",
+              "name": "commCathode",
+              "type": "male"
+            },
+            "description": [
+              "Common Cathode"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector16pin",
+                          "terminalId": "connector16terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector16pin",
+                          "terminalId": "connector16terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector16pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector16pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector8",
+              "name": "anodeN",
+              "type": "male"
+            },
+            "description": [
+              "Anode Segment N"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector8pin",
+                          "terminalId": "connector8terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector8pin",
+                          "terminalId": "connector8terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector8pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector8pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector17",
+              "name": "anodeK",
+              "type": "male"
+            },
+            "description": [
+              "Anode Segment K"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector17pin",
+                          "terminalId": "connector17terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector17pin",
+                          "terminalId": "connector17terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector17pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector17pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector9",
+              "name": "anodeD1",
+              "type": "male"
+            },
+            "description": [
+              "Anode Segment D1"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector9pin",
+                          "terminalId": "connector9terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector9pin",
+                          "terminalId": "connector9terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector9pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector9pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector0",
+              "name": "anodeA2",
+              "type": "male"
+            },
+            "description": [
+              "Anode Segment A2"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector0pin",
+                          "terminalId": "connector0terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector0pin",
+                          "terminalId": "connector0terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector0pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector0pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector1",
+              "name": "anodeA1",
+              "type": "male"
+            },
+            "description": [
+              "Anode Segment A1"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector1pin",
+                          "terminalId": "connector1terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector1pin",
+                          "terminalId": "connector1terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector1pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector1pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector10",
+              "name": "anodeD2",
+              "type": "male"
+            },
+            "description": [
+              "Anode Segment D2"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector10pin",
+                          "terminalId": "connector10terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector10pin",
+                          "terminalId": "connector10terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector10pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector10pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector2",
+              "name": "anodeF",
+              "type": "male"
+            },
+            "description": [
+              "Anode Segment F"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector2pin",
+                          "terminalId": "connector2terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector2pin",
+                          "terminalId": "connector2terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector2pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector2pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector11",
+              "name": "commCathode",
+              "type": "male"
+            },
+            "description": [
+              "Common Cathode"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector11pin",
+                          "terminalId": "connector11terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector11pin",
+                          "terminalId": "connector11terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector11pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector11pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector3",
+              "name": "anodeH",
+              "type": "male"
+            },
+            "description": [
+              "Anode Segment H"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector3pin",
+                          "terminalId": "connector3terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector3pin",
+                          "terminalId": "connector3terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector3pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector3pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector4",
+              "name": "anodeE",
+              "type": "male"
+            },
+            "description": [
+              "Anode Segment E"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector4pin",
+                          "terminalId": "connector4terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector4pin",
+                          "terminalId": "connector4terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector4pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector4pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector12",
+              "name": "anodeC",
+              "type": "male"
+            },
+            "description": [
+              "Anode Segment C"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector12pin",
+                          "terminalId": "connector12terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector12pin",
+                          "terminalId": "connector12terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector12pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector12pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector5",
+              "name": "anodeJ",
+              "type": "male"
+            },
+            "description": [
+              "Anode Segment J"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector5pin",
+                          "terminalId": "connector5terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector5pin",
+                          "terminalId": "connector5terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector5pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector5pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector13",
+              "name": "anodeG",
+              "type": "male"
+            },
+            "description": [
+              "Anode Segment G"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector13pin",
+                          "terminalId": "connector13terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector13pin",
+                          "terminalId": "connector13terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector13pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector13pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector6",
+              "name": "anodeP",
+              "type": "male"
+            },
+            "description": [
+              "Anode Segment P"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector6pin",
+                          "terminalId": "connector6terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector6pin",
+                          "terminalId": "connector6terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector6pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector6pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector14",
+              "name": "anodeB",
+              "type": "male"
+            },
+            "description": [
+              "Anode Segment B"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector14pin",
+                          "terminalId": "connector14terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector14pin",
+                          "terminalId": "connector14terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector14pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector14pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

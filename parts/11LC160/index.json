@@ -1,0 +1,636 @@
+{
+  "module": {
+    "$": {
+      "fritzingVersion": "0.3.16b.02.24.4002",
+      "moduleId": "RevEd_11LC160"
+    },
+    "version": [
+      "1.1"
+    ],
+    "author": [
+      "Revolution Education Ltd"
+    ],
+    "title": [
+      "11LC160"
+    ],
+    "label": [
+      "IC"
+    ],
+    "date": [
+      "2010-05-26"
+    ],
+    "tags": [
+      {
+        "tag": [
+          "EEPROM",
+          "UNI/O",
+          "DIP"
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": [
+          {
+            "_": "EEPROM",
+            "$": {
+              "name": "family"
+            }
+          },
+          {
+            "_": "UNI/O",
+            "$": {
+              "name": "interface"
+            }
+          },
+          {
+            "_": "11LC160",
+            "$": {
+              "name": "variant"
+            }
+          },
+          {
+            "_": "THT",
+            "$": {
+              "name": "package"
+            }
+          }
+        ]
+      }
+    ],
+    "description": [
+      "11LC160 UNI/O EEPROM"
+    ],
+    "views": [
+      {
+        "iconView": [
+          {
+            "layers": [
+              {
+                "$": {
+                  "image": "icon/11LC160_icon.svg"
+                },
+                "layer": [
+                  {
+                    "$": {
+                      "layerId": "icon"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "breadboardView": [
+          {
+            "layers": [
+              {
+                "$": {
+                  "image": "breadboard/11LC160_breadboard.svg"
+                },
+                "layer": [
+                  {
+                    "$": {
+                      "layerId": "breadboard"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pcbView": [
+          {
+            "layers": [
+              {
+                "$": {
+                  "image": "pcb/dip_8_300mil_pcb.svg"
+                },
+                "layer": [
+                  {
+                    "$": {
+                      "layerId": "copper0"
+                    }
+                  },
+                  {
+                    "$": {
+                      "layerId": "silkscreen"
+                    }
+                  },
+                  {
+                    "$": {
+                      "layerId": "keepout"
+                    }
+                  },
+                  {
+                    "$": {
+                      "layerId": "soldermask"
+                    }
+                  },
+                  {
+                    "$": {
+                      "layerId": "outline"
+                    }
+                  },
+                  {
+                    "$": {
+                      "layerId": "copper1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "schematicView": [
+          {
+            "layers": [
+              {
+                "$": {
+                  "image": "schematic/11LC160_schematic.svg"
+                },
+                "layer": [
+                  {
+                    "$": {
+                      "layerId": "schematic"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "connectors": [
+      {
+        "connector": [
+          {
+            "$": {
+              "id": "connector0",
+              "name": "N/C",
+              "type": "male"
+            },
+            "description": [
+              "Do not connect anything to this pin"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector0pin",
+                          "terminalId": "connector0terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector0pin",
+                          "terminalId": "connector0terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector0pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector0pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector1",
+              "name": "N/C",
+              "type": "male"
+            },
+            "description": [
+              "Do not connect anything to this pin"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector1pin",
+                          "terminalId": "connector1terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector1pin",
+                          "terminalId": "connector1terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector1pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector1pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector2",
+              "name": "N/C",
+              "type": "male"
+            },
+            "description": [
+              "Do not connect anything to this pin"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector2pin",
+                          "terminalId": "connector2terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector2pin",
+                          "terminalId": "connector2terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector2pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector2pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector3",
+              "name": "0V",
+              "type": "male"
+            },
+            "description": [
+              "Connect to the 0V (ground) of the power supply in your circuit"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector3pin",
+                          "terminalId": "connector3terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector3pin",
+                          "terminalId": "connector3terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector3pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector3pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector4",
+              "name": "SCIO - Data I/O",
+              "type": "male"
+            },
+            "description": [
+              "This pin is used to read data from the device and to provide data to be written. Connect this pin to a digital I/O pin of your controller"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector4pin",
+                          "terminalId": "connector4terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector4pin",
+                          "terminalId": "connector4terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector4pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector4pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector5",
+              "name": "N/C",
+              "type": "male"
+            },
+            "description": [
+              "Do not connect anything to this pin"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector5pin",
+                          "terminalId": "connector5terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector5pin",
+                          "terminalId": "connector5terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector5pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector5pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector6",
+              "name": "N/C",
+              "type": "male"
+            },
+            "description": [
+              "Do not connect anything to this pin"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector6pin",
+                          "terminalId": "connector6terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector6pin",
+                          "terminalId": "connector6terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector6pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector6pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "connector7",
+              "name": "+V",
+              "type": "male"
+            },
+            "description": [
+              "Connect to the positive rail of the power supply in your circuit"
+            ],
+            "views": [
+              {
+                "breadboardView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "breadboard",
+                          "svgId": "connector7pin",
+                          "terminalId": "connector7terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "schematicView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "schematic",
+                          "svgId": "connector7pin",
+                          "terminalId": "connector7terminal"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "pcbView": [
+                  {
+                    "p": [
+                      {
+                        "$": {
+                          "layer": "copper0",
+                          "svgId": "connector7pin"
+                        }
+                      },
+                      {
+                        "$": {
+                          "layer": "copper1",
+                          "svgId": "connector7pin"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
