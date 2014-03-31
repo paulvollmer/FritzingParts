@@ -3,7 +3,8 @@
 #
 
 
-build: clean parts_json parts_dir
+build: clean parts_json parts_dir copy_fzp_files convert_fzp_files_to_json \
+	     copy_svg_files
 
 clean: clean_parts_json clean_parts_dir
 
@@ -18,7 +19,6 @@ clean_parts_json:
 	@echo "remove parts.json"
 	@rm -rf parts.json
 
-
 # parts directory
 
 parts_dir:
@@ -28,6 +28,20 @@ parts_dir:
 clean_parts_dir:
 	@echo "clean parts directory"
 	@rm -rf parts
+
+# parts files
+copy_fzp_files:
+	@echo "copy .fzp files"
+	@node scripts/copy_fzp_files.js
+
+convert_fzp_files_to_json:
+	@echo "convert .fzp files to json"
+	@node scripts/convert_fzp_files_to_json.js
+
+copy_svg_files:
+	@echo "copy .svg files"
+	@node scripts/copy_svg_files.js
+
 
 
 bootstrap:
