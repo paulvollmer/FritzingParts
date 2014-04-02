@@ -1,0 +1,240 @@
+{
+  "fritzingVersion": "0.1.1255",
+  "moduleId": "1001ABDC04",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "Stefan Hermann"
+  ],
+  "title": [
+    "Basic FET N-Channel"
+  ],
+  "label": [
+    "Q"
+  ],
+  "url": null,
+  "date": [
+    "2008-09-24"
+  ],
+  "tags": [
+    "Transistor",
+    "FET",
+    "fritzing core"
+  ],
+  "description": [
+    "A MOSFET N-Channel Transistor"
+  ],
+  "properties": [
+    {
+      "name": "package",
+      "value": "TO220 [THT]"
+    },
+    {
+      "name": "family",
+      "value": "FET-Transistor"
+    },
+    {
+      "name": "type",
+      "value": "n-channel"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/mosfet_n_channel_icon.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/mosfet_n_channel.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/TO-220.svg",
+      "layer": [
+        "copper0",
+        "silkscreen",
+        "copper1"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/fet_n.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector0",
+      "name": "gate",
+      "type": "male",
+      "description": [
+        "gate"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector0pin",
+                    "legId": "connector0leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector0pin",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector0pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector0pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "drain",
+      "type": "male",
+      "description": [
+        "drain"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector1pin",
+                    "legId": "connector1leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector1pin",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector1pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector1pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector2",
+      "name": "source",
+      "type": "male",
+      "description": [
+        "source"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector2pin",
+                    "legId": "connector2leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector2pin",
+                    "terminalId": "connector2terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector2pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector2pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

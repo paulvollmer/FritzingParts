@@ -1,0 +1,287 @@
+{
+  "fritzingVersion": "0.7.0b.02.01.5801",
+  "moduleId": "bf73a00d2ecd04be25675ebfb2d130c0",
+  "version": null,
+  "author": [
+    "wreutz"
+  ],
+  "title": [
+    "Humidity Temperature Sensor SHT15"
+  ],
+  "label": null,
+  "url": [
+    "http://www.sparkfun.com/products/8257"
+  ],
+  "date": [
+    "2012-02-20"
+  ],
+  "tags": [
+    "humidity",
+    "temperature",
+    "sensor",
+    "breakout"
+  ],
+  "description": [
+    "<p><b>Description:</b></p>\n      <p>This is a simple breakout board for the SHT15 humidity sensor from Sensirion. The SHT15 digital humidity and temperature sensor is fully calibrated and offers high precision and excellent long-term stability at low cost. The digital CMOSens Technology integrates two sensors and readout circuitry on one single chip.\n\n      These sensors are really impressive! Very sensitive and straight forward to use. Board comes assembled and tested with the SHT15.</p>\n\n      <p><b>Features:</b></p>\n\n<ul>\n\t<li>2 factory calibrated sensors for relative humidity & temperature</li>\n\t<li>Digital 2-wire interface</li>\n\t<li>Precise dewpoint calculation possible</li>\n\t<li>Measurement range: 0-100% RH</li>\n\t<li>Absolute RH accuracy: +/- 2% RH (10...90% RH)</li>\n\t<li>Repeatability RH: +/- 0.1% RH</li>\n\t<li>Temp. accuracy: +/- 0.3°C @ 25°C</li>\n\t<li>Fast response time < 4 sec.</li>\n\t<li>Low power consumption (typ. 30 µW)</li>\n\t<li>Low cost</li>\n\t<li>High precision sensor at low cost</li>\n\t<li>Leading CMOSens Technology for superior long-term stability</li>\n</ul>\n\n<p><b>Applications:</b></p>\n\n<ul>\n\t<li>Precise data logging</li>\n\t<li>Transmitters</li>\n\t<li>Automation & process control</li>\n\t<li>Building control and HVAC</li>\n\t<li>Test & Measurement</li>\n\t<li>Medical</li>\n</ul>\n\n<p><b>Documents:</b></p>\n\n<ul>\n  <li>\n    <a classname=\"\" href=\"http://www.sparkfun.com/datasheets/Sensors/Pressure/SHT1x-Breakout-v13.pdf\" name=\"\" target=\"_blank\">Schematic</a></li>\n  </li>\n  <li>\n     <a classname=\"\" href=\"http://www.sparkfun.com/datasheets/Sensors/Pressure/SHT1x-Breakout-v13.zip\" name=\"\" target=\"_blank\">Eagle Files</a></li>\n  </li>\n  <li>\n    <a classname=\"\" href=\"http://www.sparkfun.com/datasheets/Sensors/Datasheet-humidity-sensor-SHT1x.pdf\" name=\"\" target=\"_blank\"> SHT1x Datasheet</a></li>\n  </li>\n  <li>\n     <a classname=\"\" href=\"http://www.sparkfun.com/datasheets/Sensors/SHT15-Testing-v11.zip\" name=\"\" target=\"_blank\">Example C Code (PIC 16F88)</a></li>\n  </li>\n  <li>\n     <a classname=\"\" href=\"http://wiring.org.co/learning/basics/humiditytemperaturesht15.html\" name=\"\" target=\"_blank\">Wiring Example</a></li>\n  </li>\n  <li>\n     <a classname=\"\" href=\"http://www.sensirion.com/en/02_sensors/03_humidity/00_humidity_temperature_sensor/03_humidity_sensor_sht15.htm\" name=\"\" target=\"_blank\">Application Notes</a></li>\n  </li>\n  <li>\n     <a classname=\"\" href=\"http://www.sensirion.com/images/getFile?id=11\" name=\"\" target=\"_blank\">Calibration Certificate</a></li>\n  </li>\n  <li>\n     <a classname=\"\" href=\"http://www.sensirion.com/images/getFile?id=123\" name=\"\" target=\"_blank\">RoHS Certificate</a></li>\n  </li>\n</ul>"
+  ],
+  "properties": [
+    {
+      "name": "family",
+      "value": "Humidity Breakout"
+    },
+    {
+      "name": "part number"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/Humidity_Sensor_SHT15_icon.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/Humidity_Sensor_SHT15_breadboard.svg",
+      "layer": [
+        "breadboard",
+        "icon"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/Humidity_Sensor_SHT15_pcb.svg",
+      "layer": [
+        "copper0",
+        "silkscreen",
+        "copper1"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/Humidity_Sensor_SHT15_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector3",
+      "name": "VCC",
+      "type": "male",
+      "description": [
+        "no description yet"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector3",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector3",
+                    "layer": "schematic",
+                    "terminalId": "connector3terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector3",
+                    "layer": "copper1"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector3",
+                    "layer": "copper0"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector0",
+      "name": "GND",
+      "type": "male",
+      "description": [
+        "no description yet"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector0",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector0",
+                    "layer": "schematic",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector0",
+                    "layer": "copper1"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector0",
+                    "layer": "copper0"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "SCL",
+      "type": "male",
+      "description": [
+        "no description yet"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector1",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector1",
+                    "layer": "schematic",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector1",
+                    "layer": "copper1"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector1",
+                    "layer": "copper0"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector2",
+      "name": "SDA",
+      "type": "male",
+      "description": [
+        "no description yet"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector2",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector2",
+                    "layer": "schematic",
+                    "terminalId": "connector2terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector2",
+                    "layer": "copper1"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector2",
+                    "layer": "copper0"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

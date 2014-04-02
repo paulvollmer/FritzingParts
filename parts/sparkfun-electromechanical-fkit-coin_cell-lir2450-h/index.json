@@ -10,241 +10,167 @@
   "title": [
     "FKIT-COIN_CELL"
   ],
+  "label": [
+    "BATT"
+  ],
+  "url": null,
   "date": [
     "2013-02-13"
   ],
   "tags": [
-    {
-      "tag": [
-        "LIR2450-H",
-        "FKIT-COIN_CELL",
-        "FKIT-LIR2450-H"
-      ]
-    }
-  ],
-  "properties": [
-    {
-      "property": [
-        {
-          "_": "fkit-lir2450-h",
-          "$": {
-            "name": "package"
-          }
-        },
-        {
-          "_": "sparkfun Battery Holder",
-          "$": {
-            "name": "family"
-          }
-        },
-        {
-          "_": "lir2450-h",
-          "$": {
-            "name": "variant"
-          }
-        }
-      ]
-    }
+    "LIR2450-H",
+    "FKIT-COIN_CELL",
+    "FKIT-LIR2450-H"
   ],
   "description": [
     "<h3>Fabrick.it Coin Cell Holder</h3>\nCoin cell holder for 24.5mm rechargable coin cell"
   ],
+  "properties": [
+    {
+      "name": "package",
+      "value": "fkit-lir2450-h"
+    },
+    {
+      "name": "family",
+      "value": "sparkfun Battery Holder"
+    },
+    {
+      "name": "variant",
+      "value": "lir2450-h"
+    }
+  ],
   "views": {
-    "icon": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "icon/FKIT-LIR2450-H.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "icon"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "breadboard": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "breadboard/sparkfun-electromechanical_fkit-lir2450-h_breadboard.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "breadboard"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "pcb": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "pcb/sparkfun-electromechanical_fkit-lir2450-h_pcb.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "copper1"
-                }
-              },
-              {
-                "$": {
-                  "layerId": "silkscreen"
-                }
-              },
-              {
-                "$": {
-                  "layerId": "copper0"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "schematic": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "schematic/sparkfun-electromechanical_fkit-battery_schematic.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "schematic"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "icon": {
+      "image": "icon/FKIT-LIR2450-H.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/sparkfun-electromechanical_fkit-lir2450-h_breadboard.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/sparkfun-electromechanical_fkit-lir2450-h_pcb.svg",
+      "layer": [
+        "copper1",
+        "silkscreen",
+        "copper0"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/sparkfun-electromechanical_fkit-battery_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
   },
   "connectors": [
     {
-      "connector": [
+      "id": "connector0",
+      "name": "NEG",
+      "type": "male",
+      "description": [
+        "NEG"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector0",
-            "name": "NEG",
-            "type": "male"
-          },
-          "description": [
-            "NEG"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector0pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector0pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector0pin",
-                        "terminalId": "connector0terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector0pin",
+                    "terminalId": "connector0terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper0",
-                        "svgId": "connector0pad"
-                      }
-                    },
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector0pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector0pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector0pad"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "POS",
+      "type": "male",
+      "description": [
+        "POS"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector1",
-            "name": "POS",
-            "type": "male"
-          },
-          "description": [
-            "POS"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector1pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector1pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector1pin",
-                        "terminalId": "connector1terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector1pin",
+                    "terminalId": "connector1terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper0",
-                        "svgId": "connector1pad"
-                      }
-                    },
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector1pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector1pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector1pad"
+                  }
                 }
               ]
             }

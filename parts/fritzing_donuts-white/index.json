@@ -1,0 +1,346 @@
+{
+  "fritzingVersion": "0.5.2b.02.18.4756",
+  "moduleId": "fritzing_donuts-white.fzp",
+  "version": [
+    "5"
+  ],
+  "author": [
+    "althaus"
+  ],
+  "title": [
+    "Fritzing Logo"
+  ],
+  "label": null,
+  "url": [
+    "http://www.fritzing.org"
+  ],
+  "date": [
+    "Mi Apr 3 2013"
+  ],
+  "tags": [
+    "Fritzing",
+    "Logo",
+    "Donut"
+  ],
+  "description": [
+    "\n New fritzing_logo with the donuts for connecting everything to it.\n"
+  ],
+  "properties": [
+    {
+      "name": "family",
+      "value": "Donut"
+    },
+    {
+      "name": "part number"
+    },
+    {
+      "name": "type",
+      "value": "Fritzing-Donut-white"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "breadboard/fritzing_donuts-white_breaboard.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/fritzing_donuts-white_breaboard.svg",
+      "layer": [
+        "breadboardbreadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/Fritzing-donut-logo_pcb.svg",
+      "layer": [
+        "copper1",
+        "silkscreen",
+        "copper0"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/Fritzing-donut-logo_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector1",
+      "name": "1",
+      "type": "female",
+      "description": [
+        "1"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "breadboardbreadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "schematic",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector1pad",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector1pad",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector2",
+      "name": "2",
+      "type": "female",
+      "description": [
+        "2"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector2pin",
+                    "layer": "breadboardbreadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector2pin",
+                    "layer": "schematic",
+                    "terminalId": "connector2terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector2pad",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector2pad",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector3",
+      "name": "3",
+      "type": "female",
+      "description": [
+        "3"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector3pin",
+                    "layer": "breadboardbreadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector3pin",
+                    "layer": "schematic",
+                    "terminalId": "connector3terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector3pad",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector3pad",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector4",
+      "name": "4",
+      "type": "female",
+      "description": [
+        "4"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector4pin",
+                    "layer": "breadboardbreadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector4pin",
+                    "layer": "schematic",
+                    "terminalId": "connector4terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector4pad",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector4pad",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector5",
+      "name": "5",
+      "type": "female",
+      "description": [
+        "5"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector5pin",
+                    "layer": "breadboardbreadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector5pin",
+                    "layer": "schematic",
+                    "terminalId": "connector5terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector5pad",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector5pad",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

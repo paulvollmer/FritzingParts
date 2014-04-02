@@ -1,0 +1,286 @@
+{
+  "fritzingVersion": "0.6.3b.08.16.5401",
+  "moduleId": "054b3d1b56ef5470113b3e56d5dfc532",
+  "version": null,
+  "author": [
+    "Carlos Hansen Mendoza"
+  ],
+  "title": [
+    "KA78R05 Low Dropout Voltage Regulator"
+  ],
+  "label": [
+    "VREG"
+  ],
+  "url": null,
+  "date": [
+    "2011-11-15"
+  ],
+  "tags": [
+    "Voltage Regulator",
+    "Low Dropout Voltage Regulator",
+    "LDO",
+    "KA78R05"
+  ],
+  "description": [
+    "A low-dropout or LDO regulator is a DC linear voltage regulator which can operate with a very small input–output differential voltage. The advantages of a low dropout voltage include a lower minimum operating voltage, higher efficiency operation and lower heat dissipation. [Wikipedia]"
+  ],
+  "properties": [
+    {
+      "name": "family",
+      "value": "Voltage Regulator"
+    },
+    {
+      "name": "maximum dropout",
+      "value": "0.5V"
+    },
+    {
+      "name": "output voltage",
+      "value": "5V"
+    },
+    {
+      "name": "output current",
+      "value": "1A"
+    },
+    {
+      "name": "manufacturer",
+      "value": "Fairchild"
+    },
+    {
+      "name": "part number",
+      "value": "KA78R05"
+    },
+    {
+      "name": "package",
+      "value": "TO-220F-4L"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/low_dropout_voltage_regulator_TO220_4_icon.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/low_dropout_voltage_regulator_TO220_4_breadboard.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/jumper4.svg",
+      "layer": [
+        "copper0",
+        "silkscreen"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/low_dropout_voltage_regulator_TO220_4_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector3",
+      "name": "EN",
+      "type": "male",
+      "description": [
+        "ENABLE"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector3pin",
+                    "legId": "connector3leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector3pin",
+                    "terminalId": "connector3terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector3pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector0",
+      "name": "VIN",
+      "type": "male",
+      "description": [
+        "Input Voltage"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector0pin",
+                    "legId": "connector0leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector0pin",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector0pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "VOUT",
+      "type": "male",
+      "description": [
+        "Output Voltage"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector1pin",
+                    "legId": "connector1leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector1pin",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector1pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector2",
+      "name": "GND",
+      "type": "male",
+      "description": [
+        "Ground"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector2pin",
+                    "legId": "connector2leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector2pin",
+                    "terminalId": "connector2terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector2pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

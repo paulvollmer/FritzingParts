@@ -1,0 +1,411 @@
+{
+  "fritzingVersion": "0.3.6b.08.14.3340",
+  "moduleId": "1099ABDE24_ST_relay",
+  "version": [
+    "4"
+  ],
+  "author": null,
+  "title": [
+    "Relay"
+  ],
+  "label": [
+    "K"
+  ],
+  "url": null,
+  "date": [
+    "2009-05-04"
+  ],
+  "tags": [
+    "Relay",
+    "fritzing core"
+  ],
+  "description": [
+    "An SPDT relay."
+  ],
+  "properties": [
+    {
+      "name": "voltage",
+      "value": "5V"
+    },
+    {
+      "name": "family",
+      "value": "Relay"
+    },
+    {
+      "name": "contact rating",
+      "value": "125VAC / 30VDC @ 1 AMP"
+    },
+    {
+      "name": "switching circuit",
+      "value": "SPDT"
+    },
+    {
+      "name": "part number",
+      "value": "FRS1B-S"
+    },
+    {
+      "name": "package",
+      "value": "THT"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/relay_reloaded.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/relay_reloaded.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/FRS1B-S-relay-fp.svg",
+      "layer": [
+        "copper0",
+        "silkscreen",
+        "copper1"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/relay.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector3",
+      "name": "C2",
+      "type": "male",
+      "description": [
+        "Switch Common Terminal"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector3pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector3pin",
+                    "terminalId": "connector3terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector3pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector3pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector4",
+      "name": "COIL2",
+      "type": "male",
+      "description": [
+        "Relay Coil - Pin 2"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector4pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector4pin",
+                    "terminalId": "connector4terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector4pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector4pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector5",
+      "name": "B",
+      "type": "male",
+      "description": [
+        "Switch Terminal 'B'"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector5pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector5pin",
+                    "terminalId": "connector5terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector5pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector5pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector0",
+      "name": "A",
+      "type": "male",
+      "description": [
+        "Switch Terminal 'A'"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector0pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector0pin",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector0pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector0pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "COIL1",
+      "type": "male",
+      "description": [
+        "Relay Coil - Pin 1"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector1pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector1pin",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector1pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector1pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector2",
+      "name": "C1",
+      "type": "male",
+      "description": [
+        "Switch Common Terminal"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector2pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector2pin",
+                    "terminalId": "connector2terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector2pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector2pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

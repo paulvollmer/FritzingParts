@@ -10,176 +10,106 @@
   "title": [
     "BANANA_CONN"
   ],
+  "label": [
+    "J"
+  ],
+  "url": null,
   "date": [
     "2013-02-13"
   ],
   "tags": [
-    {
-      "tag": [
-        "BANANA_CONN"
-      ]
-    }
-  ],
-  "properties": [
-    {
-      "property": [
-        {
-          "_": "banana_conn",
-          "$": {
-            "name": "package"
-          }
-        },
-        {
-          "_": "sparkfun Banana Jack",
-          "$": {
-            "name": "family"
-          }
-        }
-      ]
-    }
+    "BANANA_CONN"
   ],
   "description": [
     "Through-hole banana jack"
   ],
+  "properties": [
+    {
+      "name": "package",
+      "value": "banana_conn"
+    },
+    {
+      "name": "family",
+      "value": "sparkfun Banana Jack"
+    }
+  ],
   "views": {
-    "icon": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "icon/BANANA_CONN.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "icon"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "breadboard": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "breadboard/sparkfun-connectors_banana_conn_breadboard.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "breadboard"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "pcb": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "pcb/sparkfun-connectors_banana_conn_pcb.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "copper1"
-                }
-              },
-              {
-                "$": {
-                  "layerId": "silkscreen"
-                }
-              },
-              {
-                "$": {
-                  "layerId": "copper0"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "schematic": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "schematic/sparkfun-connectors_banana_conn_schematic.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "schematic"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "icon": {
+      "image": "icon/BANANA_CONN.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/sparkfun-connectors_banana_conn_breadboard.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/sparkfun-connectors_banana_conn_pcb.svg",
+      "layer": [
+        "copper1",
+        "silkscreen",
+        "copper0"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/sparkfun-connectors_banana_conn_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
   },
   "connectors": [
     {
-      "connector": [
+      "id": "connector0",
+      "name": "1",
+      "type": "male",
+      "description": [
+        "1"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector0",
-            "name": "1",
-            "type": "male"
-          },
-          "description": [
-            "1"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector0pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector0pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector0pin",
-                        "terminalId": "connector0terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector0pin",
+                    "terminalId": "connector0terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper0",
-                        "svgId": "connector0pad"
-                      }
-                    },
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector0pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector0pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector0pad"
+                  }
                 }
               ]
             }

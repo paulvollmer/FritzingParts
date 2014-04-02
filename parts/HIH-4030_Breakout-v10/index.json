@@ -1,0 +1,228 @@
+{
+  "fritzingVersion": "0.5.2b.02.18.4756",
+  "moduleId": "HIH-4030_Breakout-v10",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "SparkFun"
+  ],
+  "title": [
+    "Humidity Sensor - HIH-4030 Breakout"
+  ],
+  "label": null,
+  "url": [
+    "http://www.sparkfun.com/products/9569"
+  ],
+  "date": [
+    "2011-07-08"
+  ],
+  "tags": [
+    "Humidity",
+    "Humid"
+  ],
+  "description": [
+    "<p>\r\r\r\n\t<span style=\"font-weight: bold;\">Description:</span> This is a breakout board for Honeywell&#39;s HIH-4030 humidity sensor. The HIH-4030 measures relative humidity (%RH) and delivers it as an analog output voltage. You can connect the output of the sensor directly to an ADC on a microcontroller; and, thanks to the sensor&#39;s near linear voltage output, the data is very easy to process.<br />\r\r\r\n\t<br />\r\r\r\n\tVoltage applied to the supply pins should be within 4-5.8VDC, and optimally at 5V. The sensor will typically only consume about 200&mu;A.<br />\r\r\r\n\t<br />\r\r\r\n\tThis product comes as shown in the picture, with the HIH-4030 soldered onto the breakout board. The pins of the 3-pin header are spaced by 0.1&quot;.<br />\r\r\r\n\t<br />\r\r\r\n\t<span style=\"font-weight: bold;\">Features:</span></p>\r\r\r\n<ul>\r\r\r\n\t<li>\r\r\r\n\t\tNear linear, analog output</li>\r\r\r\n\t<li>\r\r\r\n\t\t4-5.8VDC voltage supply</li>\r\r\r\n\t<li>\r\r\r\n\t\tAll pins broken out to a 0.1&quot; pitch header</li>\r\r\r\n\t<li>\r\r\r\n\t\tLaser trimmed interchangeability</li>\r\r\r\n\t<li>\r\r\r\n\t\tLow power design, typical current draw of only 200&mu;A</li>\r\r\r\n\t<li>\r\r\r\n\t\tEnhanced accuracy</li>\r\r\r\n\t<li>\r\r\r\n\t\tFast response time</li>\r\r\r\n\t<li>\r\r\r\n\t\tStable, low drift performance</li>\r\r\r\n</ul>\r\r\r\n<p>\r\r\r\n\t<span style=\"font-weight: bold;\">Dimensions:</span> 0.75 x 0.30 &quot; (19.05 x 7.62 mm)<br />\r\r\r\n\t<br />\r\r\r\n\t<span style=\"font-weight: bold;\">Documents:</span></p>\r\r\r\n<ul>\r\r\r\n\t<li>\r\r\r\n\t\t<a classname=\"\" href=\"http://www.sparkfun.com/datasheets/Sensors/Weather/HIH-4030_Breakout-v10.pdf\" name=\"\" target=\"_blank\">Schematic</a></li>\r\r\r\n\t<li>\r\r\r\n\t\t<a classname=\"\" href=\"http://www.sparkfun.com/datasheets/Sensors/Weather/SEN-09569-HIH-4030-datasheet.pdf\" name=\"\" target=\"_blank\">HIH-4030 Humidity Sensor Datasheet</a></li>\r\r\r\n</ul>"
+  ],
+  "properties": [
+    {
+      "name": "family",
+      "value": "Humidity Breakout"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "breadboard/HIH-4030_Breakout-v10_breadboard.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/HIH-4030_Breakout-v10_breadboard.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/HIH-4030_Breakout-v10_pcb.svg",
+      "layer": [
+        "copper1",
+        "silkscreen",
+        "copper0"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/HIH-4030_Breakout-v10_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector0",
+      "name": "GND",
+      "type": "male",
+      "description": [
+        "GND"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector0pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector0pin",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector0pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector0pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "OUT",
+      "type": "male",
+      "description": [
+        "OUT"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector1pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector1pin",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector1pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector1pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector2",
+      "name": "VCC",
+      "type": "male",
+      "description": [
+        "VCC"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector2pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector2pin",
+                    "terminalId": "connector2terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector2pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector2pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

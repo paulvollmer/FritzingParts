@@ -1,0 +1,829 @@
+{
+  "fritzingVersion": "0.7.0b.02.01.5801",
+  "moduleId": "d0cab10c62e1441045ed0415450e2819",
+  "version": null,
+  "author": [
+    "red byer"
+  ],
+  "title": [
+    "RFM12b HopeRF Transceiver"
+  ],
+  "label": [
+    "RFM12b"
+  ],
+  "url": null,
+  "date": [
+    "2012-03-14"
+  ],
+  "tags": null,
+  "description": [
+    "RF Transceiver by Hope RF.  Well supported Arduino libraries are available.  Part is available in several frequencies (433MHz, 915MHz)..."
+  ],
+  "properties": [
+    {
+      "name": "family"
+    },
+    {
+      "name": "part number"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/RFM12b_HopeRF_Transceiver__9c603c735b502.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/RFM12b_HopeRF_Transceiver__9c603c735b502.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/RFM12b_HopeRF_Transceiver__9c603c735b502.svg",
+      "layer": [
+        "copper1",
+        "silkscreen"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/RFM12b_HopeRF_Transceiver__9c603c735b502.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector3",
+      "name": "4 DCLK/CFIL",
+      "type": "female",
+      "description": [
+        "Clock output (no FIFO) / external filter cap"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector3pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector3pin",
+                    "layer": "schematic",
+                    "terminalId": "connector3terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector3pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector3pin",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector4",
+      "name": "5 CLK",
+      "type": "female",
+      "description": [
+        "Clock output for external microcontroller"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector4pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector4pin",
+                    "layer": "schematic",
+                    "terminalId": "connector4terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector4pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector4pin",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector5",
+      "name": "6 nRES",
+      "type": "female",
+      "description": [
+        "Reset output (active low)"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector5pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector5pin",
+                    "layer": "schematic",
+                    "terminalId": "connector5terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector5pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector5pin",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector6",
+      "name": "7 GND",
+      "type": "female",
+      "description": [
+        "Power ground"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector6pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector6pin",
+                    "layer": "schematic",
+                    "terminalId": "connector6terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector6pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector6pin",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector7",
+      "name": "8 ANT",
+      "type": "female",
+      "description": [
+        "Antenna"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector7pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector7pin",
+                    "layer": "schematic",
+                    "terminalId": "connector7terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector7pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector7pin",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector8",
+      "name": "9 VDD",
+      "type": "female",
+      "description": [
+        "Positive power supply"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector8pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector8pin",
+                    "layer": "schematic",
+                    "terminalId": "connector8terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector8pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector8pin",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector9",
+      "name": "10 GND",
+      "type": "female",
+      "description": [
+        "Power ground"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector9pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector9pin",
+                    "layer": "schematic",
+                    "terminalId": "connector9terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector9pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector9pin",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector10",
+      "name": "11 nINT/VDI",
+      "type": "female",
+      "description": [
+        "Interrupt input (active low) / Valid data indicator"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector10pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector10erminal",
+                    "layer": "schematic",
+                    "terminalId": "connector10terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector10pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector10pin",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector11",
+      "name": "12 SDI",
+      "type": "female",
+      "description": [
+        "SPI data input"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector11pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector11pin",
+                    "layer": "schematic",
+                    "terminalId": "connector11terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector11pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector11pin",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector12",
+      "name": "13 SCK",
+      "type": "female",
+      "description": [
+        "SPI clock input"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector12pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector12pin",
+                    "layer": "schematic",
+                    "terminalId": "connector12terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector12pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector12pin",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector0",
+      "name": "1 SDO",
+      "type": "female",
+      "description": [
+        "Serial data output with bus hold"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector0",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "schematic",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector13",
+      "name": "14 nSEL",
+      "type": "female",
+      "description": [
+        "Chip select (active low)"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector13pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector13pin",
+                    "layer": "schematic",
+                    "terminalId": "connector13terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector13pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector13pin",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "2 nIRQ",
+      "type": "female",
+      "description": [
+        "Interrupts request output (active low)"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "schematic",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector2",
+      "name": "3 FSK/DATA",
+      "type": "female",
+      "description": [
+        "Transmit FSK data input / Received data output"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector2pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector2pin",
+                    "layer": "schematic",
+                    "terminalId": "connector2terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector2pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector2pin",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -10,298 +10,222 @@
   "title": [
     "LOAD_CELL"
   ],
+  "label": [
+    "J"
+  ],
+  "url": null,
   "date": [
     "2013-02-13"
   ],
   "tags": [
-    {
-      "tag": [
-        "1X03-PTH",
-        "LOAD_CELL",
-        "1X03"
-      ]
-    }
-  ],
-  "properties": [
-    {
-      "property": [
-        {
-          "_": "1x03",
-          "$": {
-            "name": "package"
-          }
-        },
-        {
-          "_": "sparkfun Load Cell",
-          "$": {
-            "name": "family"
-          }
-        },
-        {
-          "_": "1x03-pth",
-          "$": {
-            "name": "variant"
-          }
-        }
-      ]
-    }
+    "1X03-PTH",
+    "LOAD_CELL",
+    "1X03"
   ],
   "description": [
     "<h3>Half-wheatstone bridge Load Cell</h3>"
   ],
+  "properties": [
+    {
+      "name": "package",
+      "value": "1x03"
+    },
+    {
+      "name": "family",
+      "value": "sparkfun Load Cell"
+    },
+    {
+      "name": "variant",
+      "value": "1x03-pth"
+    }
+  ],
   "views": {
-    "icon": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "icon/1X03.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "icon"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "breadboard": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "breadboard/generic_female_pin_header_3_100mil_bread.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "breadboard"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "pcb": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "pcb/nsjumper_3_100mil_pcb.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "copper1"
-                }
-              },
-              {
-                "$": {
-                  "layerId": "silkscreen"
-                }
-              },
-              {
-                "$": {
-                  "layerId": "copper0"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "schematic": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "schematic/sparkfun-sensors_load_cell_schematic.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "schematic"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "icon": {
+      "image": "icon/1X03.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/generic_female_pin_header_3_100mil_bread.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/nsjumper_3_100mil_pcb.svg",
+      "layer": [
+        "copper1",
+        "silkscreen",
+        "copper0"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/sparkfun-sensors_load_cell_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
   },
   "connectors": [
     {
-      "connector": [
+      "id": "connector0",
+      "name": "B",
+      "type": "male",
+      "description": [
+        "B"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector0",
-            "name": "B",
-            "type": "male"
-          },
-          "description": [
-            "B"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector0pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector0pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector0pin",
-                        "terminalId": "connector0terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector0pin",
+                    "terminalId": "connector0terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper0",
-                        "svgId": "connector0pin"
-                      }
-                    },
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector0pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector0pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector0pin"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector2",
+      "name": "R",
+      "type": "male",
+      "description": [
+        "R"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector2",
-            "name": "R",
-            "type": "male"
-          },
-          "description": [
-            "R"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector2pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector2pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector2pin",
-                        "terminalId": "connector2terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector2pin",
+                    "terminalId": "connector2terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper0",
-                        "svgId": "connector2pin"
-                      }
-                    },
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector2pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector2pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector2pin"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "W",
+      "type": "male",
+      "description": [
+        "W"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector1",
-            "name": "W",
-            "type": "male"
-          },
-          "description": [
-            "W"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector1pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector1pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector1pin",
-                        "terminalId": "connector1terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector1pin",
+                    "terminalId": "connector1terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper0",
-                        "svgId": "connector1pin"
-                      }
-                    },
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector1pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector1pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector1pin"
+                  }
                 }
               ]
             }

@@ -1,0 +1,370 @@
+{
+  "fritzingVersion": "0.7.4b.04.10.5970",
+  "moduleId": "3_Axis_Accelerometer_Breakout___MMA8452Q",
+  "version": null,
+  "author": [
+    "Azharul Haque"
+  ],
+  "title": [
+    "3-Axis Accelerometer Breakout - MMA8452Q"
+  ],
+  "label": [
+    "3-Axis Accelerometer"
+  ],
+  "url": null,
+  "date": [
+    "2012-04-11"
+  ],
+  "tags": [
+    "3-Axis Accelerometer",
+    "Triple Axis Accelerometer",
+    "MMA8452Q",
+    "orientation",
+    "sensor",
+    "breakout"
+  ],
+  "description": [
+    "http://www.sparkfun.com/products/10955"
+  ],
+  "properties": [
+    {
+      "name": "axes",
+      "value": "3 (x, y, z)"
+    },
+    {
+      "name": "family",
+      "value": "Accelerometers"
+    },
+    {
+      "name": "Chip",
+      "value": "MMA8452Q"
+    },
+    {
+      "name": "part number"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/3_Axis_Accelerometer_Breakout___MMA8452Q_Icon.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/3_Axis_Accelerometer_Breakout___MMA8452Q_BB.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/3_Axis_Accelerometer_Breakout___MMA8452Q_PCB.svg",
+      "layer": [
+        "copper0",
+        "silkscreen",
+        "copper1"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/3_Axis_Accelerometer_Breakout___MMA8452Q_Sch.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector8",
+      "name": "3.3V",
+      "type": "male",
+      "description": [
+        "3.3V"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector8pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector8pin",
+                    "terminalId": "connector8terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector8pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector9",
+      "name": "SDA",
+      "type": "male",
+      "description": [
+        "SDA"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector9pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector9pin",
+                    "terminalId": "connector9terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector9pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector10",
+      "name": "SCL",
+      "type": "male",
+      "description": [
+        "SCL"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector10pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector10pin",
+                    "terminalId": "connector10terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector10pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector11",
+      "name": "I2",
+      "type": "male",
+      "description": [
+        "I2"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector11pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector11pin",
+                    "terminalId": "connector11terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector11pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector12",
+      "name": "I1",
+      "type": "male",
+      "description": [
+        "I1"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector12pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector12pin",
+                    "terminalId": "connector12terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector12pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector13",
+      "name": "GND",
+      "type": "male",
+      "description": [
+        "GND"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector13pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector13pin",
+                    "terminalId": "connector13terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector13pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

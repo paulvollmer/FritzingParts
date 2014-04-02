@@ -1,0 +1,288 @@
+{
+  "fritzingVersion": "0.5.2b.02.18.4756",
+  "moduleId": "HMC6352-v18",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "SparkFun"
+  ],
+  "title": [
+    "Compass Module - HMC6352"
+  ],
+  "label": null,
+  "url": [
+    "http://www.sparkfun.com/products/7915"
+  ],
+  "date": [
+    "2011-07-08"
+  ],
+  "tags": [
+    "Compass",
+    "Magnetometer",
+    "Magnet"
+  ],
+  "description": [
+    "<p>\r\r\r\n\t<b>Description:</b> This is a very simple breakout board for the popular HMC6352. Remember the KISS mantra? We really enjoy the simplicity and ease of use with the HMC6352. If you need simple, clean, degree resolution compass heading, this is the way to go.</p>\r\r\r\n<p>\r\r\r\n\t<span style=\"font-weight: bold;\">Features:</span></p>\r\r\r\n<ul>\r\r\r\n\t<li>\r\r\r\n\t\tSimple I2C interface</li>\r\r\r\n\t<li>\r\r\r\n\t\t2.7 to 5.2V supply range</li>\r\r\r\n\t<li>\r\r\r\n\t\t1 to 20Hz selectable update rate</li>\r\r\r\n\t<li>\r\r\r\n\t\tTrue drop-in solution</li>\r\r\r\n\t<li>\r\r\r\n\t\t0.5 degree heading resolution</li>\r\r\r\n\t<li>\r\r\r\n\t\t1 degree repeatability</li>\r\r\r\n\t<li>\r\r\r\n\t\tSupply current : 1mA @ 3V</li>\r\r\r\n</ul>\r\r\r\n<p>\r\r\r\n\t<span style=\"font-weight: bold;\">Documents:<br />\r\r\r\n\t</span></p>\r\r\r\n<ul>\r\r\r\n\t<li>\r\r\r\n\t\t<a classname=\"\" href=\"http://www.sparkfun.com/datasheets/Sensors/Magneto/HMC6352-v16.pdf\" name=\"\" target=\"_blank\">Schematic</a></li>\r\r\r\n\t<li>\r\r\r\n\t\t<a href=\"http://www.sparkfun.com/datasheets/Components/HMC6352.pdf\" target=\"_blank\">HMC6352 Datasheet</a></li>\r\r\r\n\t<li>\r\r\r\n\t\t<a href=\"http://www.ssec.honeywell.com/magnetic/hmc6352.html\" target=\"_blank\">Honeywell Product Page</a></li>\r\r\r\n\t<li>\r\r\r\n\t\t<a href=\"../../../../Code/LPC2138_Test_IIC.zip\" target=\"_blank\">Example I2C project</a></li>\r\r\r\n\t<li>\r\r\r\n\t\t<a classname=\"\" href=\"http://wiring.org.co/learning/libraries/hmc6352sparkfun.html\" name=\"\" target=\"_blank\">Wiring Example</a></li>\r\r\r\n\t<li>\r\r\r\n\t\t<a classname=\"\" href=\"http://lusorobotica.com/index.php/topic,36.0.html\" name=\"\" target=\"_blank\">Example project</a> in Portuguese - Thanks Tiago!</li>\r\r\r\n\t<li>\r\r\r\n\t\t<a href=\"http://www.youtube.com/watch?v=sBKHdt0OdPg\" target=\"_blank\">Digital Compass How-To Video</a></li>\r\r\r\n\t<li>\r\r\r\n\t\t<a href=\"http://mbed.org/cookbook/HMC6352-Digital-Compass\" target=\"_blank\">mbed Example</a></li>\r\r\r\n\t<li>\r\r\r\n\t\t<a href=\"http://bildr.org/2011/01/hmc6352/\">Bildr Tutorial</a></li>\r\r\r\n</ul>\r\r\r\n<p>\r\r\r\n\t<span style=\"font-weight: bold;\">Dimensions:</span> 0.6x0.6&quot; (15x15mm)</p>"
+  ],
+  "properties": [
+    {
+      "name": "family",
+      "value": "Magnetometer Breakout"
+    },
+    {
+      "name": "Tilt Compensated",
+      "value": "Yes"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "breadboard/HMC6352-v18_breadboard.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/HMC6352-v18_breadboard.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/HMC6352-v18_pcb.svg",
+      "layer": [
+        "copper1",
+        "silkscreen",
+        "copper0"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/HMC6352-v18_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector32",
+      "name": "GND",
+      "type": "male",
+      "description": [
+        "GND"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector32pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector32pin",
+                    "terminalId": "connector32terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector32pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector32pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector33",
+      "name": "VCC",
+      "type": "male",
+      "description": [
+        "VCC"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector33pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector33pin",
+                    "terminalId": "connector33terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector33pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector33pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector34",
+      "name": "SDA",
+      "type": "male",
+      "description": [
+        "SDA"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector34pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector34pin",
+                    "terminalId": "connector34terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector34pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector34pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector35",
+      "name": "SCL",
+      "type": "male",
+      "description": [
+        "SCL"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector35pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector35pin",
+                    "terminalId": "connector35terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector35pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector35pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

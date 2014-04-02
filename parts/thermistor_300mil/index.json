@@ -10,262 +10,179 @@
   "title": [
     "Temperature Sensor (Thermistor)"
   ],
+  "label": [
+    "R"
+  ],
+  "url": null,
   "date": [
     "2009-01-07"
   ],
   "tags": [
-    {
-      "tag": [
-        "Thermistor",
-        "Temperature Sensor",
-        "fritzing core",
-        "sensor",
-        "heat sensor"
-      ]
-    }
-  ],
-  "properties": [
-    {
-      "property": [
-        {
-          "_": "temperature sensor",
-          "$": {
-            "name": "family"
-          }
-        },
-        {
-          "_": "thermistor",
-          "$": {
-            "name": "type"
-          }
-        },
-        {
-          "_": "10kΩ",
-          "$": {
-            "name": "Resistance at 25°"
-          }
-        },
-        {
-          "_": "NTC",
-          "$": {
-            "name": "Thermistor Type",
-            "showInLabel": "yes"
-          }
-        },
-        {
-          "_": "THT",
-          "$": {
-            "name": "package"
-          }
-        }
-      ]
-    }
+    "Thermistor",
+    "Temperature Sensor",
+    "fritzing core",
+    "sensor",
+    "heat sensor"
   ],
   "description": [
     "A 10k NTC Thermistor (Temperature Sensor)"
   ],
+  "properties": [
+    {
+      "name": "family",
+      "value": "temperature sensor"
+    },
+    {
+      "name": "type",
+      "value": "thermistor"
+    },
+    {
+      "name": "Resistance at 25°",
+      "value": "10kΩ"
+    },
+    {
+      "name": "Thermistor Type",
+      "value": "NTC"
+    },
+    {
+      "name": "package",
+      "value": "THT"
+    }
+  ],
   "views": {
-    "icon": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "icon/ceramic_disk_thermistor.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "icon"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "breadboard": [
-      {
-        "$": {
-          "fliphorizontal": "true",
-          "flipvertical": "true"
-        },
-        "layers": [
-          {
-            "$": {
-              "image": "breadboard/ceramic_disk_thermistor_leg.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "breadboard"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "pcb": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "pcb/axial_lay_2_300mil_pcb.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "copper0"
-                }
-              },
-              {
-                "$": {
-                  "layerId": "silkscreen"
-                }
-              },
-              {
-                "$": {
-                  "layerId": "copper1"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "schematic": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "schematic/thermistor.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "schematic"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "icon": {
+      "image": "icon/ceramic_disk_thermistor.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/ceramic_disk_thermistor_leg.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/axial_lay_2_300mil_pcb.svg",
+      "layer": [
+        "copper0",
+        "silkscreen",
+        "copper1"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/thermistor.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
   },
   "connectors": [
     {
-      "connector": [
+      "id": "connector0",
+      "name": "pin 0",
+      "type": "male",
+      "description": [
+        "pin0"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector0",
-            "name": "pin 0",
-            "type": "male"
-          },
-          "description": [
-            "pin0"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector0pin",
-                        "legId": "connector0leg"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector0pin",
+                    "legId": "connector0leg"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector0pin",
-                        "terminalId": "connector0terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector0pin",
+                    "terminalId": "connector0terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper0",
-                        "svgId": "connector0pin"
-                      }
-                    },
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector0pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector0pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector0pin"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "pin 1",
+      "type": "male",
+      "description": [
+        "pin1"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector1",
-            "name": "pin 1",
-            "type": "male"
-          },
-          "description": [
-            "pin1"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector1pin",
-                        "legId": "connector1leg"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector1pin",
+                    "legId": "connector1leg"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector1pin",
-                        "terminalId": "connector1terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector1pin",
+                    "terminalId": "connector1terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper0",
-                        "svgId": "connector1pin"
-                      }
-                    },
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector1pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector1pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector1pin"
+                  }
                 }
               ]
             }

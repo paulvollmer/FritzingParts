@@ -10,1084 +10,982 @@
   "title": [
     "NAND256"
   ],
+  "label": [
+    "U"
+  ],
+  "url": null,
   "date": [
     "2013-02-13"
   ],
   "tags": [
-    {
-      "tag": [
-        "NAND256",
-        "TSOP48"
-      ]
-    }
-  ],
-  "properties": [
-    {
-      "property": [
-        {
-          "_": "tsop48",
-          "$": {
-            "name": "package"
-          }
-        },
-        {
-          "_": "sparkfun nand256",
-          "$": {
-            "name": "family"
-          }
-        }
-      ]
-    }
+    "NAND256",
+    "TSOP48"
   ],
   "description": [
     "NAND flash"
   ],
+  "properties": [
+    {
+      "name": "package",
+      "value": "tsop48"
+    },
+    {
+      "name": "family",
+      "value": "sparkfun nand256"
+    }
+  ],
   "views": {
-    "icon": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "breadboard/sparkfun-digitalic_tsop48_breadboard.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "icon"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "breadboard": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "breadboard/sparkfun-digitalic_tsop48_breadboard.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "breadboard"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "pcb": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "pcb/sparkfun-digitalic_tsop48_pcb.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "copper1"
-                }
-              },
-              {
-                "$": {
-                  "layerId": "silkscreen"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "schematic": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "schematic/sparkfun-digitalic_nand256_schematic.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "schematic"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "icon": {
+      "image": "breadboard/sparkfun-digitalic_tsop48_breadboard.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/sparkfun-digitalic_tsop48_breadboard.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/sparkfun-digitalic_tsop48_pcb.svg",
+      "layer": [
+        "copper1",
+        "silkscreen"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/sparkfun-digitalic_nand256_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
   },
   "connectors": [
     {
-      "connector": [
+      "id": "connector16",
+      "name": "AL",
+      "type": "male",
+      "description": [
+        "AL"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector16",
-            "name": "AL",
-            "type": "male"
-          },
-          "description": [
-            "AL"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector16pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector16pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector16pin",
-                        "terminalId": "connector16terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector16pin",
+                    "terminalId": "connector16terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector16pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector16pad"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector15",
+      "name": "CL",
+      "type": "male",
+      "description": [
+        "CL"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector15",
-            "name": "CL",
-            "type": "male"
-          },
-          "description": [
-            "CL"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector15pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector15pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector15pin",
-                        "terminalId": "connector15terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector15pin",
+                    "terminalId": "connector15terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector15pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector15pad"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector28",
+      "name": "IO0",
+      "type": "male",
+      "description": [
+        "IO0"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector28",
-            "name": "IO0",
-            "type": "male"
-          },
-          "description": [
-            "IO0"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector28pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector28pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector28pin",
-                        "terminalId": "connector28terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector28pin",
+                    "terminalId": "connector28terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector28pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector28pad"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector29",
+      "name": "IO1",
+      "type": "male",
+      "description": [
+        "IO1"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector29",
-            "name": "IO1",
-            "type": "male"
-          },
-          "description": [
-            "IO1"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector29pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector29pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector29pin",
-                        "terminalId": "connector29terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector29pin",
+                    "terminalId": "connector29terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector29pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector29pad"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector30",
+      "name": "IO2",
+      "type": "male",
+      "description": [
+        "IO2"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector30",
-            "name": "IO2",
-            "type": "male"
-          },
-          "description": [
-            "IO2"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector30pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector30pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector30pin",
-                        "terminalId": "connector30terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector30pin",
+                    "terminalId": "connector30terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector30pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector30pad"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector31",
+      "name": "IO3",
+      "type": "male",
+      "description": [
+        "IO3"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector31",
-            "name": "IO3",
-            "type": "male"
-          },
-          "description": [
-            "IO3"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector31pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector31pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector31pin",
-                        "terminalId": "connector31terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector31pin",
+                    "terminalId": "connector31terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector31pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector31pad"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector40",
+      "name": "IO4",
+      "type": "male",
+      "description": [
+        "IO4"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector40",
-            "name": "IO4",
-            "type": "male"
-          },
-          "description": [
-            "IO4"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector40pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector40pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector40pin",
-                        "terminalId": "connector40terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector40pin",
+                    "terminalId": "connector40terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector40pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector40pad"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector41",
+      "name": "IO5",
+      "type": "male",
+      "description": [
+        "IO5"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector41",
-            "name": "IO5",
-            "type": "male"
-          },
-          "description": [
-            "IO5"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector41pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector41pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector41pin",
-                        "terminalId": "connector41terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector41pin",
+                    "terminalId": "connector41terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector41pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector41pad"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector42",
+      "name": "IO6",
+      "type": "male",
+      "description": [
+        "IO6"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector42",
-            "name": "IO6",
-            "type": "male"
-          },
-          "description": [
-            "IO6"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector42pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector42pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector42pin",
-                        "terminalId": "connector42terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector42pin",
+                    "terminalId": "connector42terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector42pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector42pad"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector43",
+      "name": "IO7",
+      "type": "male",
+      "description": [
+        "IO7"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector43",
-            "name": "IO7",
-            "type": "male"
-          },
-          "description": [
-            "IO7"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector43pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector43pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector43pin",
-                        "terminalId": "connector43terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector43pin",
+                    "terminalId": "connector43terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector43pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector43pad"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector6",
+      "name": "RXB",
+      "type": "male",
+      "description": [
+        "RXB"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector6",
-            "name": "RXB",
-            "type": "male"
-          },
-          "description": [
-            "RXB"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector6pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector6pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector6pin",
-                        "terminalId": "connector6terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector6pin",
+                    "terminalId": "connector6terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector6pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector6pad"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector11",
+      "name": "VDD1",
+      "type": "male",
+      "description": [
+        "VDD1"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector11",
-            "name": "VDD1",
-            "type": "male"
-          },
-          "description": [
-            "VDD1"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector11pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector11pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector11pin",
-                        "terminalId": "connector11terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector11pin",
+                    "terminalId": "connector11terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector11pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector11pad"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector36",
+      "name": "VDD2",
+      "type": "male",
+      "description": [
+        "VDD2"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector36",
-            "name": "VDD2",
-            "type": "male"
-          },
-          "description": [
-            "VDD2"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector36pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector36pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector36pin",
-                        "terminalId": "connector36terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector36pin",
+                    "terminalId": "connector36terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector36pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector36pad"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector12",
+      "name": "VSS1",
+      "type": "male",
+      "description": [
+        "VSS1"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector12",
-            "name": "VSS1",
-            "type": "male"
-          },
-          "description": [
-            "VSS1"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector12pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector12pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector12pin",
-                        "terminalId": "connector12terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector12pin",
+                    "terminalId": "connector12terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector12pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector12pad"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector35",
+      "name": "VSS2",
+      "type": "male",
+      "description": [
+        "VSS2"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector35",
-            "name": "VSS2",
-            "type": "male"
-          },
-          "description": [
-            "VSS2"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector35pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector35pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector35pin",
-                        "terminalId": "connector35terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector35pin",
+                    "terminalId": "connector35terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector35pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector35pad"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector8",
+      "name": "XE",
+      "type": "male",
+      "description": [
+        "XE"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector8",
-            "name": "XE",
-            "type": "male"
-          },
-          "description": [
-            "XE"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector8pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector8pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector8pin",
-                        "terminalId": "connector8terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector8pin",
+                    "terminalId": "connector8terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector8pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector8pad"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector7",
+      "name": "XR",
+      "type": "male",
+      "description": [
+        "XR"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector7",
-            "name": "XR",
-            "type": "male"
-          },
-          "description": [
-            "XR"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector7pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector7pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector7pin",
-                        "terminalId": "connector7terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector7pin",
+                    "terminalId": "connector7terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector7pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector7pad"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector17",
+      "name": "XW",
+      "type": "male",
+      "description": [
+        "XW"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector17",
-            "name": "XW",
-            "type": "male"
-          },
-          "description": [
-            "XW"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector17pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector17pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector17pin",
-                        "terminalId": "connector17terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector17pin",
+                    "terminalId": "connector17terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector17pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector17pad"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector18",
+      "name": "XWP",
+      "type": "male",
+      "description": [
+        "XWP"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector18",
-            "name": "XWP",
-            "type": "male"
-          },
-          "description": [
-            "XWP"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector18pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector18pin"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector18pin",
-                        "terminalId": "connector18terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector18pin",
+                    "terminalId": "connector18terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector18pad"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector18pad"
+                  }
                 }
               ]
             }

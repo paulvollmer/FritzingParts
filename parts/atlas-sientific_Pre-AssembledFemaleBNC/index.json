@@ -1,0 +1,229 @@
+{
+  "fritzingVersion": "0.4.1b.07.17.4356",
+  "moduleId": "atlas-sientific_Pre-AssembledFemaleBNC",
+  "version": null,
+  "author": [
+    "Atlas Scientific "
+  ],
+  "title": [
+    "Pre-Assembled Female BNC"
+  ],
+  "label": [
+    "Pre-Assembled Female BNC"
+  ],
+  "url": [
+    "https://www.atlas-scientific.com/product_pages/components/bnc.html"
+  ],
+  "date": [
+    "Thu Jul 25 2013"
+  ],
+  "tags": null,
+  "description": [
+    "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">We once had a batch of pH Circuits that were not working correctly. After three days of investigating, we finally determined that the BNC connector we were using were to blame. The material it was made out of was bronze, which has poor conductivity properties and was not able to properly transmit the extremely low signal of the pH Sensor.</span></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">Never underestimate the importance of good connectors. It can mean the difference between good scientific data or no data at all.</span></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">• Pre-Assembled Female BNC Connector</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">• Center contact: Gold plated Brass</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">• Designed for RF applications</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">• Right angle</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">• 50ohm impedance </span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">• Designed to be easily connected into a breadboard for </span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">   rapid development</span></p></body></html>"
+  ],
+  "properties": [
+    {
+      "name": "family",
+      "value": "Atlas"
+    },
+    {
+      "name": "variant",
+      "value": "V1"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/atlas-sientific_Pre-AssembledFemaleBNC_icon.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/atlas-sientific_Pre-AssembledFemaleBNC_breadboard.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/atlas-sientific_Pre-AssembledFemaleBNC_pcb.svg",
+      "layer": [
+        "copper0",
+        "silkscreen",
+        "copper1"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/atlas-sientific_Pre-AssembledFemaleBNC_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector0",
+      "name": "NC",
+      "type": "male",
+      "description": [
+        "Not Connected"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "schematic",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "copper1"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "copper0"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "PRB",
+      "type": "male",
+      "description": [
+        "Probe (Sensor)"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "schematic",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "copper1"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "copper0"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector2",
+      "name": "GND",
+      "type": "male",
+      "description": [
+        "Supply Ground"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector2pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector2pin",
+                    "layer": "schematic",
+                    "terminalId": "connector2terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector2pin",
+                    "layer": "copper1"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector2pin",
+                    "layer": "copper0"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

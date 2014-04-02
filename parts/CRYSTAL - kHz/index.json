@@ -1,0 +1,187 @@
+{
+  "fritzingVersion": "0.4.3b.09.26.4458",
+  "moduleId": "kHzCrystalModuleID",
+  "version": null,
+  "author": [
+    "J.A. Korten - JKSOFT Educational"
+  ],
+  "title": [
+    "CRYSTAL - kHz"
+  ],
+  "label": [
+    "XTAL"
+  ],
+  "url": null,
+  "date": [
+    "2010-12-01"
+  ],
+  "tags": [
+    "clock",
+    "crystal",
+    "quarz",
+    "oscillator"
+  ],
+  "description": [
+    "Crystal oscillator, used in watches and other timing applications, typically 32.768KHZ"
+  ],
+  "properties": [
+    {
+      "name": "frequency",
+      "value": "32 kHz"
+    },
+    {
+      "name": "pin spacing",
+      "value": "2.54mm"
+    },
+    {
+      "name": "family",
+      "value": "oscillator"
+    },
+    {
+      "name": "name",
+      "value": "crystal"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/crystal.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/CRYSTAL_-_kHz_breadboard.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/CRYSTAL_-_kHz_pcb.svg",
+      "layer": [
+        "copper0",
+        "silkscreen",
+        "copper1"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/crystal.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector0",
+      "name": "pin 0",
+      "type": "male",
+      "description": [
+        "nog geen omschrijving"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector0pin",
+                    "legId": "connector0leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector0pin",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector0pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector0pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "pin 1",
+      "type": "male",
+      "description": [
+        "nog geen omschrijving"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector1pin",
+                    "legId": "connector1leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector1pin",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector1pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector1pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "fritzingVersion": "0.3.15b.02.03.3943",
+  "moduleId": "ab15a34dfcf83e23a26e83fe8a5a4dac_2",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "Riccardo Marchesi"
+  ],
+  "title": [
+    "Textile Potentiometer"
+  ],
+  "label": [
+    "R"
+  ],
+  "url": [
+    "http://www.plugandwear.com/default.asp?mod=product&cat_id=86&product_id=209"
+  ],
+  "date": [
+    "mer apr 24 2013"
+  ],
+  "tags": [
+    "fritzing core",
+    "adjustable",
+    "poti",
+    "plugandwear",
+    "potentiometer",
+    "resistor"
+  ],
+  "description": [
+    "A textile adjustable resistor (potentiometer)."
+  ],
+  "properties": [
+    {
+      "name": "family",
+      "value": "Textile Sensor"
+    },
+    {
+      "name": "type",
+      "value": "Soft Potentiometer"
+    },
+    {
+      "name": "Maximum Resistance",
+      "value": "15kΩ"
+    },
+    {
+      "name": "size",
+      "value": "Length - 1m (39\")"
+    },
+    {
+      "name": "track",
+      "value": "Linear"
+    },
+    {
+      "name": "part number",
+      "value": "PW064"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/Textile_potentiometer.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/Textile_potentiometer.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/jumper_3_100mil.svg",
+      "layer": [
+        "copper0",
+        "silkscreen",
+        "keepout",
+        "soldermask",
+        "outline",
+        "copper1"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/basic_poti.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector0",
+      "name": "leg1",
+      "type": "male",
+      "description": [
+        "leg1"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "schematic",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "wiper",
+      "type": "male",
+      "description": [
+        "wiper"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "schematic",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector2",
+      "name": "leg2",
+      "type": "male",
+      "description": [
+        "leg2"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector2pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector2pin",
+                    "layer": "schematic",
+                    "terminalId": "connector2terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector2pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector2pin",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

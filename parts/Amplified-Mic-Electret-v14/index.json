@@ -1,0 +1,228 @@
+{
+  "fritzingVersion": "0.5.2b.02.18.4756",
+  "moduleId": "Amplified-Mic-Electret-v14",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "SparkFun"
+  ],
+  "title": [
+    "Breakout Board for Electret Microphone"
+  ],
+  "label": null,
+  "url": [
+    "http://www.sparkfun.com/products/9964"
+  ],
+  "date": [
+    "2011-07-08"
+  ],
+  "tags": [
+    "Mic",
+    "Microphone"
+  ],
+  "description": [
+    "<p>\r\r\r\n\t<span style=\"font-weight: bold;\">Description:</span> Ready to add audio to your next project? This small breakout board couples a small electret microphone with a 100x opamp to amplify the sounds of voice, door knocks, etc loud enough to be picked up by a microcontroller&#39;s Analog to Digital converter. Unit comes fully assembled as shown. Works from 2.7V up to 5.5V.<br />\r\r\r\n\t<br />\r\r\r\n\t<span style=\"font-weight: bold;\">Documents:</span></p>\r\r\r\n<ul>\r\r\r\n\t<li>\r\r\r\n\t\t<a href=\"http://www.sparkfun.com/datasheets/BreakoutBoards/Amplified-Mic-Electret-v14.pdf\" target=\"_blank\">Schematic</a></li>\r\r\r\n\t<li>\r\r\r\n\t\t<a href=\"/datasheets/BreakoutBoards/Mic-Testing-v10.zip\" target=\"_blank\">Example PIC ADC Code</a></li>\r\r\r\n\t<li>\r\r\r\n\t\t<a href=\"http://focus.ti.com/lit/ds/symlink/opa344.pdf\" target=\"_blank\">OPA344 Datasheet</a></li>\r\r\r\n\t<li>\r\r\r\n\t\t<a href=\"http://negativeacknowledge.com/2008/06/11/final-lightbar-controller/\" target=\"_blank\">Example Audio LED control project</a> by Adam Greig</li>\r\r\r\n</ul>"
+  ],
+  "properties": [
+    {
+      "name": "family",
+      "value": "Microphone Breakout"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "breadboard/Amplified-Mic-Electret-v14_breadboard.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/Amplified-Mic-Electret-v14_breadboard.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/Amplified-Mic-Electret-v14_pcb.svg",
+      "layer": [
+        "copper1",
+        "silkscreen",
+        "copper0"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/Amplified-Mic-Electret-v14_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector8",
+      "name": "VCC",
+      "type": "male",
+      "description": [
+        "VCC"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector8pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector8pin",
+                    "terminalId": "connector8terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector8pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector8pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector9",
+      "name": "GND",
+      "type": "male",
+      "description": [
+        "GND"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector9pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector9pin",
+                    "terminalId": "connector9terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector9pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector9pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector10",
+      "name": "AUD",
+      "type": "male",
+      "description": [
+        "AUD"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector10pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector10pin",
+                    "terminalId": "connector10terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector10pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector10pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

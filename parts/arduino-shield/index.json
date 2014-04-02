@@ -1,0 +1,75 @@
+{
+  "fritzingVersion": null,
+  "moduleId": "423120090505",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "Brendan Howell"
+  ],
+  "title": [
+    "Arduino Shield PCB"
+  ],
+  "label": [
+    "PCB"
+  ],
+  "url": null,
+  "date": [
+    "2009-05-05"
+  ],
+  "tags": [
+    "pcb",
+    "board",
+    "arduino",
+    "fritzing core"
+  ],
+  "description": [
+    "Plain PCB Shaped to fit an Arduino \"Shield\""
+  ],
+  "properties": [
+    {
+      "name": "layers",
+      "value": "1"
+    },
+    {
+      "name": "Shape",
+      "value": "Arduino Shield"
+    },
+    {
+      "name": "family",
+      "value": "Plain Vanilla PCB"
+    },
+    {
+      "name": "filename"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/plain_pcb.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "icon/plain_pcb.svg",
+      "layer": [
+        "unknown"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/pcb-arduino-shield.svg",
+      "layer": [
+        "silkscreen",
+        "silkscreen0",
+        "board"
+      ]
+    },
+    "schematic": {
+      "image": "icon/plain_pcb.svg",
+      "layer": [
+        "unknown"
+      ]
+    }
+  },
+  "connectors": []
+}

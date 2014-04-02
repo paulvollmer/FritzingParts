@@ -1,0 +1,292 @@
+{
+  "fritzingVersion": "0.5.2b.02.18.4756",
+  "moduleId": "LilyPad Coincell-Battery-v17",
+  "version": null,
+  "author": [
+    "f.althaus",
+    "SparkFun"
+  ],
+  "title": [
+    "LilyPad Coin Cell Battery Holder"
+  ],
+  "label": null,
+  "url": [
+    "http://www.sparkfun.com/products/10730"
+  ],
+  "date": [
+    "2013-05-25"
+  ],
+  "tags": [
+    "Lilypad",
+    "Coin",
+    "Cell",
+    "Battery"
+  ],
+  "description": [
+    " If you're looking for a simple way to add a battery to your LilyPad project, the LilyPad Coin Cell Battery Holder might do the trick. It's a simple board which holds a 20mm coin cell battery (such as a CR2032) and gives you 4 connection points (two positive and two negative) for sewing into your project.\n\nNote: The LilyPad Coin Cell Battery Holder is a design conceived by Felicia Williams of Boulder, Colorado. Also, a portion of this sale is given back to Dr. Leah Buechley for continued development and education of e-textiles. "
+  ],
+  "properties": [
+    {
+      "name": "family",
+      "value": "microcontroller board (lilypad)"
+    },
+    {
+      "name": "type",
+      "value": "Power Connector"
+    },
+    {
+      "name": "Connector",
+      "value": "20mm Coin Cell Holder"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "breadboard/LilyPad Coincell-Battery-v17_breadboard.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/LilyPad Coincell-Battery-v17_breadboard.svg",
+      "layer": [
+        "breadboardbreadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/LilyPad Coincell-Battery-v17_pcb.svg",
+      "layer": [
+        "copper1",
+        "silkscreen",
+        "copper0"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/LilyPad Coincell-Battery-v17_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector5",
+      "name": "-",
+      "type": "female",
+      "description": [
+        "-"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboardbreadboard",
+                    "svgId": "connector5pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector5pin",
+                    "terminalId": "connector5terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector5pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector5pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector6",
+      "name": "+",
+      "type": "female",
+      "description": [
+        "+"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboardbreadboard",
+                    "svgId": "connector6pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector6pin",
+                    "terminalId": "connector6terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector6pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector6pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector7",
+      "name": "-",
+      "type": "female",
+      "description": [
+        "-"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboardbreadboard",
+                    "svgId": "connector7pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector7pin",
+                    "terminalId": "connector7terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector7pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector7pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector8",
+      "name": "+",
+      "type": "female",
+      "description": [
+        "+"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboardbreadboard",
+                    "svgId": "connector8pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector8pin",
+                    "terminalId": "connector8terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector8pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector8pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

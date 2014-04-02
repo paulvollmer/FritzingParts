@@ -1,0 +1,198 @@
+{
+  "fritzingVersion": null,
+  "moduleId": "generic_sip_2_300mil",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "Fritzing Part-o-matic"
+  ],
+  "title": [
+    "SIP - 2 pins"
+  ],
+  "label": [
+    "U"
+  ],
+  "url": null,
+  "date": [
+    "2009-10-20"
+  ],
+  "tags": [
+    "SIP",
+    "fritzing core"
+  ],
+  "description": [
+    "A SIP stand-in part for whatever you want.  With 2 pins on a 300 mil single inline package (SIP) footprint."
+  ],
+  "properties": [
+    {
+      "name": "family",
+      "value": "Generic IC"
+    },
+    {
+      "name": "package",
+      "value": "SIP (Single Inline) [THT]"
+    },
+    {
+      "name": "pins",
+      "value": "2"
+    },
+    {
+      "name": "spacing",
+      "value": "300mil"
+    },
+    {
+      "name": "chip label",
+      "value": "IC"
+    },
+    {
+      "name": "hole size"
+    },
+    {
+      "name": "editable pin labels",
+      "value": "true"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/dip_icon.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/generic_sip_2_300mil_bread.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/jumper_2_100mil_pcb.svg",
+      "layer": [
+        "silkscreen",
+        "copper0",
+        "copper1"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/generic_sip_2_300mil_schem.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector0",
+      "name": "pin1",
+      "type": "male",
+      "description": [
+        "pin 1"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector0pin",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector0pin",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector0pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector0pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "pin2",
+      "type": "male",
+      "description": [
+        "pin 2"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector1pin",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector1pin",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector1pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector1pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

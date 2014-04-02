@@ -10,128 +10,60 @@
   "title": [
     "LIGHTPIPE-7511"
   ],
+  "label": [
+    "U"
+  ],
+  "url": null,
   "date": [
     "2013-02-13"
   ],
   "tags": [
-    {
-      "tag": [
-        "LIGHTPIPE-7511"
-      ]
-    }
-  ],
-  "properties": [
-    {
-      "property": [
-        {
-          "_": "lightpipe-7511",
-          "$": {
-            "name": "package"
-          }
-        },
-        {
-          "_": "SMT",
-          "$": {
-            "name": "fits"
-          }
-        },
-        {
-          "_": "sparkfun LED (Accessoires)",
-          "$": {
-            "name": "family"
-          }
-        }
-      ]
-    }
+    "LIGHTPIPE-7511"
   ],
   "description": [
     "Lightpipes provide   High Contrast and Wide Viewing Angle for Greater\nVisibility"
   ],
+  "properties": [
+    {
+      "name": "package",
+      "value": "lightpipe-7511"
+    },
+    {
+      "name": "fits",
+      "value": "SMT"
+    },
+    {
+      "name": "family",
+      "value": "sparkfun LED (Accessoires)"
+    }
+  ],
   "views": {
-    "icon": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "icon/LIGHTPIPE-7511.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "icon"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "breadboard": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "breadboard/sparkfun-led_lightpipe-7511_breadboard.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "breadboard"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "pcb": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "pcb/sparkfun-led_lightpipe-7511_pcb.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "copper1"
-                }
-              },
-              {
-                "$": {
-                  "layerId": "silkscreen"
-                }
-              },
-              {
-                "$": {
-                  "layerId": "copper0"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "schematic": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "schematic/sparkfun-led_lightpipe-7511_schematic.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "schematic"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "icon": {
+      "image": "icon/LIGHTPIPE-7511.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/sparkfun-led_lightpipe-7511_breadboard.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/sparkfun-led_lightpipe-7511_pcb.svg",
+      "layer": [
+        "copper1",
+        "silkscreen",
+        "copper0"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/sparkfun-led_lightpipe-7511_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
   },
-  "connectors": [
-    "\n"
-  ]
+  "connectors": []
 }

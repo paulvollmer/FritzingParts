@@ -10,130 +10,62 @@
   "title": [
     "MAGNET"
   ],
+  "label": [
+    "U"
+  ],
+  "url": null,
   "date": [
     "2013-02-13"
   ],
   "tags": [
-    {
-      "tag": [
-        "18MM",
-        "MAGNET",
-        "MAGNET-18MM"
-      ]
-    }
-  ],
-  "properties": [
-    {
-      "property": [
-        {
-          "_": "magnet-18mm",
-          "$": {
-            "name": "package"
-          }
-        },
-        {
-          "_": "sparkfun Magnet",
-          "$": {
-            "name": "family"
-          }
-        },
-        {
-          "_": "18mm",
-          "$": {
-            "name": "variant"
-          }
-        }
-      ]
-    }
+    "18MM",
+    "MAGNET",
+    "MAGNET-18MM"
   ],
   "description": [
     "Ceramic disc magnet, COM-08890"
   ],
+  "properties": [
+    {
+      "name": "package",
+      "value": "magnet-18mm"
+    },
+    {
+      "name": "family",
+      "value": "sparkfun Magnet"
+    },
+    {
+      "name": "variant",
+      "value": "18mm"
+    }
+  ],
   "views": {
-    "icon": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "breadboard/sparkfun-electromechanical_magnet-18mm_breadboard.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "icon"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "breadboard": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "breadboard/sparkfun-electromechanical_magnet-18mm_breadboard.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "breadboard"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "pcb": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "pcb/sparkfun-electromechanical_magnet-18mm_pcb.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "copper1"
-                }
-              },
-              {
-                "$": {
-                  "layerId": "silkscreen"
-                }
-              },
-              {
-                "$": {
-                  "layerId": "copper0"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "schematic": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "schematic/sparkfun-electromechanical_magnet_schematic.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "schematic"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "icon": {
+      "image": "breadboard/sparkfun-electromechanical_magnet-18mm_breadboard.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/sparkfun-electromechanical_magnet-18mm_breadboard.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/sparkfun-electromechanical_magnet-18mm_pcb.svg",
+      "layer": [
+        "copper1",
+        "silkscreen",
+        "copper0"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/sparkfun-electromechanical_magnet_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
   },
-  "connectors": [
-    "\n"
-  ]
+  "connectors": []
 }

@@ -1,0 +1,187 @@
+{
+  "fritzingVersion": "0.3.18",
+  "moduleId": "100milCeramicCapacitorModuleID",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "André Knörig"
+  ],
+  "title": [
+    "Ceramic Capacitor"
+  ],
+  "label": [
+    "C"
+  ],
+  "url": null,
+  "date": [
+    "2010-03-06"
+  ],
+  "tags": [
+    "Capacitor",
+    "Ceramic Capacitor",
+    "fritzing core"
+  ],
+  "description": [
+    "100 nF multilayer Ceramic Capacitor"
+  ],
+  "properties": [
+    {
+      "name": "family",
+      "value": "Capacitor [bidirectional]"
+    },
+    {
+      "name": "capacitance",
+      "value": "100nF"
+    },
+    {
+      "name": "voltage"
+    },
+    {
+      "name": "package",
+      "value": "100 mil [THT, multilayer]"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/ceramic_capacitor_blue_icon.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/ceramic_capacitor_blue_leg.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/capacitor_ceramic_100mil.svg",
+      "layer": [
+        "copper0",
+        "silkscreen",
+        "copper1"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/capacitor.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector0",
+      "name": "0",
+      "type": "male",
+      "description": [
+        "pin0"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector0pin",
+                    "legId": "connector0leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector0pin",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector0pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector0pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "1",
+      "type": "male",
+      "description": [
+        "pin1"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector1pin",
+                    "legId": "connector1leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector1pin",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector1pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector1pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

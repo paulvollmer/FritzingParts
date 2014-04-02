@@ -1,0 +1,195 @@
+{
+  "fritzingVersion": "0.1.beta.1396",
+  "moduleId": "3mmColorLEDModuleID",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "Stefan Hermann"
+  ],
+  "title": [
+    "Red LED - 3mm"
+  ],
+  "label": [
+    "LED"
+  ],
+  "url": null,
+  "date": [
+    "2008-10-10"
+  ],
+  "tags": [
+    "LED",
+    "Red LED",
+    "indicator",
+    "fritzing core"
+  ],
+  "description": [
+    "A generic red LED (~1.8V)"
+  ],
+  "properties": [
+    {
+      "name": "package",
+      "value": "3 mm [THT]"
+    },
+    {
+      "name": "family",
+      "value": "LED"
+    },
+    {
+      "name": "color",
+      "value": "Red (633nm)"
+    },
+    {
+      "name": "current"
+    },
+    {
+      "name": "leg",
+      "value": "yes"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/LED-red-5mmicon.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/LED-3mm-red-leg.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/3mm_LED.svg",
+      "layer": [
+        "copper0",
+        "keepout",
+        "soldermask",
+        "silkscreen",
+        "outline",
+        "copper1"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/led.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector0",
+      "name": "cathode",
+      "type": "male",
+      "description": [
+        "cathode pin"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector0pin",
+                    "legId": "connector0leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector0pin",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector0pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector0pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "anode",
+      "type": "male",
+      "description": [
+        "anode pin"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector1pin",
+                    "legId": "connector1leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector1pin",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector1pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector1pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

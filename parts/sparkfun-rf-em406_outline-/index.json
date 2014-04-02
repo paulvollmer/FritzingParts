@@ -10,112 +10,54 @@
   "title": [
     "EM406_OUTLINE"
   ],
+  "label": [
+    "U"
+  ],
+  "url": null,
   "date": [
     "2013-02-13"
   ],
   "tags": [
-    {
-      "tag": [
-        "EM406_OUTLINE"
-      ]
-    }
-  ],
-  "properties": [
-    {
-      "property": [
-        {
-          "_": "em406_outline",
-          "$": {
-            "name": "package"
-          }
-        },
-        {
-          "_": "sparkfun GPS",
-          "$": {
-            "name": "family"
-          }
-        }
-      ]
-    }
+    "EM406_OUTLINE"
   ],
   "description": [
     "Package outline for EM406 GPS module"
   ],
+  "properties": [
+    {
+      "name": "package",
+      "value": "em406_outline"
+    },
+    {
+      "name": "family",
+      "value": "sparkfun GPS"
+    }
+  ],
   "views": {
-    "icon": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "icon/EM406_OUTLINE.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "icon"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "breadboard": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "breadboard/sparkfun-rf_em406_outline_breadboard.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "breadboard"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "pcb": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "pcb/sparkfun-rf_em406_outline_pcb.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "silkscreen"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "schematic": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "schematic/sparkfun-rf_em406_outline_schematic.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "schematic"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "icon": {
+      "image": "icon/EM406_OUTLINE.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/sparkfun-rf_em406_outline_breadboard.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/sparkfun-rf_em406_outline_pcb.svg",
+      "layer": [
+        "silkscreen"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/sparkfun-rf_em406_outline_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
   },
-  "connectors": [
-    "\n"
-  ]
+  "connectors": []
 }

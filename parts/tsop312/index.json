@@ -10,319 +10,234 @@
   "title": [
     "TSOP312.., 314.."
   ],
+  "label": [
+    "IR"
+  ],
+  "url": null,
   "date": [
     "Mo. Okt 8 2012"
   ],
   "tags": [
-    {
-      "tag": [
-        "ir, infrared, receiver, remote, control"
-      ]
-    }
-  ],
-  "properties": [
-    {
-      "property": [
-        {
-          "_": "THT",
-          "$": {
-            "name": "package"
-          }
-        },
-        {
-          "_": "single",
-          "$": {
-            "name": "Row"
-          }
-        },
-        {
-          "_": "0.1in (2.54mm)",
-          "$": {
-            "name": "Pin Spacing"
-          }
-        },
-        {
-          "_": "3",
-          "$": {
-            "name": "Pins"
-          }
-        },
-        {
-          "$": {
-            "name": "part number"
-          }
-        },
-        {
-          "_": "infrared",
-          "$": {
-            "name": "family"
-          }
-        }
-      ]
-    }
+    "ir, infrared, receiver, remote, control"
   ],
   "description": [
     "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Lucida Grande'; font-size:13pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">The TSOP312.., TSOP314.. series are miniaturized receivers for infrared remote control systems. A PIN diode and a preamplifier are assembled on a lead frame, the epoxy package acts as an IR filter.</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">The demodulated output signal can be directly decoded by a microprocessor. The TSOP312.. is compatible with all common IR remote control data formats. The TSOP314.. is optimized to suppress almost all spurious pulses from</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">energy saving fluorescent lamps but will also suppress some data signals. </p></body></html>"
   ],
+  "properties": [
+    {
+      "name": "package",
+      "value": "THT"
+    },
+    {
+      "name": "Row",
+      "value": "single"
+    },
+    {
+      "name": "Pin Spacing",
+      "value": "0.1in (2.54mm)"
+    },
+    {
+      "name": "Pins",
+      "value": "3"
+    },
+    {
+      "name": "part number"
+    },
+    {
+      "name": "family",
+      "value": "infrared"
+    }
+  ],
   "views": {
-    "icon": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "icon/tsop312_icon.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "icon"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "breadboard": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "breadboard/tsop312_breadboard.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "breadboard"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "pcb": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "pcb/tsop312_pcb.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "copper0"
-                }
-              },
-              {
-                "$": {
-                  "layerId": "silkscreen"
-                }
-              },
-              {
-                "$": {
-                  "layerId": "copper1"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "schematic": [
-      {
-        "$": {
-          "fliphorizontal": "true"
-        },
-        "layers": [
-          {
-            "$": {
-              "image": "schematic/tsop312_schematic.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "schematic"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "icon": {
+      "image": "icon/tsop312_icon.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/tsop312_breadboard.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/tsop312_pcb.svg",
+      "layer": [
+        "copper0",
+        "silkscreen",
+        "copper1"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/tsop312_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
   },
   "connectors": [
     {
-      "connector": [
+      "id": "connector0",
+      "name": "GND",
+      "type": "male",
+      "description": [
+        "ground"
+      ],
+      "views": [
         {
-          "$": {
-            "type": "male",
-            "id": "connector0",
-            "name": "GND"
-          },
-          "description": [
-            "ground"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "svgId": "connector0pin",
-                        "layer": "breadboard",
-                        "terminalId": "connector0terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "breadboard",
+                    "terminalId": "connector0terminal"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "svgId": "connector0pin",
-                        "layer": "schematic",
-                        "terminalId": "connector0terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "schematic",
+                    "terminalId": "connector0terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "svgId": "connector0pin",
-                        "layer": "copper0"
-                      }
-                    },
-                    {
-                      "$": {
-                        "svgId": "connector0pin",
-                        "layer": "copper1"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "copper1"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "Vs",
+      "type": "male",
+      "description": [
+        "supply voltage"
+      ],
+      "views": [
         {
-          "$": {
-            "type": "male",
-            "id": "connector1",
-            "name": "Vs"
-          },
-          "description": [
-            "supply voltage"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "svgId": "connector1pin",
-                        "layer": "breadboard",
-                        "terminalId": "connector1terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "breadboard",
+                    "terminalId": "connector1terminal"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "svgId": "connector1pin",
-                        "layer": "schematic",
-                        "terminalId": "connector1terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "schematic",
+                    "terminalId": "connector1terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "svgId": "connector1pin",
-                        "layer": "copper0"
-                      }
-                    },
-                    {
-                      "$": {
-                        "svgId": "connector1pin",
-                        "layer": "copper1"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "copper1"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector2",
+      "name": "Data",
+      "type": "male",
+      "description": [
+        "data"
+      ],
+      "views": [
         {
-          "$": {
-            "type": "male",
-            "id": "connector2",
-            "name": "Data"
-          },
-          "description": [
-            "data"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "svgId": "connector2pin",
-                        "layer": "breadboard",
-                        "terminalId": "connector2terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "svgId": "connector2pin",
+                    "layer": "breadboard",
+                    "terminalId": "connector2terminal"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "svgId": "connector2pin",
-                        "layer": "schematic",
-                        "terminalId": "connector2terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "svgId": "connector2pin",
+                    "layer": "schematic",
+                    "terminalId": "connector2terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "svgId": "connector2pin",
-                        "layer": "copper0"
-                      }
-                    },
-                    {
-                      "$": {
-                        "svgId": "connector2pin",
-                        "layer": "copper1"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "svgId": "connector2pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector2pin",
+                    "layer": "copper1"
+                  }
                 }
               ]
             }

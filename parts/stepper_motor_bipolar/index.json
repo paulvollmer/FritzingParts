@@ -10,400 +10,308 @@
   "title": [
     "Stepper Motor - Bipolar"
   ],
+  "label": [
+    "M"
+  ],
+  "url": null,
   "date": [
     "2009-10-23"
   ],
   "tags": [
-    {
-      "tag": [
-        "Motor",
-        "Stepper Motor"
-      ]
-    }
-  ],
-  "properties": [
-    {
-      "property": [
-        {
-          "_": "15.4",
-          "$": {
-            "name": "voltage"
-          }
-        },
-        {
-          "_": "0.28 A",
-          "$": {
-            "name": "current"
-          }
-        },
-        {
-          "_": "5 mm diameter / 33 mm length",
-          "$": {
-            "name": "shaft"
-          }
-        },
-        {
-          "_": "42.3 x 42.3 x 37.0 mm",
-          "$": {
-            "name": "size"
-          }
-        },
-        {
-          "_": "Stepper Motor",
-          "$": {
-            "name": "family"
-          }
-        },
-        {
-          "_": "Bipolar",
-          "$": {
-            "name": "Stepper Type"
-          }
-        },
-        {
-          "_": "2",
-          "$": {
-            "name": "phase"
-          }
-        },
-        {
-          "_": "1.8",
-          "$": {
-            "name": "step angle"
-          }
-        },
-        {
-          "_": "120 g*cm",
-          "$": {
-            "name": "detent torque"
-          }
-        },
-        {
-          "_": " 2.4 kg*cm",
-          "$": {
-            "name": "holding torque"
-          }
-        }
-      ]
-    }
+    "Motor",
+    "Stepper Motor"
   ],
   "description": [
     "Simple, but very powerful bi polar stepper motor. 4 wire"
   ],
+  "properties": [
+    {
+      "name": "voltage",
+      "value": "15.4"
+    },
+    {
+      "name": "current",
+      "value": "0.28 A"
+    },
+    {
+      "name": "shaft",
+      "value": "5 mm diameter / 33 mm length"
+    },
+    {
+      "name": "size",
+      "value": "42.3 x 42.3 x 37.0 mm"
+    },
+    {
+      "name": "family",
+      "value": "Stepper Motor"
+    },
+    {
+      "name": "Stepper Type",
+      "value": "Bipolar"
+    },
+    {
+      "name": "phase",
+      "value": "2"
+    },
+    {
+      "name": "step angle",
+      "value": "1.8"
+    },
+    {
+      "name": "detent torque",
+      "value": "120 g*cm"
+    },
+    {
+      "name": "holding torque",
+      "value": " 2.4 kg*cm"
+    }
+  ],
   "views": {
-    "icon": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "icon/Stepper_Motor_-_Bipolar__icon.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "icon"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "breadboard": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "breadboard/Stepper_Motor_Bipolar_breadboard_leg.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "breadboard"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "pcb": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "pcb/jumper_4_100mil_pcb.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "copper0"
-                }
-              },
-              {
-                "$": {
-                  "layerId": "silkscreen"
-                }
-              },
-              {
-                "$": {
-                  "layerId": "copper1"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "schematic": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "schematic/Stepper_Motor_-_Bipolar__schematic.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "schematic"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "icon": {
+      "image": "icon/Stepper_Motor_-_Bipolar__icon.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/Stepper_Motor_Bipolar_breadboard_leg.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/jumper_4_100mil_pcb.svg",
+      "layer": [
+        "copper0",
+        "silkscreen",
+        "copper1"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/Stepper_Motor_-_Bipolar__schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
   },
   "connectors": [
     {
-      "connector": [
+      "id": "connector3",
+      "name": "D",
+      "type": "male",
+      "description": [
+        "Terminal \"D\" - Coil Pair 2"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector3",
-            "name": "D",
-            "type": "male"
-          },
-          "description": [
-            "Terminal \"D\" - Coil Pair 2"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector3pin",
-                        "legId": "connector3leg"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector3pin",
+                    "legId": "connector3leg"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector3pin",
-                        "terminalId": "connector3terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector3pin",
+                    "terminalId": "connector3terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper0",
-                        "svgId": "connector3pin"
-                      }
-                    },
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector3pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector3pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector3pin"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector0",
+      "name": "A",
+      "type": "male",
+      "description": [
+        "Terminal \"A\" - Coil Pair 1"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector0",
-            "name": "A",
-            "type": "male"
-          },
-          "description": [
-            "Terminal \"A\" - Coil Pair 1"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector0pin",
-                        "legId": "connector0leg"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector0pin",
+                    "legId": "connector0leg"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector0pin",
-                        "terminalId": "connector0terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector0pin",
+                    "terminalId": "connector0terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper0",
-                        "svgId": "connector0pin"
-                      }
-                    },
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector0pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector0pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector0pin"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "C",
+      "type": "male",
+      "description": [
+        "Terminal \"C\" - Coil Pair 1"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector1",
-            "name": "C",
-            "type": "male"
-          },
-          "description": [
-            "Terminal \"C\" - Coil Pair 1"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector1pin",
-                        "legId": "connector1leg"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector1pin",
+                    "legId": "connector1leg"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector1pin",
-                        "terminalId": "connector1terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector1pin",
+                    "terminalId": "connector1terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper0",
-                        "svgId": "connector1pin"
-                      }
-                    },
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector1pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector1pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector1pin"
+                  }
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "connector2",
+      "name": "B",
+      "type": "male",
+      "description": [
+        "Terminal \"B\" - Coil Pair 2"
+      ],
+      "views": [
         {
-          "$": {
-            "id": "connector2",
-            "name": "B",
-            "type": "male"
-          },
-          "description": [
-            "Terminal \"B\" - Coil Pair 2"
-          ],
-          "views": [
+          "breadboardView": [
             {
-              "breadboardView": [
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "breadboard",
-                        "svgId": "connector2pin",
-                        "legId": "connector2leg"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector2pin",
+                    "legId": "connector2leg"
+                  }
                 }
-              ],
-              "schematicView": [
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "schematic",
-                        "svgId": "connector2pin",
-                        "terminalId": "connector2terminal"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector2pin",
+                    "terminalId": "connector2terminal"
+                  }
                 }
-              ],
-              "pcbView": [
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
                 {
-                  "p": [
-                    {
-                      "$": {
-                        "layer": "copper0",
-                        "svgId": "connector2pin"
-                      }
-                    },
-                    {
-                      "$": {
-                        "layer": "copper1",
-                        "svgId": "connector2pin"
-                      }
-                    }
-                  ]
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector2pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector2pin"
+                  }
                 }
               ]
             }

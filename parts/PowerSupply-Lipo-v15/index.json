@@ -1,0 +1,357 @@
+{
+  "fritzingVersion": "0.5.2b.02.18.4756",
+  "moduleId": "PowerSupply-Lipo-v15",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "f.althaus"
+  ],
+  "title": [
+    "LilyPad LiPower"
+  ],
+  "label": null,
+  "url": [
+    "https://www.sparkfun.com/products/11260"
+  ],
+  "date": [
+    "2013-05-26"
+  ],
+  "tags": [
+    "Lilypad",
+    "Power",
+    "Lithium",
+    "LiPoly",
+    "LiPo"
+  ],
+  "description": [
+    "A small, but very mighty power supply. This board was designed to be as small and inconspicuous as possible. The nice thing about LiPower is the ability to use rechargable Lithium Polymer batteries. These batteries are smaller, flatter, and last much longer than a AAA battery. Attach a single cell LiPo battery, flip the power switch, and you will have a 5V supply to power your LilyPad network. Good up to 150mA. Short circuit protected.\r\r\n\r\r\nThis board has a JST connector, which will connect to our JST terminated single cell 3.7V LiPo batteries. It also has terminals for charging the LiPo battery with one of our LiPo chargers.\r\r\n\r\r\nLilyPad is a wearable e-textile technology developed by Leah Buechley and cooperatively designed by Leah and SparkFun. Each LilyPad was creatively designed to have large connecting pads to allow them to be sewn into clothing. Various input, output, power, and sensor boards are available. They're even washable - but be sure to remove the battery!\r\r\n\r\r\nNote: A portion of this sale is given back to Dr. Leah Buechley for continued development and education of e-textiles.\r\r\n\r\r\nDimensions:\r\r\n\r\r\n18mm outer diameter\r\r\nThin 0.8mm PCB"
+  ],
+  "properties": [
+    {
+      "name": "Input Voltage",
+      "value": "1-5V"
+    },
+    {
+      "name": "family",
+      "value": "microcontroller board (lilypad)"
+    },
+    {
+      "name": "type",
+      "value": "Power Conditioning"
+    },
+    {
+      "name": "Output Voltage",
+      "value": "5V"
+    },
+    {
+      "name": "Connector",
+      "value": "JST"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "breadboard/PowerSupply-Lipo-v15_breadboard.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/PowerSupply-Lipo-v15_breadboard.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/PowerSupply-Lipo-v15_pcb.svg",
+      "layer": [
+        "copper1",
+        "silkscreen",
+        "copper0"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/PowerSupply-Lipo-v15_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector28",
+      "name": "+",
+      "type": "female",
+      "description": [
+        "+"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector28pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector28pin",
+                    "terminalId": "connector28terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector28pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector28pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector29",
+      "name": "C",
+      "type": "female",
+      "description": [
+        "C"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector29pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector29pin",
+                    "terminalId": "connector29terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector29pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector29pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector30",
+      "name": "B",
+      "type": "female",
+      "description": [
+        "B"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector30pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector30pin",
+                    "terminalId": "connector30terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector30pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector30pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector31",
+      "name": "GND",
+      "type": "female",
+      "description": [
+        "GND"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector31pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector31pin",
+                    "terminalId": "connector31terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector31pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector31pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector32",
+      "name": "GND",
+      "type": "female",
+      "description": [
+        "GND"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector32pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector32pin",
+                    "terminalId": "connector32terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector32pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector32pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

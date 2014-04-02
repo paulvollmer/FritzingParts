@@ -1,0 +1,187 @@
+{
+  "fritzingVersion": "0.4.4",
+  "moduleId": "100milTantalumCapacitorModuleID",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "Fritzing Team"
+  ],
+  "title": [
+    "Tantalum Capacitor"
+  ],
+  "label": [
+    "C"
+  ],
+  "url": null,
+  "date": [
+    "2010-10-20"
+  ],
+  "tags": [
+    "capacitor tantalum",
+    "capacitor",
+    "fritzing core"
+  ],
+  "description": [
+    "Tantalum capacitor.  Plus lead is usually marked and is usually the longer lead."
+  ],
+  "properties": [
+    {
+      "name": "family",
+      "value": "Capacitor [unidirectional]"
+    },
+    {
+      "name": "Capacitance",
+      "value": "1μF"
+    },
+    {
+      "name": "package",
+      "value": "100 mil [THT, tantalum]"
+    },
+    {
+      "name": "voltage"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/capacitor_tantalum.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/capacitor_tantalum_leg.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/capacitor_tantalum_100mil.svg",
+      "layer": [
+        "copper0",
+        "silkscreen",
+        "copper1"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/capacitor_polar.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector0",
+      "name": "-",
+      "type": "male",
+      "description": [
+        "negative side"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector0pin",
+                    "legId": "connector0leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector0pin",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector0pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector0pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "+",
+      "type": "male",
+      "description": [
+        "positive side"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector1pin",
+                    "legId": "connector1leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector1pin",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector1pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector1pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

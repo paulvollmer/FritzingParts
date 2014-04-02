@@ -1,0 +1,182 @@
+{
+  "fritzingVersion": "0.5.2b.02.18.4756",
+  "moduleId": "LilyPad_LED-v14",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "f.althaus"
+  ],
+  "title": [
+    "LilyPad LED"
+  ],
+  "label": null,
+  "url": [
+    "http://www.sparkfun.com/products/10081"
+  ],
+  "date": [
+    "2013-05-25"
+  ],
+  "tags": [
+    "Lilypad",
+    "LED",
+    "Light"
+  ],
+  "description": [
+    "A simple, very bright, 250mcd, white LED LilyPad. Light up the night!\n\nLilyPad is a wearable e-textile technology developed by Leah Buechley and cooperatively designed by Leah and SparkFun. Each LilyPad was creatively designed to have large connecting pads to allow them to be sewn into clothing. Various input, output, power, and sensor boards are available. They're even washable!\n\nNote: A portion of this sale is given back to Dr. Leah Buechley for continued development and education of e-textiles.\n\nDimensions:\n\n5x11mm\nThin 0.8mm PCB"
+  ],
+  "properties": [
+    {
+      "name": "family",
+      "value": "microcontroller board (lilypad)"
+    },
+    {
+      "name": "type",
+      "value": "LED"
+    },
+    {
+      "name": "Colors",
+      "value": "1"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "breadboard/LilyPad_LED-v14_breadboard.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/LilyPad_LED-v14_breadboard.svg",
+      "layer": [
+        "breadboardbreadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/LilyPad_LED-v14_pcb.svg",
+      "layer": [
+        "copper1",
+        "silkscreen",
+        "copper0"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/LilyPad_LED-v14_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector2",
+      "name": "+",
+      "type": "female",
+      "description": [
+        "+"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboardbreadboard",
+                    "svgId": "connector2pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector2pin",
+                    "terminalId": "connector2terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector2pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector2pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector3",
+      "name": "-",
+      "type": "female",
+      "description": [
+        "-"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboardbreadboard",
+                    "svgId": "connector3pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector3pin",
+                    "terminalId": "connector3terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector3pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector3pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

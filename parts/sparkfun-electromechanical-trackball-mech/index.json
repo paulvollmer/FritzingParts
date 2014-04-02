@@ -10,129 +10,61 @@
   "title": [
     "TRACKBALL"
   ],
+  "label": [
+    "U"
+  ],
+  "url": null,
   "date": [
     "2013-02-13"
   ],
   "tags": [
-    {
-      "tag": [
-        "TRACKBALL",
-        "MECH"
-      ]
-    }
-  ],
-  "properties": [
-    {
-      "property": [
-        {
-          "_": "trackball",
-          "$": {
-            "name": "package"
-          }
-        },
-        {
-          "_": "sparkfun Trackball",
-          "$": {
-            "name": "family"
-          }
-        },
-        {
-          "_": "mech",
-          "$": {
-            "name": "variant"
-          }
-        }
-      ]
-    }
+    "TRACKBALL",
+    "MECH"
   ],
   "description": [
     "Mechanical footprint for trackball"
   ],
+  "properties": [
+    {
+      "name": "package",
+      "value": "trackball"
+    },
+    {
+      "name": "family",
+      "value": "sparkfun Trackball"
+    },
+    {
+      "name": "variant",
+      "value": "mech"
+    }
+  ],
   "views": {
-    "icon": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "breadboard/Trackballer-v12_breadboard.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "icon"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "breadboard": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "breadboard/Trackballer-v12_breadboard.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "breadboard"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "pcb": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "pcb/sparkfun-electromechanical_trackball_pcb.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "copper1"
-                }
-              },
-              {
-                "$": {
-                  "layerId": "silkscreen"
-                }
-              },
-              {
-                "$": {
-                  "layerId": "copper0"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "schematic": [
-      {
-        "layers": [
-          {
-            "$": {
-              "image": "schematic/sparkfun-electromechanical_trackball_schematic.svg"
-            },
-            "layer": [
-              {
-                "$": {
-                  "layerId": "schematic"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "icon": {
+      "image": "breadboard/Trackballer-v12_breadboard.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/Trackballer-v12_breadboard.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/sparkfun-electromechanical_trackball_pcb.svg",
+      "layer": [
+        "copper1",
+        "silkscreen",
+        "copper0"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/sparkfun-electromechanical_trackball_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
   },
-  "connectors": [
-    "\n"
-  ]
+  "connectors": []
 }
