@@ -7,15 +7,18 @@
 </head>
 <body>
   <div class="container">
-    
-    {{ content }}
-  
-    <div class="footer">
-      <p>
-        Fritzing.org
-      </p>
+    <div id="header-container">
+      <h1>{{ page.title }}</h1>
+    </div>
+    <div id="main-container">
+      {{ content }}
+    </div>
+    <div id="footer">
       <p>
         <img src="./assets/images/fritzing_icon.png" width="50px">
+        <a href="http://fritzing.org">Fritzing.org</a>
+      </p>
+      <p>
         All image was created with Fritzing.
       </p>
     </div>
