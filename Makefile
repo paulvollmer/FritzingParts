@@ -51,9 +51,16 @@ parts_html:
 	@node scripts/generate_parts_html.js
 
 # tags
+
 tags_list:
 	@echo "generate tags list json file"
 	@node scripts/generate_tags_list.js
+
+tags_files:
+	@echo "generate the tags json files."
+	@rm -rf tags
+	@mkdir tags
+	@node scripts/generate_tags_files.js
 
 bootstrap:
 	git submodule init
