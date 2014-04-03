@@ -4,7 +4,7 @@
 
 
 build: clean parts_json parts_dir copy_fzp_files convert_fzp_files_to_json \
-	     copy_svg_files
+	     copy_svg_files parts_overview_html parts_html
 
 clean: clean_parts_json clean_parts_dir
 
@@ -42,6 +42,13 @@ copy_svg_files:
 	@echo "copy .svg files"
 	@node scripts/copy_svg_files.js
 
+parts_overview_html:
+	@echo "generate parts list html file."
+	@node scripts/generate_parts_overview_html.js
+
+parts_html:
+	@echo "generate parts html files"
+	@node scripts/generate_parts_html.js
 
 
 bootstrap:
