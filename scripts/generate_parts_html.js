@@ -4,7 +4,7 @@ var fs = require('fs');
 var util = require('./utils');
 var parts = require('../parts.json');
 
-for (var i=0; i<0/*parts.length*/; i++) {
+for (var i=0; i<parts.length; i++) {
   console.log('generate parts html file. '+parts[i]);
   var html = util.defaultJekyllHead(parts[i]);
 
