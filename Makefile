@@ -50,6 +50,10 @@ parts_html:
 	@echo "generate parts html files"
 	@node scripts/generate_parts_html.js
 
+# tags
+tags_list:
+	@echo "generate tags list json file"
+	@node scripts/generate_tags_list.js
 
 bootstrap:
 	git submodule init
