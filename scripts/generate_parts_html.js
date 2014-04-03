@@ -31,55 +31,75 @@ for (var i=0; i<parts.length; i++) {
   html += '<h3>Information:</h3>\n';
   html += '<table id="part_info">\n';
   
-  html += '<tr>\n';
-  html += '<td>fritzing version:</td>\n';
-  html += '<td>'+fJson.fritzingVersion+'</td>\n';
-  html += '</tr>\n';
+  if (fJson.fritzingVersion !== null) {
+    html += '<tr>\n';
+    html += '<td>fritzing version:</td>\n';
+    html += '<td>'+fJson.fritzingVersion+'</td>\n';
+    html += '</tr>\n';
+  }
 
-  html += '<tr>\n';
-  html += '<td>module id:</td>\n';
-  html += '<td>'+fJson.moduleId+'</td>\n';
-  html += '</tr>\n';
+  if (fJson.moduleId !== null) {
+    html += '<tr>\n';
+    html += '<td>module id:</td>\n';
+    html += '<td>'+fJson.moduleId+'</td>\n';
+    html += '</tr>\n';
+  }
   
-  html += '<tr>\n';
-  html += '<td>version:</td>\n';
-  html += '<td>'+fJson.version+'</td>\n';
-  html += '</tr>\n';
+  if (fJson.version !== null) {
+    html += '<tr>\n';
+    html += '<td>version:</td>\n';
+    html += '<td>'+fJson.version+'</td>\n';
+    html += '</tr>\n';
+  }
 
-  html += '<tr>\n';
-  html += '<td>author:</td>\n';
-  html += '<td>'+fJson.author+'</td>\n';
-  html += '</tr>\n';
+  if (fJson.author !== null) {
+    html += '<tr>\n';
+    html += '<td>author:</td>\n';
+    html += '<td>'+fJson.author+'</td>\n';
+    html += '</tr>\n';
+  }
 
-  html += '<tr>\n';
-  html += '<td>title:</td>\n';
-  html += '<td>'+fJson.title+'</td>\n';
-  html += '</tr>\n';
+  if (fJson.title !== null) {
+    html += '<tr>\n';
+    html += '<td>title:</td>\n';
+    html += '<td>'+fJson.title+'</td>\n';
+    html += '</tr>\n';
+  }
 
-  html += '<tr>\n';
-  html += '<td>label:</td>\n';
-  html += '<td>'+fJson.label+'</td>\n';
-  html += '</tr>\n';
+  if (fJson.label !== null) {
+    html += '<tr>\n';
+    html += '<td>label:</td>\n';
+    html += '<td>'+fJson.label+'</td>\n';
+    html += '</tr>\n';
+  };
 
-  html += '<tr>\n';
-  html += '<td>url:</td>\n';
-  html += '<td>'+fJson.url+'</td>\n';
-  html += '</tr>\n';
+  if (fJson.url !== null) {
+    html += '<tr>\n';
+    html += '<td>url:</td>\n';
+    html += '<td><a href="'+fJson.url+'">'+fJson.url+'</a></td>\n';
+    html += '</tr>\n';
+  }
 
-  html += '<tr>\n';
-  html += '<td>date:</td>\n';
-  html += '<td>'+fJson.date+'</td>\n';
-  html += '</tr>\n';
+  if (fJson.date !== null) {
+    html += '<tr>\n';
+    html += '<td>date:</td>\n';
+    html += '<td>'+fJson.date+'</td>\n';
+    html += '</tr>\n';
+  }
 
-  html += '<tr>\n';
-  html += '<td>tags:</td>\n';
-  html += '<td>'+fJson.tags+'</td>\n';
-  html += '</tr>\n';
+  if (fJson.tags !== null) {
+    html += '<tr>\n';
+    html += '<td>tags:</td>\n';
+    html += '<td>'+fJson.tags+'</td>\n';
+    html += '</tr>\n';
+  }
 
-  html += '<tr>\n';
-  html += '<td>description:</td>\n';
-  html += '<td>'+fJson.description+'</td>\n';
-  html += '</tr>\n';
+  if (fJson.description !== null) {
+    html += '<tr>\n';
+    html += '<td>description:</td>\n';
+    html += '<td>'+fJson.description+'</td>\n';
+    html += '</tr>\n';
+  }
   
   html += '</table>\n';
 
