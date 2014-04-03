@@ -22,17 +22,6 @@ for (var i = 0; i < parts.length; i++) {
       
       // check if the tag exists...
       if (tags.length !== 0) {
-        // for (var t=0; t<tags.length; t++) {
-        //   if (tags[t].name === fJson.tags[j]) {
-        //     console.log('TAG exists');
-        //   } else {
-        //     console.log('New TAG');
-        //     tags.push({
-        //       name: fJson.tags[j]
-        //       //part: parts[i]
-        //     });
-        //   }
-        // };
         if (tags.indexOf(fJson.tags[j]) === -1) {
           //console.log('new TAG: '+fJson.tags[j]);
           tags.push(fJson.tags[j]);
