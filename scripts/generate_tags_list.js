@@ -56,5 +56,7 @@ for (var i = 0; i < parts.length; i++) {
 
 
 console.log('Total tags: '+tags.length);
-
-fs.writeFileSync('./tags.json', JSON.stringify(tags, null, 2));
+var sortedTags = tags.sort(function (a, b) {
+    return a.toLowerCase().localeCompare(b.toLowerCase());
+});
+fs.writeFileSync('./tags.json', JSON.stringify(sortedTags, null, 2));
