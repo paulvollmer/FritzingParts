@@ -1,1 +1,3 @@
-exclude:     [fritzing, node_modules]
+name:      Fritzing Parts
+exclude:   [fritzing, node_modules]
+baseurl:   http://wrongentertainment.github.io
