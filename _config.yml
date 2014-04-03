@@ -1,5 +1,5 @@
 name:      Fritzing Parts
-exclude:   [fritzing, node_modules]
+exclude:   [fritzing, node_modules, scripts]
 baseurl:   http://wrongentertainment.github.io/FritzingPartsApi/
 markdown:  redcarpet
 pygments:  true
