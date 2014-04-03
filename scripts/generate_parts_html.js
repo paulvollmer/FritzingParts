@@ -31,76 +31,30 @@ for (var i=0; i<parts.length; i++) {
   html += '<h3>Information:</h3>\n';
   html += '<table id="part_info">\n';
   
-  if (fJson.fritzingVersion !== null) {
-    html += '<tr>\n';
-    html += '<td>fritzing version:</td>\n';
-    html += '<td>'+fJson.fritzingVersion+'</td>\n';
-    html += '</tr>\n';
-  }
-
-  if (fJson.moduleId !== null) {
-    html += '<tr>\n';
-    html += '<td>module id:</td>\n';
-    html += '<td>'+fJson.moduleId+'</td>\n';
-    html += '</tr>\n';
-  }
-  
-  if (fJson.version !== null) {
-    html += '<tr>\n';
-    html += '<td>version:</td>\n';
-    html += '<td>'+fJson.version+'</td>\n';
-    html += '</tr>\n';
-  }
-
-  if (fJson.author !== null) {
-    html += '<tr>\n';
-    html += '<td>author:</td>\n';
-    html += '<td>'+fJson.author+'</td>\n';
-    html += '</tr>\n';
-  }
-
-  if (fJson.title !== null) {
-    html += '<tr>\n';
-    html += '<td>title:</td>\n';
-    html += '<td>'+fJson.title+'</td>\n';
-    html += '</tr>\n';
-  }
-
-  if (fJson.label !== null) {
-    html += '<tr>\n';
-    html += '<td>label:</td>\n';
-    html += '<td>'+fJson.label+'</td>\n';
-    html += '</tr>\n';
-  };
-
-  if (fJson.url !== null) {
-    html += '<tr>\n';
-    html += '<td>url:</td>\n';
-    html += '<td><a href="'+fJson.url+'">'+fJson.url+'</a></td>\n';
-    html += '</tr>\n';
-  }
-
-  if (fJson.date !== null) {
-    html += '<tr>\n';
-    html += '<td>date:</td>\n';
-    html += '<td>'+fJson.date+'</td>\n';
-    html += '</tr>\n';
-  }
+  html += infoItem('Fritzing Version', fJson.fritzingVersion);
+  html += infoItem('Module ID', fJson.moduleId);
+  html += infoItem('Version', fJson.version);
+  html += infoItem('Author', fJson.author);
+  html += infoItem('Title', fJson.title);
+  html += infoItem('Label', fJson.label);
+  html += infoItem('Url', fJson.url);
+  html += infoItem('Date', fJson.date);
 
   if (fJson.tags !== null) {
     html += '<tr>\n';
     html += '<td>tags:</td>\n';
-    html += '<td>'+fJson.tags+'</td>\n';
+    html += '<td>\n';
+    html += '<ul>\n';
+    for (var j = 0; j < fJson.tags.length; j++) {
+      html += '<li>'+fJson.tags[j]+'</li>\n';
+    };
+    html += '</ul>\n';
+    html += '</td>\n';
     html += '</tr>\n';
   }
 
-  if (fJson.description !== null) {
-    html += '<tr>\n';
-    html += '<td>description:</td>\n';
-    html += '<td>'+fJson.description+'</td>\n';
-    html += '</tr>\n';
-  }
-  
+  html += infoItem('Description', fJson.description);
+
   html += '</table>\n';
 
   html += '<h3>FZP and JSON Files:</h3>\n';
@@ -113,11 +67,23 @@ for (var i=0; i<parts.length; i++) {
 
 
 function partLink(type, part, linkName) {
-  var html = '<a href="/parts/'+part+'/'+type+'/'+part+'_'+type+'.svg">'+linkName+'</a>';
+  var html = '<a href="{{ page.baseurl }}/parts/'+part+'/'+type+'/'+part+'_'+type+'.svg">'+linkName+'</a>';
   return html;
 }
 
 function partSvg(type, part) {
   var html = '<img id="'+type+'_svg" src="'+part+'/'+type+'/'+part+'_'+type+'.svg">';
+  return html;
+}
+
+function infoItem(name, obj) {
+  var html = '<tr>\n';
+  html += '<td>'+name+':</td>\n';
+  if (obj !== null) {
+    html += '<td>'+obj+'</td>\n';
+  } else {
+    html += '<td>Not set at the moment.</td>\n';
+  }
+  html += '</tr>\n';
   return html;
 }
