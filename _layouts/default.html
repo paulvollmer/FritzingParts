@@ -3,23 +3,25 @@
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <title>{{ page.title }}</title>
-   <link rel='stylesheet' href='./assets/stylesheets/style.css' />
+   <link rel='stylesheet' href='{{ site.baseurl }}/assets/stylesheets/style.css' />
 </head>
 <body>
   <div class="container">
     <div id="header-container">
-      <h1>{{ page.title }}</h1>
+      <h1><a href="{{ site.baseurl }}">{{ site.name }}</a></h1>
     </div>
     <div id="main-container">
+      <h1>{{ page.title }}</h1>
       {{ content }}
     </div>
     <div id="footer">
       <p>
-        <img src="./assets/images/fritzing_icon.png" width="50px">
-        <a href="http://fritzing.org">Fritzing.org</a>
+        <img src="{{ site.baseurl }}/assets/images/fritzing_icon.png" width="50px"><br>
+        All image was created with <a href="http://fritzing.org">Fritzing</a>.
       </p>
       <p>
-        All image was created with Fritzing.
+        <img src="{{ site.baseurl }}/assets/images/aboutbox_FHP.png">
+        <img src="{{ site.baseurl }}/assets/images/aboutbox_CC.png">
       </p>
     </div>
   </div>
