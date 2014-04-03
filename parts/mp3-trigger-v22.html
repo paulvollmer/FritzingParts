@@ -1,0 +1,63 @@
+---
+layout: default
+title: mp3-trigger-v22
+---
+
+<div id="part"><table id="part"><tr><td><a href="/parts/mp3-trigger-v22/icon/mp3-trigger-v22_icon.svg">Icon</a></td><td><a href="/parts/mp3-trigger-v22/icon/mp3-trigger-v22_icon.svg">Breadboard</a></td><td><a href="/parts/mp3-trigger-v22/icon/mp3-trigger-v22_icon.svg">PCB</a></td><td><a href="/parts/mp3-trigger-v22/icon/mp3-trigger-v22_icon.svg">Schematic</a></td></tr><tr><td><img id="icon_svg" src="mp3-trigger-v22/icon/mp3-trigger-v22_icon.svg"></td><td><img id="breadboard_svg" src="mp3-trigger-v22/breadboard/mp3-trigger-v22_breadboard.svg"></td><td><img id="pcb_svg" src="mp3-trigger-v22/pcb/mp3-trigger-v22_pcb.svg"></td><td><img id="schematic_svg" src="mp3-trigger-v22/schematic/mp3-trigger-v22_schematic.svg"></td></tr></table><h3>Information:</h3><table id="part_info"><tr><td>fritzing version:</td><td>0.5.2b.02.18.4756</td></tr><tr><td>module id:</td><td>mp3-trigger-v22</td></tr><tr><td>version:</td><td>4</td></tr><tr><td>author:</td><td>SparkFun</td></tr><tr><td>title:</td><td>MP3 Trigger</td></tr><tr><td>label:</td><td>null</td></tr><tr><td>url:</td><td>http://www.sparkfun.com/products/9715</td></tr><tr><td>date:</td><td>2011-07-08</td></tr><tr><td>tags:</td><td>MP3,Trigger,Audio,Recording</td></tr><tr><td>description:</td><td><p>
+	<span style="font-weight: bold;">Description: </span>Created in collaboration with Jamie Robertson, the MP3 Trigger is quite possibly the most versatile, low-cost, low power embedded MP3 Player. The board has 18 external trigger pins that will directly trigger pre-selected MP3 tracks, and a full-duplex serial control port that provides full transport control, remote triggering for up to 256 tracks, and fast real-time volume control. The board plays the MP3 files directly from a FAT16 microSD flash card and supports 192Kbps stereo playback. There is also an on-board navigation switch for local access and playback of all MP3 tracks on the flash card.</p>
+<p>
+	New for version 2: Aside from more than doubling the number of trigger inputs, the MP3 Trigger v2 now contains a resident bootloader that enables firmware updates directly from the microSD card without requiring a hardware programmer. The <a href="http://www.cypress.com/?id=2522" target="_blank">PSoC Designer IDE</a> can be used to generate hex files for the bootloader. See the datasheet below for more details on how to use the bootloader.</p>
+<p>
+	Firmware version 2&nbsp;also incorporates &ldquo;Quiet Mode&rdquo;, a new feature&nbsp;that can be enabled via the serial control port. In this mode, the triggers don&rsquo;t start tracks directly, but instead produce a serial message indicating which triggers were activated. A host microcontroller (<a href="http://www.sparkfun.com/commerce/product_info.php?products_id=666" target="_blank">Arduino</a>, for example) can thus monitor the trigger inputs and then start any track or sequence of tracks via the serial control port, making the triggers much more flexible.</p>
+<p>
+	The board uses a Cypress PSoC CY8C29466-24SXI microcontroller and a VLSI VS1053 audio codec.</p>
+<p>
+	Board can be powered by an external wall wart, FTDI Basic, or raw 3.3V input (see related items below).</p>
+<p>
+	<strong>Firmware update 2.40 Beta:</strong> Check it out <a href="http://makerjam.com/mp3-trigger/mp3-trigger-firmware-version-2-40-beta/" target="_blank">here</a> and be sure to leave feedback on the blog post.</p>
+<p>
+	<strong>Firmware update 2.23: compatible with 192kbps audio.</strong></p>
+<p>
+	We use the most up-to-date firmware on everything we ship out. However, if you have an older v2.xx model (or want to change the baud rate) and wish to have the newest firmware, you can get it <a href="http://makerjam.com/support/" target="_blank">here</a>.</p>
+<p>
+	Instructions on how to update your v2.xx firmware are in the <a classname="" href="http://www.sparkfun.com/datasheets/Widgets/MP3Trigger/MP3TriggerV2UserGuide_2010-07-30.pdf" target="_blank">datasheet</a>, but here&rsquo;s a quick review:</p>
+<ol>
+	<li>
+		Download and unzip one of the files above.</li>
+	<li>
+		Copy the resulting hex file to a microSD card and rename it to: &ldquo;MP3TRIGR.HEX&rdquo;. It does not need to be the only file on the card &ndash; it just&nbsp;needs to have that&nbsp;precise filename.</li>
+	<li>
+		Insert the microSD card into your MP3 Trigger V2 and turn the power on while holding down the center navigation switch.</li>
+	<li>
+		Wait for the Status LED to go solid, then cycle the power. You&rsquo;re now running the new firmware.</li>
+</ol>
+<p>
+	Please refer to the datasheet for a more detailed description of the Status LED indications when running the bootloader.</p>
+<p>
+	<span style="font-weight: bold;">Features:</span></p>
+<ul>
+	<li>
+		Input voltage: 4.5-12VDC</li>
+	<li>
+		Current Consumption: 45mA idle, 85mA playing</li>
+	<li>
+		File system: FAT16</li>
+	<li>
+		Audio out: line level stereo (1/8&quot; stereo jack), see app note below if connecting to larger stereo jack</li>
+	<li>
+		Trigger inputs: 3.3-5V, active low inputs with internal pull-ups</li>
+	<li>
+		Serial: Full duplex, 8N1, 38.4K baud</li>
+</ul>
+<p>
+	<span style="font-weight: bold;">Documents:</span></p>
+<ul>
+	<li>
+		<a classname="" href="http://www.sparkfun.com/datasheets/Widgets/MP3Trigger/MP3TriggerV2UserGuide_2010-07-30.pdf" target="_blank">Datasheet</a></li>
+	<li>
+		<a classname="" href="http://www.sparkfun.com/datasheets/Widgets/MP3Trigger/mp3-trigger-v21i.pdf" target="_blank">Schematic</a></li>
+	<li>
+		<a href="http://www.sparkfun.com/datasheets/Widgets/MP3Trigger/vs10XXan_output.pdf">VLSI Application Note for protecting analog outputs</a></li>
+	<li>
+		<a href="http://makerjam.com/support/" target="_blank">Firmware Files</a></li>
+</ul></td></tr></table><h3>FZP and JSON Files:</h3><p><a href="./mp3-trigger-v22/index.fzp">fzp file</a></p><p><a href="./mp3-trigger-v22/index.json">json file</a></p><div/>
