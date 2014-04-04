@@ -16,7 +16,6 @@ var partsData = require('./_temp_parts_data.json');
 var tags = [];
 
 for (var i = 0; i < parts.length; i++) {
-  //var data = require('../parts/'+parts[i]+'/index.json');
   var data = partsData[i].data;
   if (data.tags !== null) {
     //console.log('data.tags:', data.tags);

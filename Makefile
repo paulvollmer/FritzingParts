@@ -19,8 +19,8 @@ build:
 	@make write_temp_json
 	@make parts_overview_html
 	@make parts_html
-	#@make tags_json
-	#@make tags_files
+	@make tags_overview_json
+	@make tags_json
 
 clean:
 	@make clean_parts_json
@@ -90,19 +90,25 @@ parts_html:
 
 # tags
 
-tags_json:
+tags_overview_json:
 	@echo "--------------------------------------------------------------------------------"
-	@echo "write the tags.json file"
+	@echo "write the tags.json overview file"
 	@echo "--------------------------------------------------------------------------------"
-	@node $(SCRIPTS_DIR)write_tags_json.js
+	@node $(SCRIPTS_DIR)write_tags_overview_json.js
 
-tags_files:
+tags_json:
 	@echo "--------------------------------------------------------------------------------"
 	@echo "generate the tags json files."
 	@echo "--------------------------------------------------------------------------------"
 	@rm -rf tags
 	@mkdir tags
-	@node $(SCRIPTS_DIR)generate_tags_files.js
+	@node $(SCRIPTS_DIR)write_tags_json.js
+
+tags_html:
+	@echo "--------------------------------------------------------------------------------"
+	@echo "write the tags.html file."
+	@echo "--------------------------------------------------------------------------------"
+	@node $(SCRIPTS_DIR)write_tags_html.js
 
 clean_tags:
 	@echo "--------------------------------------------------------------------------------"
@@ -110,6 +116,7 @@ clean_tags:
 	@echo "--------------------------------------------------------------------------------"
 	@rm -rf tags/
 	@rm -rf tags.json
+	@rm -rf tags.html
 
 # temporary parts data
 

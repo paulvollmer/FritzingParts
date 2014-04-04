@@ -17,7 +17,7 @@ for (var i=0; i<parts.length; i++) {
   html += '<td><a href="{{ site.baseurl }}parts/'+parts[i]+'/schematic/'+parts[i]+'_schematic.svg">schematic</a></td>\n';
   html += '</tr>\n';
 };
-html += '<table>\n';
+html += '</table>\n';
 
 fs.writeFileSync('./parts.html', html);
 
