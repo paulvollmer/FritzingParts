@@ -24,7 +24,7 @@ function copyHelper(filepath, part, type) {
   try  {
     fs.writeFileSync('./parts/'+part+'/'+type+'/'+part+'_'+type+'.svg', fs.readFileSync('./fritzing/fritzing/parts/svg/core/'+filepath))
   } catch(e) {
-    console.log(e);
+    console.log(''+e);
     errorReport += e+'\n';
   }
 }

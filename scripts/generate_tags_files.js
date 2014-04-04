@@ -1,3 +1,5 @@
+// scripts/write_tags_json.js
+
 // at the moment this is totally bullshit implementation!!!
 // 
 // at every loop we read the parts index.json and check if the tag exists....

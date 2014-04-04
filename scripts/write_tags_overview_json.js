@@ -1,38 +1,42 @@
-// scripts/list_tags.js
-
-var fs = require('fs');
-var parts = require('../parts');
-
+// scripts/write_tags_overview_json.js
+//
 // this is the object structure we want to generate.
 // 
-// tags: [
-//   foo: {file1, file2, ...},
-//   foo2: {...},
-//   ...
-// ]
+//    tags: [
+//      foo,
+//      bar,
+//      ...
+//    ]
+
+var fs = require('fs');
+var utils = require('./utils');
+var parts = require('../parts');
+var partsData = require('./_temp_parts_data.json');
+
 var tags = [];
 
 for (var i = 0; i < parts.length; i++) {
-  var fJson = require('../parts/'+parts[i]+'/index.json');
-  if (fJson.tags !== null) {
-    //console.log('fJson.tags:', fJson.tags);
+  //var data = require('../parts/'+parts[i]+'/index.json');
+  var data = partsData[i].data;
+  if (data.tags !== null) {
+    //console.log('data.tags:', data.tags);
 
-    for (var j=0; j<fJson.tags.length; j++) {
-      //console.log('fJson.tags['+j+']', fJson.tags[j]);
+    for (var j=0; j<data.tags.length; j++) {
+      //console.log('data.tags['+j+']', data.tags[j]);
       
       // check if the tag exists...
       if (tags.length !== 0) {
-        if (tags.indexOf(fJson.tags[j]) === -1) {
-          //console.log('new TAG: '+fJson.tags[j]);
-          tags.push(fJson.tags[j]);
+        if (tags.indexOf(data.tags[j]) === -1) {
+          //console.log('new TAG: '+data.tags[j]);
+          tags.push(data.tags[j]);
         } else {
-          //console.log('TAG exists: '+fJson.tags[j]);
+          //console.log('TAG exists: '+data.tags[j]);
         }
       }
       // hey this is the first part, add all the tags to out tags array!
       else {
         //console.log('first file');
-        tags.push(fJson.tags[j]);
+        tags.push(data.tags[j]);
       }
       
     };
@@ -45,7 +49,5 @@ for (var i = 0; i < parts.length; i++) {
 
 
 console.log('Total tags: '+tags.length);
-var sortedTags = tags.sort(function (a, b) {
-    return a.toLowerCase().localeCompare(b.toLowerCase());
-});
+var sortedTags = utils.sortArray(tags);
 fs.writeFileSync('./tags.json', JSON.stringify(sortedTags, null, 2));

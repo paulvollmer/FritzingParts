@@ -1,28 +1,28 @@
 // scripts/generate_parts_html.js
 
 var fs = require('fs');
-var util = require('./utils');
+var jekyll = require('./utils/jekyllUtils');
 var parts = require('../parts.json');
 
 for (var i=0; i<parts.length; i++) {
   console.log('generate parts html file. '+parts[i]);
-  var html = util.defaultJekyllHead(parts[i]);
+  var html = jekyll.defaultHead(parts[i]);
 
   html += '<div id="part">\n';
 
   // The part svg's
   html += '<table id="part">\n';
   html += '<tr>\n';
-  html += '<td>'+partLink('icon', parts[i], 'Icon')+'</td>\n';
-  html += '<td>'+partLink('icon', parts[i], 'Breadboard')+'</td>\n';
-  html += '<td>'+partLink('icon', parts[i], 'PCB')+'</td>\n';
-  html += '<td>'+partLink('icon', parts[i], 'Schematic')+'</td>\n';
+  html += '<td>'+partLink('icon',       parts[i], 'Icon')+'</td>\n';
+  html += '<td>'+partLink('breadboard', parts[i], 'Breadboard')+'</td>\n';
+  html += '<td>'+partLink('pcb',        parts[i], 'PCB')+'</td>\n';
+  html += '<td>'+partLink('schematic',  parts[i], 'Schematic')+'</td>\n';
   html += '</tr>\n';
   html += '<tr>\n';
-  html += '<td>'+partSvg('icon', parts[i])+'</td>\n';
+  html += '<td>'+partSvg('icon',       parts[i])+'</td>\n';
   html += '<td>'+partSvg('breadboard', parts[i])+'</td>\n';
-  html += '<td>'+partSvg('pcb', parts[i])+'</td>\n';
-  html += '<td>'+partSvg('schematic', parts[i])+'</td>\n';
+  html += '<td>'+partSvg('pcb',        parts[i])+'</td>\n';
+  html += '<td>'+partSvg('schematic',  parts[i])+'</td>\n';
   html += '</tr>\n';
   html += '</table>\n';
 
@@ -58,8 +58,8 @@ for (var i=0; i<parts.length; i++) {
   html += '</table>\n';
 
   html += '<h3>FZP and JSON Files:</h3>\n';
-  html += '<p><a href="./'+parts[i]+'/index.fzp">fzp file</a></p>\n';
-  html += '<p><a href="./'+parts[i]+'/index.json">json file</a></p>\n';
+  html += '<p><a href="{{ page.baseurl }}'+parts[i]+'/index.fzp">fzp file</a></p>\n';
+  html += '<p><a href="{{ page.baseurl }}'+parts[i]+'/index.json">json file</a></p>\n';
   html += '<div/>\n';
 
   fs.writeFileSync('./parts/'+parts[i]+'.html', html);
@@ -67,7 +67,7 @@ for (var i=0; i<parts.length; i++) {
 
 
 function partLink(type, part, linkName) {
-  var html = '<a href="{{ page.baseurl }}/parts/'+part+'/'+type+'/'+part+'_'+type+'.svg">'+linkName+'</a>';
+  var html = '<a href="{{ page.baseurl }}parts/'+part+'/'+type+'/'+part+'_'+type+'.svg">'+linkName+'</a>';
   return html;
 }
 
