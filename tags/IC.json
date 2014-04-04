@@ -1,0 +1,18 @@
+[
+  "555timer",
+  "atmega328-tqfp",
+  "ATmega644",
+  "ATtiny85",
+  "h-bridge",
+  "lm358",
+  "optocoupler",
+  "Optocoupler_TLP621",
+  "SMD_74HC595",
+  "SMD_atmega168",
+  "SMD_lm358_SO",
+  "SMD_mega2560",
+  "SMD_NE555",
+  "TPA2000D1 Audio Amplifier dip",
+  "TPA2000D1 Audio Amplifier dip double",
+  "TPA2000D1 Audio Amplifier smd"
+]
