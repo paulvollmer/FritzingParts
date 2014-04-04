@@ -22,11 +22,13 @@ build:
 	@make tags_overview_json
 	@make tags_json
 	@make tags_html
+	@make authors_json
 
 clean:
 	@make clean_parts_json
 	@make clean_parts_dir
 	@make clean_tags
+	@make clean_authors
 
 
 # parts.json
@@ -118,6 +120,14 @@ clean_tags:
 	@rm -rf tags/
 	@rm -rf tags.json
 	@rm -rf tags.html
+
+# authors
+
+authors_json:
+	@node $(SCRIPTS_DIR)write_authors_json.js
+
+clean_authors:
+	@rm -rf authors.json
 
 # temporary parts data
 
