@@ -9,5 +9,6 @@ exports.defaultHead = function(title) {
   html += 'title: '+title+'\n';
   html += '---\n';
   html += '\n';
+  html += '<!-- THIS FILE WAS GENERATED !!!DO NOT EDIT!!! -->\n\n';
   return html
 }
