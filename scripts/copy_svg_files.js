@@ -3,36 +3,28 @@
 var fs = require('fs');
 var parts = require('../parts.json');
 
+// this variable will be used to save the error messages to it.
+var errorReport = '!!!THIS IS AN ERROR REPORT!!!\n\n';
+
+
 for (var i=0; i<parts.length; i++) {
   //console.log(parts[i]);
   var fzpJson = require('../parts/'+parts[i]+'/index.json');
 
-  var breadboardFilepath = fzpJson.views.breadboard.image;
-  try  {
-    fs.writeFileSync('./parts/'+parts[i]+'/breadboard/'+parts[i]+'_breadboard.svg', fs.readFileSync('./fritzing/fritzing/parts/svg/core/'+breadboardFilepath))
-  } catch(e) {
-    console.log('breadboard: '+e);
-  }
-
-  var pcbFilepath = fzpJson.views.pcb.image;
-  try  {
-    fs.writeFileSync('./parts/'+parts[i]+'/pcb/'+parts[i]+'_pcb.svg', fs.readFileSync('./fritzing/fritzing/parts/svg/core/'+pcbFilepath))
-  } catch(e) {
-    console.log('pcb: '+e);
-  }
-
-  var schematicFilepath = fzpJson.views.schematic.image;
-  try  {
-    fs.writeFileSync('./parts/'+parts[i]+'/schematic/'+parts[i]+'_schematic.svg', fs.readFileSync('./fritzing/fritzing/parts/svg/core/'+schematicFilepath))
-  } catch(e) {
-    console.log('schematic: '+e);
-  }
-
-  var iconFilepath = fzpJson.views.icon.image;
-  try  {
-    fs.writeFileSync('./parts/'+parts[i]+'/icon/'+parts[i]+'_icon.svg', fs.readFileSync('./fritzing/fritzing/parts/svg/core/'+iconFilepath))
-  } catch(e) {
-    console.log('icon: '+e);
-  }
-
+  copyHelper(fzpJson.views.icon.image, parts[i], 'icon');
+  copyHelper(fzpJson.views.breadboard.image, parts[i], 'breadboard');
+  copyHelper(fzpJson.views.pcb.image, parts[i], 'pcb');
+  copyHelper(fzpJson.views.schematic.image, parts[i], 'schematic');
 };
+
+fs.writeFileSync('COPY_ERROR_REPORT.txt', errorReport);
+
+
+function copyHelper(filepath, part, type) {
+  try  {
+    fs.writeFileSync('./parts/'+part+'/'+type+'/'+part+'_'+type+'.svg', fs.readFileSync('./fritzing/fritzing/parts/svg/core/'+filepath))
+  } catch(e) {
+    console.log(e);
+    errorReport += e+'\n';
+  }
+}
