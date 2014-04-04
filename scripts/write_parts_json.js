@@ -4,6 +4,7 @@
 // (exclude the placeholder.txt file)
 
 var fs = require('fs');
+var utils = require('./utils');
 
 console.log('Read the directory');
 fs.readdir('./fritzing/fritzing/pdb/core', function(err, parts) {
@@ -20,8 +21,11 @@ fs.readdir('./fritzing/fritzing/pdb/core', function(err, parts) {
     parts[i] = tmp[0];
   }
   
+  console.log('Sort the array');
+  var sortedArray = utils.sortArray(parts);
+
   console.log('Stringify and save to file.');
-  var partsJson = JSON.stringify(parts, null, 2);
+  var partsJson = JSON.stringify(sortedArray, null, 2);
   fs.writeFileSync('./parts.json', partsJson);
 
   console.log('Ready, "parts.json" successfully written!');
