@@ -20,8 +20,8 @@ build:
 	@make parts_overview_html
 	@make parts_html
 	@make tags_overview_json
+	@make tags_overview_html
 	@make tags_json
-	@make tags_html
 	@make authors_json
 
 clean:
@@ -99,6 +99,12 @@ tags_overview_json:
 	@echo "--------------------------------------------------------------------------------"
 	@node $(SCRIPTS_DIR)write_tags_overview_json.js
 
+tags_overview_html:
+	@echo "--------------------------------------------------------------------------------"
+	@echo "write the tags.html overview file."
+	@echo "--------------------------------------------------------------------------------"
+	@node $(SCRIPTS_DIR)write_tags_overview_html.js
+
 tags_json:
 	@echo "--------------------------------------------------------------------------------"
 	@echo "generate the tags json files."
@@ -106,12 +112,6 @@ tags_json:
 	@rm -rf tags
 	@mkdir tags
 	@node $(SCRIPTS_DIR)write_tags_json.js
-
-tags_html:
-	@echo "--------------------------------------------------------------------------------"
-	@echo "write the tags.html file."
-	@echo "--------------------------------------------------------------------------------"
-	@node $(SCRIPTS_DIR)write_tags_html.js
 
 clean_tags:
 	@echo "--------------------------------------------------------------------------------"
@@ -124,7 +124,7 @@ clean_tags:
 # authors
 
 authors_json:
-	@node $(SCRIPTS_DIR)write_authors_json.js
+	@node $(SCRIPTS_DIR)write_authors_overview_json.js
 
 clean_authors:
 	@rm -rf authors.json
