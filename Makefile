@@ -21,6 +21,7 @@ build:
 	@make parts_html
 	@make tags_overview_json
 	@make tags_json
+	@make tags_html
 
 clean:
 	@make clean_parts_json
