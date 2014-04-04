@@ -1,13 +1,12 @@
 // scripts/generate_parts_overview_html.js
 
 var fs = require('fs');
-var util = require('./utils');
+var jekyll = require('./utils/jekyllUtils');
 var parts = require('../parts.json');
 
-var html = util.defaultJekyllHead('Parts Overview');
+var html = jekyll.defaultHead('Parts Overview');
 
 html += '<table>\n';
-
 // the parts
 for (var i=0; i<parts.length; i++) {
   html += '<tr>\n';
@@ -21,3 +20,5 @@ for (var i=0; i<parts.length; i++) {
 html += '<table>\n';
 
 fs.writeFileSync('./parts.html', html);
+
+console.log('parts.html file successfully written!');

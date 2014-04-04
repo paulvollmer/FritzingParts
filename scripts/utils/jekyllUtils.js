@@ -1,6 +1,9 @@
-// scripts/utils/index.js
+// scripts/utils/jekyllUtils.js
 
-exports.defaultJekyllHead = function(title) {
+/**
+ * Returns the default jekyll yaml head.
+ */
+exports.defaultHead = function(title) {
   var html = '---\n';
   html += 'layout: default\n';
   html += 'title: '+title+'\n';
