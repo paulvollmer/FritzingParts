@@ -46,7 +46,7 @@ for (var i=0; i<parts.length; i++) {
     html += '<td>\n';
     html += '<ul>\n';
     for (var j = 0; j < fJson.tags.length; j++) {
-      html += '<li>'+fJson.tags[j]+'</li>\n';
+      html += '<li><a href="{{ page.baseurl }}../tags/'+fJson.tags[j]+'.json">'+fJson.tags[j]+'</a></li>\n';
     };
     html += '</ul>\n';
     html += '</td>\n';
