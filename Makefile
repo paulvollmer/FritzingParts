@@ -3,14 +3,29 @@
 #
 
 
+# Variables
+
 SCRIPTS_DIR = scripts/
 
 
 
-build: clean write_parts_json create_parts_dir copy_fzp_files convert_fzp_files_to_json \
-	     copy_svg_files parts_overview_html parts_html tags_list tags_files
+build:
+	make clean
+	make write_parts_json
+	make write_temp_json
+	make create_parts_dir
+	make copy_fzp_files
+	make convert_fzp_files_to_json
+	make copy_svg_files
+	make parts_overview_html
+	make parts_html
+	make tags_list
+	make tags_files
 
-clean: clean_parts_json clean_parts_dir clean_tags
+clean:
+	make clean_parts_json
+	make clean_parts_dir
+	make clean_tags
 
 
 # parts.json
@@ -22,6 +37,16 @@ write_parts_json:
 clean_parts_json:
 	@echo "remove parts.json"
 	@rm -rf parts.json
+
+# temporary parts data
+
+write_temp_json:
+	@echo "write the _temp_parts_data.json file"
+	@node $(SCRIPTS_DIR)write_temporary_json.js
+
+clean_temp_json:
+	@echo "remove _temp_parts_data.json"
+	@rm -rf $(SCRIPTS_DIR)_temp_parts_data.json
 
 # parts directory
 
