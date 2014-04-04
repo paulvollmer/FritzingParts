@@ -67,12 +67,12 @@ for (var i=0; i<parts.length; i++) {
 
 
 function partLink(type, part, linkName) {
-  var html = '<a href="{{ page.baseurl }}parts/'+part+'/'+type+'/'+part+'_'+type+'.svg">'+linkName+'</a>';
+  var html = '<a href="{{ page.baseurl }}'+part+'/'+type+'/'+part+'_'+type+'.svg">'+linkName+'</a>';
   return html;
 }
 
 function partSvg(type, part) {
-  var html = '<img id="'+type+'_svg" src="'+part+'/'+type+'/'+part+'_'+type+'.svg">';
+  var html = '<img id="'+type+'_svg" src="{{ page.baseurl }}'+part+'/'+type+'/'+part+'_'+type+'.svg">';
   return html;
 }
 
