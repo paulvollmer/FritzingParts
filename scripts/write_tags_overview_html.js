@@ -1,4 +1,4 @@
-// scripts/write_tags_html.js
+// scripts/write_tags_overview_html.js
 
 var fs = require('fs');
 var jekyll = require('./utils/jekyllUtils');

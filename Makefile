@@ -22,7 +22,8 @@ build:
 	@make tags_overview_json
 	@make tags_overview_html
 	@make tags_json
-	@make authors_json
+	@make authors_overview_json
+	@make authors_overview_html
 
 clean:
 	@make clean_parts_json
@@ -123,8 +124,11 @@ clean_tags:
 
 # authors
 
-authors_json:
+authors_overview_json:
 	@node $(SCRIPTS_DIR)write_authors_overview_json.js
+
+authors_overview_html:
+	@node $(SCRIPTS_DIR)write_authors_overview_html.js
 
 clean_authors:
 	@rm -rf authors.json
