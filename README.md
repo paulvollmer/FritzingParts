@@ -24,3 +24,5 @@ The Makefile is splitted into different tasks. This tasks generates different fi
 To run the jekyll server on your local machine,  execute the following command:
 
     make server
+
+---
