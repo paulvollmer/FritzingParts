@@ -1,0 +1,287 @@
+{
+  "fritzingVersion": "0.7.2b",
+  "moduleId": "SparkFun-Sensors-QRB1114-2",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "www.fritzing.org"
+  ],
+  "title": [
+    "PHOTOTRANSISTOR REFLECTIVE OBJECT SENSOR"
+  ],
+  "label": [
+    "Q"
+  ],
+  "url": null,
+  "date": [
+    "2013-02-13"
+  ],
+  "tags": [
+    "QRB1114",
+    "QRB1114-SIDE"
+  ],
+  "description": [
+    "<b>PHOTOTRANSISTOR REFLECTIVE OBJECT SENSOR</b>\n<p>\nThe QRB1113/1114 consists of an infrared emitting diode and an NPN silicon phototransistor mounted side by side on a converging\noptical axis in a black plastic housing. The phototransistor responds to radiation from the emitting diode only when a reflective\nobject passes within its field of view. The area of the optimum response approximates a circle .200 in diameter.\n<p>Datasheet: http://www.sparkfun.com/datasheets/Sensors/QRB1114.pdf\n<p>MAX RATINGS:\n<p>EMITTER\n<br>Continuous Forward Current (IF) 50 mA\n<br>Reverse Voltage (VR) 5 V\n<br>Power Dissipation (PD) 100 mW\n<p>SENSOR\n<br>Collector-Emitter Voltage (VCEO) 30 V\n<br>Emitter-Collector Voltage (VECO) 4.5 V\n<br>Collector Current 20 mA\n<br>Power Dissipation (PD) 100 mW"
+  ],
+  "properties": [
+    {
+      "name": "package",
+      "value": "qrb1114-side"
+    },
+    {
+      "name": "family",
+      "value": "sparkfun Reflective Object Sensor"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "breadboard/sparkfun-sensors_qrb1114-side_breadboard.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/sparkfun-sensors_qrb1114-side_breadboard.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/sparkfun-sensors_qrb1114-side_pcb.svg",
+      "layer": [
+        "copper1",
+        "silkscreen",
+        "copper0"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/sparkfun-sensors_qre1113_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector0",
+      "name": "A",
+      "type": "male",
+      "description": [
+        "A"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector0pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector0pin",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector0pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector0pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "C",
+      "type": "male",
+      "description": [
+        "C"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector1pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector1pin",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector1pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector1pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector2",
+      "name": "E",
+      "type": "male",
+      "description": [
+        "E"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector2pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector2pin",
+                    "terminalId": "connector2terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector2pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector2pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector3",
+      "name": "K",
+      "type": "male",
+      "description": [
+        "K"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector3pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector3pin",
+                    "terminalId": "connector3terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector3pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector3pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

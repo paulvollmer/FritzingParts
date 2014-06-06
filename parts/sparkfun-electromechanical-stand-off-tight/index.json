@@ -1,0 +1,71 @@
+{
+  "fritzingVersion": "0.7.2b",
+  "moduleId": "SparkFun-Electromechanical-STAND-OFF-TIGHT",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "www.fritzing.org"
+  ],
+  "title": [
+    "#4 Stand Off"
+  ],
+  "label": [
+    "JP"
+  ],
+  "url": null,
+  "date": [
+    "2013-02-13"
+  ],
+  "tags": [
+    "STAND-OFF-TIGHT",
+    "TIGHT",
+    "STAND-OFF"
+  ],
+  "description": [
+    "<b>#4 Stand Off</b><p>\nThis is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447"
+  ],
+  "properties": [
+    {
+      "name": "package",
+      "value": "stand-off-tight"
+    },
+    {
+      "name": "family",
+      "value": "sparkfun Stand off"
+    },
+    {
+      "name": "variant",
+      "value": "tight"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "breadboard/sparkfun-electromechanical_stand-off-tight_breadboard.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/sparkfun-electromechanical_stand-off-tight_breadboard.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/sparkfun-electromechanical_stand-off-tight_pcb.svg",
+      "layer": [
+        "copper1",
+        "silkscreen",
+        "copper0"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/sparkfun-electromechanical_stand-off_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": []
+}

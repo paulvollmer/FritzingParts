@@ -1,0 +1,298 @@
+{
+  "fritzingVersion": "0.7.0b.02.01.5801",
+  "moduleId": "Humidity_and_Temperature_Sensor_RHT03_6",
+  "version": null,
+  "author": [
+    "Martha Maldonado"
+  ],
+  "title": [
+    "Humidity and Temperature Sensor RHT03"
+  ],
+  "label": [
+    "RHT03"
+  ],
+  "url": null,
+  "date": [
+    "2012-02-17"
+  ],
+  "tags": [
+    "humedad",
+    "humidity",
+    "temperatura",
+    "temperature"
+  ],
+  "description": [
+    "Digital relative humidity & temperature sensor RHT03"
+  ],
+  "properties": [
+    {
+      "name": "sensing element",
+      "value": "Polymer humidity capacitor"
+    },
+    {
+      "name": "family",
+      "value": "MaxDetect Technology"
+    },
+    {
+      "name": "power supply",
+      "value": "3.3-5.5V DC"
+    },
+    {
+      "name": "output signal",
+      "value": "Digital Signal"
+    },
+    {
+      "name": "part number"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/Humidity_and_Temperature_Sensor_RHT03_6.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/Humidity_and_Temperature_Sensor_RHT03_6.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/Humidity_and_Temperature_Sensor_RHT03_6.svg",
+      "layer": [
+        "copper0",
+        "copper1",
+        "silkscreen"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/Humidity_and_Temperature_Sensor_RHT03_6.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector8",
+      "name": "Vcc",
+      "type": "male",
+      "description": [
+        "3.3 V - 5.5V DC"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector8",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector8",
+                    "layer": "schematic",
+                    "terminalId": "connector8terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector8pad",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector8pad",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector9",
+      "name": "Data-signal",
+      "type": "male",
+      "description": [
+        "It goes directly connect to the digital signal and also it connects by a 1k ohm resistor with Vcc, It's something like this:\n\nData-signal -> Digital Signal\n\n                   -> 1K ohm -> Vcc"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector9",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector9",
+                    "layer": "schematic",
+                    "terminalId": "connector9terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector9pad",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector9pad",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector10",
+      "name": "GND 1",
+      "type": "male",
+      "description": [
+        "Ground Connection"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector10",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector10",
+                    "layer": "schematic",
+                    "terminalId": "connector10terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector10pad",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector10pad",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector11",
+      "name": "GND 2",
+      "type": "male",
+      "description": [
+        "Ground connection"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector11",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector11",
+                    "layer": "schematic",
+                    "terminalId": "connector11terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector11pad",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector11pad",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

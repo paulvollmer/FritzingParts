@@ -1,0 +1,189 @@
+{
+  "fritzingVersion": "0.1.beta.1396",
+  "moduleId": "3254CBFC44diode",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "Brendan Howell"
+  ],
+  "title": [
+    "Rectifier Diode"
+  ],
+  "label": [
+    "D"
+  ],
+  "url": null,
+  "date": [
+    "2009-12-01"
+  ],
+  "tags": [
+    "diode",
+    "rectifier",
+    "semiconductor",
+    "fritzing core"
+  ],
+  "description": [
+    "A standard rectifier diode"
+  ],
+  "properties": [
+    {
+      "name": "family",
+      "value": "Diode"
+    },
+    {
+      "name": "type",
+      "value": "Rectifier"
+    },
+    {
+      "name": "part number",
+      "value": "1N4001"
+    },
+    {
+      "name": "package",
+      "value": "300 mil [THT]"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/basic-diode.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/diode.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/DO-41_diode_2_300mil_pcb.svg",
+      "layer": [
+        "copper0",
+        "silkscreen",
+        "copper1"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/diode.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector0",
+      "name": "cathode",
+      "type": "male",
+      "description": [
+        "Cathode Pin"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector0pin",
+                    "legId": "connector0leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector0pin",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector0pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector0pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "anode",
+      "type": "male",
+      "description": [
+        "Anode Pin"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector1pin",
+                    "legId": "connector1leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector1pin",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector1pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector1pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

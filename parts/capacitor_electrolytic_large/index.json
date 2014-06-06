@@ -1,0 +1,187 @@
+{
+  "fritzingVersion": "0.2.1223",
+  "moduleId": "LargeElectrolyticCapacitorModuleID",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "Brendan Howell"
+  ],
+  "title": [
+    "Electrolytic Capacitor"
+  ],
+  "label": [
+    "C"
+  ],
+  "url": null,
+  "date": [
+    "2008-12-22"
+  ],
+  "tags": [
+    "Electrolytic",
+    "Capacitor",
+    "fritzing core"
+  ],
+  "description": [
+    "1000µF electrolytic capacitor"
+  ],
+  "properties": [
+    {
+      "name": "family",
+      "value": "Capacitor [unidirectional]"
+    },
+    {
+      "name": "capacitance",
+      "value": "1000µF"
+    },
+    {
+      "name": "package",
+      "value": "300 mil [THT, electrolytic]"
+    },
+    {
+      "name": "voltage"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/electrolytic_capacitor_1000uF_icon.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/electrolytic_capacitor_1000uF_35v_leg.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/capacitor_elko_large_300mil.svg",
+      "layer": [
+        "copper0",
+        "silkscreen",
+        "copper1"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/capacitor_polar.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector0",
+      "name": "-",
+      "type": "male",
+      "description": [
+        "- side"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector0pin",
+                    "legId": "connector0leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector0pin",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector0pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector0pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "+",
+      "type": "male",
+      "description": [
+        "+ side"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector1pin",
+                    "legId": "connector1leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector1pin",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector1pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector1pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

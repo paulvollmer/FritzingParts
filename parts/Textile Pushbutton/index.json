@@ -1,0 +1,191 @@
+{
+  "fritzingVersion": "0.1.1201",
+  "moduleId": "4d1eb8f243c1aba7afe676122ea516cc_2",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "Riccardo Marchesi"
+  ],
+  "title": [
+    "Textile Pushbutton"
+  ],
+  "label": [
+    "S"
+  ],
+  "url": [
+    "http://www.plugandwear.com/default.asp?mod=product&cat_id=86&product_id=227"
+  ],
+  "date": [
+    "mer apr 24 2013"
+  ],
+  "tags": [
+    "Textile Pushbutton",
+    "wearables",
+    "plugandwear",
+    "Textile button"
+  ],
+  "description": [
+    "Textile Knitted Pushbutton"
+  ],
+  "properties": [
+    {
+      "name": "family",
+      "value": "Textile Sensor"
+    },
+    {
+      "name": "type",
+      "value": "Pushbutton"
+    },
+    {
+      "name": "Default State",
+      "value": "Normally Open"
+    },
+    {
+      "name": "part number",
+      "value": "TACRACPS1X0404GY "
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/Textile_push_button.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/Textile_push_button.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/pushbutton_2_300mil_thick.svg",
+      "layer": [
+        "copper0",
+        "silkscreen",
+        "copper1"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/pushbutton.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector0",
+      "name": "leg0",
+      "type": "male",
+      "description": [
+        "leg"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "breadboard",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "schematic",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "leg1",
+      "type": "male",
+      "description": [
+        "leg"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "breadboard",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "schematic",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "copper0"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "copper1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

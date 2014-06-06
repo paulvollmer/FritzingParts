@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/WrongEntertainment/FritzingPartsApi/issues"
   },
-  "homepage": "https://WrongEntertainment.github.com//FritzingPartsApi",
+  "homepage": "https://WrongEntertainment.github.com/FritzingPartsApi",
   "dependencies": {
     "xml2js": "*"
   }

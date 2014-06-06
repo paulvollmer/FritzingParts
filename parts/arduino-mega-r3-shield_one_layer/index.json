@@ -1,0 +1,76 @@
+{
+  "fritzingVersion": null,
+  "moduleId": "one_layer_Arduino_Mega_R3_PCB",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "Stefan Hermann"
+  ],
+  "title": [
+    "Arduino Mega Shield PCB"
+  ],
+  "label": [
+    "PCB"
+  ],
+  "url": null,
+  "date": [
+    "2012-06-01"
+  ],
+  "tags": [
+    "pcb",
+    "board",
+    "arduino",
+    "mega",
+    "fritzing core"
+  ],
+  "description": [
+    "Plain PCB Shaped to fit an Arduino Mega R3 \"Shield\""
+  ],
+  "properties": [
+    {
+      "name": "layers",
+      "value": "1"
+    },
+    {
+      "name": "Shape",
+      "value": "Arduino Mega R3 Shield"
+    },
+    {
+      "name": "family",
+      "value": "Plain Vanilla PCB"
+    },
+    {
+      "name": "filename"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/plain_pcb.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "icon/plain_pcb.svg",
+      "layer": [
+        "unknown"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/pcb-arduino-mega-R3.svg",
+      "layer": [
+        "silkscreen",
+        "silkscreen0",
+        "board"
+      ]
+    },
+    "schematic": {
+      "image": "icon/plain_pcb.svg",
+      "layer": [
+        "unknown"
+      ]
+    }
+  },
+  "connectors": []
+}

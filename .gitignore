@@ -1,3 +1,6 @@
 
 _site/
 node_modules/
+scripts/_temp_parts_data.json
+COPY_ERROR_REPORT.txt
+currentFritzingRepoHash.txt

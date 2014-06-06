@@ -1,0 +1,5 @@
+name:      Fritzing Parts
+exclude:   [fritzing, Makefile, node_modules, scripts]
+baseurl:   http://wrongentertainment.github.io/FritzingParts/
+markdown:  redcarpet
+pygments:  true

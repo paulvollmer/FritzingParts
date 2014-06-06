@@ -1,0 +1,177 @@
+{
+  "fritzingVersion": "0.3.18",
+  "moduleId": "e92ccfe0-3e83-4646-89d9-916162578685 ",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "Mr.T"
+  ],
+  "title": [
+    "Schottky Diode"
+  ],
+  "label": [
+    "D"
+  ],
+  "url": null,
+  "date": [
+    "2011-01-07"
+  ],
+  "tags": [
+    "diode",
+    "schottky",
+    "semiconductor",
+    "fritzing core",
+    "SMD"
+  ],
+  "description": [
+    "A standard schottky barrier rectifier diode"
+  ],
+  "properties": [
+    {
+      "name": "family",
+      "value": "Diode"
+    },
+    {
+      "name": "type",
+      "value": "Schottky"
+    },
+    {
+      "name": "part number",
+      "value": "1N5817"
+    },
+    {
+      "name": "package",
+      "value": "Melf DO-213 AB [SMD]"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/basic-diode.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/diode.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/SMD_Diode_MelfDO213AB.svg",
+      "layer": [
+        "silkscreen",
+        "copper1"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/diode_schottky.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector0",
+      "name": "cathode",
+      "type": "male",
+      "description": [
+        "Cathode Pin"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector0pin",
+                    "legId": "connector0leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector0pin",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector0pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "anode",
+      "type": "male",
+      "description": [
+        "Anode Pin"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector1pin",
+                    "legId": "connector1leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector1pin",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector1pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

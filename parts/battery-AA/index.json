@@ -1,0 +1,180 @@
+{
+  "fritzingVersion": "0.3.9b.10.15.3559",
+  "moduleId": "1000AFDF10011leg",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "Brendan Howell/Dirk van Osterbosch/Lionel Michel"
+  ],
+  "title": [
+    "Battery"
+  ],
+  "label": [
+    "VCC"
+  ],
+  "url": null,
+  "date": [
+    "2009-10-23"
+  ],
+  "tags": [
+    "Battery",
+    "power supply",
+    "fritzing core"
+  ],
+  "description": [
+    "Your standard 2x AA battery pack (3 Volts)"
+  ],
+  "properties": [
+    {
+      "name": "family",
+      "value": "Battery"
+    },
+    {
+      "name": "voltage",
+      "value": "3V"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/batterypack_2xAA.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/batterypack_2xAA_leg.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/jumper_2_100mil_pcb.svg",
+      "layer": [
+        "copper0",
+        "silkscreen",
+        "copper1"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/dc_powersupply.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector0",
+      "name": "-",
+      "type": "male",
+      "description": [
+        "negative side"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector0pin",
+                    "legId": "connector0leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector0pin",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector0pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector0pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "+",
+      "type": "male",
+      "description": [
+        "positive side"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector1pin",
+                    "legId": "connector1leg"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector1pin",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector1pin"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector1pin"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

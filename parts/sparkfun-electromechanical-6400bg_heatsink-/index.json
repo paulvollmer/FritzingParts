@@ -1,0 +1,65 @@
+{
+  "fritzingVersion": "0.7.2b",
+  "moduleId": "SparkFun-Electromechanical-6400BG_HEATSINK-",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "www.fritzing.org"
+  ],
+  "title": [
+    "6400BG_HEATSINK"
+  ],
+  "label": [
+    "U"
+  ],
+  "url": null,
+  "date": [
+    "2013-02-13"
+  ],
+  "tags": [
+    "6400BG_HEATSINK"
+  ],
+  "description": [
+    "Multiwatt heatsink, PRT-09576"
+  ],
+  "properties": [
+    {
+      "name": "package",
+      "value": "6400bg_heatsink"
+    },
+    {
+      "name": "family",
+      "value": "sparkfun Heatsink"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "breadboard/sparkfun-electromechanical_6400bg_heatsink_breadboard.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/sparkfun-electromechanical_6400bg_heatsink_breadboard.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/sparkfun-electromechanical_6400bg_heatsink_pcb.svg",
+      "layer": [
+        "copper1",
+        "silkscreen",
+        "copper0"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/sparkfun-electromechanical_6400gb_heatsink_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": []
+}

@@ -1,0 +1,339 @@
+{
+  "fritzingVersion": "0.6.3b.08.16.5401",
+  "moduleId": "Real_Time_Clock_Module___DS1307_RTC_Breakout_Board",
+  "version": null,
+  "author": [
+    "Mike"
+  ],
+  "title": [
+    "Real Time Clock Module - DS1307 RTC Breakout Board"
+  ],
+  "label": null,
+  "url": null,
+  "date": [
+    "2011-09-07"
+  ],
+  "tags": [
+    "Real",
+    "Time",
+    "Clock",
+    "Alarm"
+  ],
+  "description": [
+    "This a custom designed module for the DS1307 Real Time Clock. The module comes fully assembled and pre-programmed with the current time (ok, so it's our current time - MST). The included Lithium coin cell battery (CR1225 41mAh) will run the module for a minimum of 9 years (17 years typical) without external 5V power. The DS1307 is accessed via the I2C protocol. We've written a test-bed to program the modules. This test-bed code should give you some insight on how to interface the module to any microcontroller using our example software I2C and BCD routines.\n\n\n\n\n\n\n\n\n\n\n\nFeatures:\n\n\n\n\n\n\n\n\n\n\n\nTwo wire I2C interface \n\n\n\n\n\n\n\n\n\n\n\nHour : Minutes : Seconds AM/PM \n\n\n\n\n\n\n\n\n\n\n\nDay Month, Date - Year \n\n\n\n\n\n\n\n\n\n\n\nLeap year compensation \n\n\n\n\n\n\n\n\n\n\n\nAccurate calendar up to year 2100 \n\n\n\n\n\n\n\n\n\n\n\nBattery backup included \n\n\n\n\n\n\n\n\n\n\n\n1Hz output pin \n\n\n\n\n\n\n\n\n\n\n\n56 Bytes of Non-volatile memory available to user\n\n\n\n\n\n\n\n\n\n\n\nDimensions: 0.75x0.75\" (20x20mm)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocuments:\n\n\n\n\n\n\n\n\n\n\n\nRTC Module Schematic \n\n\n\n\n\n\n\n\n\n\n\nRTC Module Dimensional Drawing \n\n\n\n\n\n\n\n\n\n\n\nDS1307 Datasheet \n\n\n\n\n\n\n\n\n\n\n\nWiring Example\n\n\n\n\n\n\n\n\n\n\n\nSoftware: \n\n\n\n\n\n\n\n\n\n\n\nExample 16F88 code \n\n\n\n\n\n\n\n\n\n\n\nArduino Tutorial. Thanks John Vaughters! \n\n\n\n\n\n\n\n\n\n\n\nArduino Tutorial in Portuguese. Thanks Daniel Gonçalves! \n\n\n\n\n\n\n\n\n\n\n\nBildr Tutorial"
+  ],
+  "properties": [
+    {
+      "name": "family",
+      "value": "Real Time Clock Breakout"
+    },
+    {
+      "name": "part number"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/Real_Time_Clock_Module___DS1307_RTC_Brea.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/Real_Time_Clock_Module___DS1307_RTC_Brea.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/Real_Time_Clock_Module___DS1307_RTC_Brea.svg",
+      "layer": [
+        "copper0",
+        "silkscreen",
+        "copper1"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/Real_Time_Clock_Module___DS1307_RTC_Brea.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector5",
+      "name": "5V",
+      "type": "male",
+      "description": [
+        "5V"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector5pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector5pin",
+                    "layer": "schematic",
+                    "terminalId": "connector5terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector5pad",
+                    "layer": "copper1"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector5pad",
+                    "layer": "copper0"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector6",
+      "name": "GND",
+      "type": "male",
+      "description": [
+        "GND"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector6pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector6",
+                    "layer": "schematic",
+                    "terminalId": "connector6terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector6pad",
+                    "layer": "copper1"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector6pad",
+                    "layer": "copper0"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector7",
+      "name": "SQW",
+      "type": "male",
+      "description": [
+        "SQW"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector7pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector7",
+                    "layer": "schematic",
+                    "terminalId": "connector7terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector7pad",
+                    "layer": "copper1"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector7pad",
+                    "layer": "copper0"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector8",
+      "name": "SCL",
+      "type": "male",
+      "description": [
+        "SCL"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector8pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector8pin",
+                    "layer": "schematic",
+                    "terminalId": "connector8terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector8pad",
+                    "layer": "copper1"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector8pad",
+                    "layer": "copper0"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector9",
+      "name": "SDA",
+      "type": "male",
+      "description": [
+        "SDA"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector9pin",
+                    "layer": "breadboard"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector9pin",
+                    "layer": "schematic",
+                    "terminalId": "connector9terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector9pad",
+                    "layer": "copper1"
+                  }
+                },
+                {
+                  "$": {
+                    "svgId": "connector9pad",
+                    "layer": "copper0"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

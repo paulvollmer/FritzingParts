@@ -1,0 +1,120 @@
+{
+  "fritzingVersion": "0.7.2b",
+  "moduleId": "SparkFun-RF-ANTENNA2-SMD6",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "www.fritzing.org"
+  ],
+  "title": [
+    "Chip antenna"
+  ],
+  "label": [
+    "U"
+  ],
+  "url": null,
+  "date": [
+    "2013-02-13"
+  ],
+  "tags": [
+    "ANTENNA-CHIP6",
+    "ANTENNA2",
+    "SMD6"
+  ],
+  "description": [
+    "<b>Chip antenna</b><p>\nSingle endded antenna. Common with smaller chip antennas. CHIP4 package is the GPS Chip Antenna <b>SKU:</b> GPS-08418. CHIP5 package is 2.4GHz chip antenna <b>SKU:</b> WRL-00144."
+  ],
+  "properties": [
+    {
+      "name": "package",
+      "value": "antenna-chip6"
+    },
+    {
+      "name": "family",
+      "value": "sparkfun Antenna (Chip)"
+    },
+    {
+      "name": "variant",
+      "value": "smd6"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "breadboard/sparkfun-rf_antenna-chip6_breadboard.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/sparkfun-rf_antenna-chip6_breadboard.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/sparkfun-rf_antenna-chip6_pcb.svg",
+      "layer": [
+        "copper1",
+        "silkscreen"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/sparkfun-rf_antenna2_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector0",
+      "name": "SIGNAL",
+      "type": "male",
+      "description": [
+        "SIGNAL"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector0pin"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector1pin",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector0pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

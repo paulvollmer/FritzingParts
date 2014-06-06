@@ -1,0 +1,63 @@
+{
+  "fritzingVersion": "0.7.2b",
+  "moduleId": "SparkFun-RF-EM406_OUTLINE-",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "www.fritzing.org"
+  ],
+  "title": [
+    "EM406_OUTLINE"
+  ],
+  "label": [
+    "U"
+  ],
+  "url": null,
+  "date": [
+    "2013-02-13"
+  ],
+  "tags": [
+    "EM406_OUTLINE"
+  ],
+  "description": [
+    "Package outline for EM406 GPS module"
+  ],
+  "properties": [
+    {
+      "name": "package",
+      "value": "em406_outline"
+    },
+    {
+      "name": "family",
+      "value": "sparkfun GPS"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/EM406_OUTLINE.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/sparkfun-rf_em406_outline_breadboard.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/sparkfun-rf_em406_outline_pcb.svg",
+      "layer": [
+        "silkscreen"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/sparkfun-rf_em406_outline_schematic.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": []
+}

@@ -1,0 +1,194 @@
+{
+  "fritzingVersion": "0.7.4b.04.10.5970",
+  "moduleId": "S1133",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "Nikos Vallianos"
+  ],
+  "title": [
+    "S1133 Si Photodiode"
+  ],
+  "label": [
+    "P"
+  ],
+  "url": null,
+  "date": [
+    "2012-04-20"
+  ],
+  "tags": [
+    "Photodiode",
+    "S1133",
+    "photometer"
+  ],
+  "description": [
+    "S1133 photodiode with low dark current by Hamamatsu."
+  ],
+  "properties": [
+    {
+      "name": "package",
+      "value": "8mm Ceramic [THT]"
+    },
+    {
+      "name": "family",
+      "value": "Photodiode"
+    },
+    {
+      "name": "current"
+    },
+    {
+      "name": "leg",
+      "value": "yes"
+    },
+    {
+      "name": "color",
+      "value": "UV to IR (320-730nm)"
+    },
+    {
+      "name": "part number"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "icon/S1133_Si_Photodiode_Icon.svg",
+      "layer": [
+        "breadboard",
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "breadboard/S1133_Si_Photodiode_BB.svg",
+      "layer": [
+        "breadboard"
+      ]
+    },
+    "pcb": {
+      "image": "pcb/S1133_Si_Photodiode_PCB.svg",
+      "layer": [
+        "copper1",
+        "silkscreen"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/S1133_Si_Photodiode_Sch.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector0",
+      "name": "cathode",
+      "type": "male",
+      "description": [
+        "cathode pin"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector0leg",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector0pin",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector0pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector0pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "anode",
+      "type": "male",
+      "description": [
+        "anode pin"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "breadboard",
+                    "svgId": "connector1leg",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "schematic",
+                    "svgId": "connector1pin",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "layer": "copper0",
+                    "svgId": "connector1pad"
+                  }
+                },
+                {
+                  "$": {
+                    "layer": "copper1",
+                    "svgId": "connector1pad"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

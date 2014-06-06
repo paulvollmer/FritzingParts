@@ -1,0 +1,173 @@
+{
+  "fritzingVersion": null,
+  "moduleId": "AC2PowerModuleID",
+  "version": [
+    "4"
+  ],
+  "author": [
+    "Brendan Howell"
+  ],
+  "title": [
+    "AC Power"
+  ],
+  "label": [
+    "V"
+  ],
+  "url": null,
+  "date": [
+    "2008-07-28"
+  ],
+  "tags": [
+    "ac power",
+    "symbol",
+    "fritzing core",
+    "voltage source"
+  ],
+  "description": [
+    "A generic ac power symbol"
+  ],
+  "properties": [
+    {
+      "name": "family",
+      "value": "voltage source"
+    },
+    {
+      "name": "type",
+      "value": "ac power supply"
+    },
+    {
+      "name": "voltage",
+      "value": "5"
+    },
+    {
+      "name": "frequency",
+      "value": "60"
+    }
+  ],
+  "views": {
+    "icon": {
+      "image": "schematic/acpower.svg",
+      "layer": [
+        "icon"
+      ]
+    },
+    "breadboard": {
+      "image": "schematic/acpower.svg",
+      "layer": [
+        "schematic"
+      ]
+    },
+    "pcb": {
+      "image": "schematic/acpower.svg",
+      "layer": [
+        "schematic"
+      ]
+    },
+    "schematic": {
+      "image": "schematic/acpower.svg",
+      "layer": [
+        "schematic"
+      ]
+    }
+  },
+  "connectors": [
+    {
+      "id": "connector0",
+      "name": "V+",
+      "type": "male",
+      "description": [
+        "Positive Supply Voltage"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "schematic"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "schematic",
+                    "terminalId": "connector0terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector0pin",
+                    "layer": "schematic"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connector1",
+      "name": "V-",
+      "type": "male",
+      "description": [
+        "V-"
+      ],
+      "views": [
+        {
+          "breadboardView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "schematic"
+                  }
+                }
+              ]
+            }
+          ],
+          "schematicView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "schematic",
+                    "terminalId": "connector1terminal"
+                  }
+                }
+              ]
+            }
+          ],
+          "pcbView": [
+            {
+              "p": [
+                {
+                  "$": {
+                    "svgId": "connector1pin",
+                    "layer": "schematic"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

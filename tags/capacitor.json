@@ -1,0 +1,18 @@
+[
+  "capacitor_ceramic_100mil",
+  "capacitor_ceramic_200mil",
+  "capacitor_electrolytic_large",
+  "capacitor_electrolytic_medium",
+  "capacitor_electrolytic_small",
+  "SMD_elko_0405",
+  "SMD_elko_0605",
+  "SMD_elko_0807",
+  "SMD_elko_1010",
+  "SMD_multilayer-capacitor_0603",
+  "SMD_multilayer-capacitor_0805",
+  "SMD_multilayer-capacitor_1206",
+  "SMD_tantalum_capacitor_A_3216",
+  "SMD_tantalum_capacitor_B_3528",
+  "SMD_tantalum_capacitor_C_6032",
+  "SMD_tantalum_capacitor_D_7343"
+]

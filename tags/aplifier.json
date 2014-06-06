@@ -1,0 +1,8 @@
+[
+  "basic_power_transistor_npn",
+  "basic_power_transistor_pnp",
+  "SMD_Vreg_7805",
+  "voltage_regulator_7805",
+  "voltage_regulator_7833",
+  "voltage_regulator_lm317"
+]
