@@ -1,6 +1,6 @@
 # FritzingPartsApi
 
-Small mockup of an Api to request the different Fritzing Parts files.
+Small mockup of an Api like webpage to request the different Fritzing Parts files.
 
 
 ## Idea
